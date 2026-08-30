@@ -1,0 +1,172 @@
+% ---------------------------------------------------------------
+%  شکل: نمودار جریان پایپ‌لاین پیش‌پردازش و ثبت تصویر بین‌فازی
+%
+%  نیازمند: tikz + کتابخانه‌های positioning, arrows.meta, calc
+%           (در styles/common.tex و پیش از xepersian بارگذاری شده‌اند —
+%            bidi باید آخرین بسته باشد، وگرنه خروجی شکل وارونه می‌شود)
+%
+%  استفاده:  \input{figs/pipeline_reg}
+% ---------------------------------------------------------------
+
+\begingroup
+\newcommand{\Ftitle}{\scriptsize\bfseries}
+\newcommand{\Fsub}{\scriptsize\color{xtire}}
+\newcommand{\Fnum}{\scriptsize\color{xkhakestari}}
+
+\begin{figure}[p]
+\centering
+\begin{tikzpicture}[
+  font=\scriptsize,
+  node distance=0mm,
+  >={Stealth[length=1.7mm,width=1.4mm]},
+  stage/.style={
+    draw=xnokhodi, line width=.5pt, fill=white, rounded corners=1pt,
+    text width=72mm, inner xsep=2.2mm, inner ysep=1.4mm, align=right},
+  substage/.style={stage, text width=33mm},
+  ctrl/.style={substage, fill=xkamrang, dash pattern=on 2pt off 1.4pt},
+  maskbox/.style={
+    draw=xabi, line width=.5pt, fill=xabikam, rounded corners=1pt,
+    text width=33mm, inner xsep=2mm, inner ysep=1.3mm, align=right},
+  dropbox/.style={maskbox, fill=white, draw=xnokhodi,
+    dash pattern=on 2pt off 1.6pt},
+  flow/.style={->, draw=xtire, line width=.6pt},
+  plain/.style={draw=xtire, line width=.6pt},
+  gov/.style={->, draw=xabi, line width=.45pt, dash pattern=on 1.2pt off 1.2pt},
+  reject/.style={->, draw=xghermez, line width=.6pt, dash pattern=on 2.2pt off 1.5pt},
+  accept/.style={->, draw=xsabz, line width=.6pt},
+  edge/.style={font=\scriptsize, inner sep=1pt, fill=white},
+  cnt/.style={font=\scriptsize, text=xkhakestari, inner sep=.6mm},
+]
+
+% ══════════════ ستون اصلی: مسیر داده ══════════════
+
+\node[stage] (s1) {%
+  {\Ftitle ۱ــ خواندن \lr{DICOM} و انتخاب سری}\\
+  {\Fsub برای هر (بررسی، فاز) نازک‌ترین سری انتخاب می‌شود}\\
+  {\Fnum \عدد{۲۶۵} بررسی \ \lr{$\cdot$}\ \عدد{۱۱۸۸} سری}};
+
+\node[stage, below=3.2mm of s1] (s2) {%
+  {\Ftitle ۲ــ استانداردسازی هندسی و شدت روشنایی}\\
+  {\Fsub جهت \lr{LPS} \ \lr{$\cdot$}\ بازنمونه‌برداری همسان‌گرد \lr{1.5}\,میلی‌متر \ \lr{$\cdot$}\ پرکننده‌ی مرز \lr{$-1024$}\,\lr{HU}}\\
+  {\Fsub برش بازه به \lr{$[-1024,+3000]$}\,\lr{HU}؛ حذف مقدار نشانه‌ی \lr{$-4048$} (\lr{$21.8\%$} وکسل‌ها)}\\
+  {\Fnum \عدد{۷۷۲} حجم، همگی با فاصله‌ی وکسل یکسان}};
+
+\node[stage, below=3.2mm of s2] (s3) {%
+  {\Ftitle ۳ــ بخش‌بندی و ساخت نقاب چهارلایه}\\
+  {\Fsub \lr{TotalSegmentator} و ادغام در یک حجم برچسب با نگاشت عددی ثابت}\\
+  {\Fsub دروازه‌ی سلامت: دست‌کم \عدد{۲} از \عدد{۴} اندام لنگر و یک برچسب ستون فقرات}\\
+  {\Fnum \عدد{۷۷۱} از \عدد{۷۷۲} حجم عبور می‌کند}};
+
+% ---- انشعاب کنترل‌شده ----
+\node[substage, below=6mm of s3.south west, anchor=north west,
+      draw=xabi, line width=.7pt] (s4a) {%
+  {\Ftitle ۴الف ــ برش + هم‌ترازی}\\
+  {\Fsub جابه‌جایی مرکز جرم سه‌بعدی با}\\
+  {\Fsub دروازه‌ی اطمینان \lr{$\gamma \ge 0.40$}}\\
+  {\Fnum اعمال \lr{$z$}: \lr{$12.4\%$}، \lr{$xy$}: \lr{$8.8\%$}}};
+
+\node[ctrl, right=6mm of s4a] (s4b) {%
+  {\Ftitle ۴ب ــ فقط برش (شاهد)}\\
+  {\Fsub همان پنجره‌ی برش فیزیکی،}\\
+  {\Fsub بدون اعمال هیچ هم‌ترازی}\\
+  {\Fnum سهم گام ۴الف را جدا می‌کند}};
+
+\node[cnt, below=1mm of s4b.south east, anchor=north east]
+     (n4) {\عدد{۱۶۹} بررسی دارای فاز بدون‌کنتراست \ \lr{$\cdot$}\ \عدد{۴۵۳} سری متحرک};
+
+\node[stage, below=2.4mm of n4.south, anchor=north] (s5) {%
+  {\Ftitle ۵ــ ثبت صلب، گذر صفر: کابش (\lr{SVD})}\\
+  {\Fsub حل بسته‌ی چرخش و انتقال از مرکز جرم اندام‌های پایدار}\\
+  {\Fnum بیشترین سهم در بافت پارانشیمی: دایس \lr{$0.742 \rightarrow 0.784$}}};
+
+\node[stage, below=3.2mm of s5] (s6) {%
+  {\Ftitle ۶ــ گذر یک: پالایش نلدر-مید}\\
+  {\Fsub کمینه‌سازی \lr{$\lambda\, d_{c} + (1-\mathrm{Dice}_{\epsilon})$} با \lr{$\lambda=10$}، بدون نیاز به مشتق}\\
+  {\Fnum بیشترین سهم در بافت اسکلتی: دایس \lr{$0.883 \rightarrow 0.908$}}};
+
+\node[stage, below=9mm of s6] (s7) {%
+  {\Ftitle ۷ــ گذر دو: همبستگی بزرگی گرادیان}\\
+  {\Fsub \lr{$|\nabla \mathrm{HU}|$} با \lr{NCC} و هرم چندمقیاسی \lr{$[4,2,1]$}}\\
+  {\Fnum پذیرفته‌شده در \عدد{۴} از \عدد{۶۹۹} ثبت}};
+
+\node[stage, below=5.5mm of s7, fill=xkamrang] (s8) {%
+  {\Ftitle ۸ــ ثبت غیرصلب \lr{B}-اسپلاین}\\
+  {\Fsub شبکه‌ی کنترلی \lr{25}\,میلی‌متر \ \lr{$\cdot$}\ \lr{L-BFGS-B} \ \lr{$\cdot$}\ \عدد{۷} معیار قابل‌انتخاب}\\
+  {\Fnum پیاده‌سازی شده؛ خروجی ارزیابی‌شده در دست نیست}};
+
+\node[stage, below=3.2mm of s8] (s9) {%
+  {\Ftitle ۹ــ ارزیابی روی نقاب کنارگذاشته}\\
+  {\Fsub دایس فرسوده (\lr{6}\,میلی‌متر) \ \lr{$\cdot$}\ \lr{HD95} \ \lr{$\cdot$}\ جابه‌جایی مرکز جرم \ \lr{$\cdot$}\ \lr{$\%|J|\le 0$}}\\
+  {\Fnum \عدد{۲۶} بررسی \ \lr{$\cdot$}\ \عدد{۵۵} جفت فاز \ \lr{$\cdot$}\ \عدد{۱۱} اندام}};
+
+% ══════════════ ستون کناری: دامنه‌ی معیار ══════════════
+
+\node[maskbox, left=6mm of s3, anchor=east] (m1) {%
+  {\Ftitle نقاب کامل}\\
+  {\Fsub لایه‌های ۱، ۲ و ۳. کادر برش و دامنه‌ی \emph{ارزیابی}.}};
+
+\node[maskbox, left=6mm of s4a.west, anchor=east] (m2) {%
+  {\Ftitle نقاب ثبت}\\
+  {\Fsub لایه‌های ۱ و ۲: استخوان و بافت نرم پایدار. لنگر ۴الف، دامنه‌ی کابش، نقاب گذرهای ۷ و ۸.}};
+
+\node[maskbox, left=6mm of s6, anchor=east] (m3) {%
+  {\Ftitle زیرمجموعه‌ی پالایش}\\
+  {\Fsub \عدد{۱۱} برچسب: کبد، طحال، کلیه‌ها، \lr{L1--L5}، طناب نخاعی، آئورت و بزرگ‌سیاهرگ زیرین. دامنه‌ی زیان گذر یک و همه‌ی دروازه‌ها.}};
+
+\node[dropbox, left=6mm of s8, anchor=east] (m4) {%
+  {\Ftitle لایه‌ی صفر ــ حذف کامل}\\
+  {\Fsub روده، دوازدهه و رکتوم: حرکت دودی و گاز، سیگنال متناقض وارد معیار می‌کند.}};
+
+% ══════════════ فلش‌های جریان ══════════════
+
+\draw[flow] (s1) -- (s2);
+\draw[flow] (s2) -- (s3);
+
+\coordinate (fk) at ($(s3.south)+(0,-3mm)$);
+\draw[plain] (s3.south) -- (fk);
+\draw[plain] (s4a.north |- fk) -- (s4b.north |- fk);
+\draw[flow]  (s4a.north |- fk) -- (s4a.north);
+\draw[flow]  (s4b.north |- fk) -- (s4b.north);
+
+\coordinate (jn) at ($(s5.north)+(0,2mm)$);
+\draw[plain] (s4a.south) -- (s4a.south |- jn);
+\draw[plain] (s4b.south) -- (s4b.south |- jn);
+\draw[plain] (s4a.south |- jn) -- (s4b.south |- jn);
+\draw[flow]  (s5.north |- jn) -- (s5.north);
+
+\draw[flow] (s5) -- (s6);
+\draw[flow] (s6) -- node[edge, text=xtire, pos=.66] {دروازه‌ی پذیرش} (s7);
+
+% مسیر واقعی ۹۹٫۴ درصد ثبت‌ها: عبور از روی گذر دو
+\coordinate (ba) at ($(s6.south)+(0,-1.4mm)$);
+\coordinate (bb) at ($(s8.north)+(0,1.4mm)$);
+\draw[reject]
+  (ba) -- ($(ba)+(40mm,0)$) -- ($(bb)+(40mm,0)$) -- (bb) -- (s8.north);
+\node[cnt, text=xghermez, align=right, anchor=west]
+  at ($(ba)+(42mm,-13mm)$) {بازگشت به گذر یک\\ \lr{$695/699$}\\ \lr{$99.4\%$}};
+
+\draw[accept] (s7.south) -- node[edge, text=xsabz] {\lr{$0.6\%$} پذیرش} (s8.north);
+\draw[flow] (s8) -- (s9);
+
+% ══════════════ فلش‌های حاکمیت نقاب ══════════════
+
+% هر نقاب یک پیکان به مصرف‌کننده‌ی اصلی خود دارد؛ سایر گام‌هایی که همان
+% نقاب را به کار می‌برند در متن جعبه فهرست شده‌اند تا نمودار شلوغ نشود.
+\draw[gov] (m1.east) -- (s3.west);
+\draw[gov] (m2.east) -- (s4a.west);
+\draw[gov] (m3.east) -- (s6.west);
+% دامنه‌ی ارزیابی: از نقاب کامل به گام ۹، از کانال آزاد سمت چپ
+\coordinate (ch) at ($(m3.west)+(-4mm,0)$);
+\draw[gov] (m1.west) -- (m1.west -| ch) -- (s9.west -| ch) -- (s9.west);
+
+\end{tikzpicture}
+
+\caption[نمودار جریان پایپ‌لاین ثبت تصویر بین‌فازی]{%
+پایپ‌لاین پیش‌پردازش و ثبت تصویر بین‌فازی. پیکان‌های پیوسته مسیر داده‌اند و
+پیکان‌های نقطه‌چین آبی نشان می‌دهند دامنه‌ی محاسبه‌ی معیار در هر گام کدام
+نقاب است. شاخه‌ی ۴ب شاهدی کنترل‌شده است که همان پنجره‌ی برش را بدون
+هم‌ترازی می‌سازد. مسیری که \عدد{۹۹٫۴} درصد ثبت‌ها در عمل طی می‌کنند پیکان
+قرمز است و نه گذر دو.}
+\label{fig:reg-pipeline}
+\end{figure}
+\endgroup

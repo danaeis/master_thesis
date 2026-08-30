@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front/info.aux
+A level-1 auxiliary file: front/template/title.aux
+A level-1 auxiliary file: front/acknowledge.aux
+A level-1 auxiliary file: front/abstract.aux
+A level-1 auxiliary file: chapters/introduction.aux
+A level-1 auxiliary file: chapters/literature.aux
+A level-1 auxiliary file: chapters/method.aux
+A level-1 auxiliary file: chapters/experiments.aux
+A level-1 auxiliary file: chapters/conclusions.aux
+A level-1 auxiliary file: bibs/bibs.aux
+The style file: ./styles/packages/unsrtabbrv.bst
+A level-1 auxiliary file: front/dictionary.aux
+A level-1 auxiliary file: chapters/appendix.aux
+A level-1 auxiliary file: front/abstract-eng.aux
+A level-1 auxiliary file: front/template/title-eng.aux
+Database file #1: bibs/full.bib
+Database file #2: bibs/refs.bib
+Database file #3: bibs/literature.bib
+Database file #4: bibs/method.bib
+Warning--empty journal in ronneberger2015unet
+You've used 141 entries,
+            1791 wiz_defined-function locations,
+            1621 strings with 40782 characters,
+and the built_in function-call counts, 30072 in all, are:
+= -- 2405
+> -- 1802
+< -- 13
++ -- 662
+- -- 521
+* -- 1714
+:= -- 4842
+add.period$ -- 459
+call.type$ -- 141
+change.case$ -- 141
+chr.to.int$ -- 0
+cite$ -- 142
+duplicate$ -- 1137
+empty$ -- 2987
+format.name$ -- 521
+if$ -- 6700
+int.to.chr$ -- 0
+int.to.str$ -- 141
+missing$ -- 66
+newline$ -- 744
+num.names$ -- 141
+pop$ -- 660
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 600
+stack$ -- 0
+substring$ -- 1313
+swap$ -- 289
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 237
+width$ -- 144
+write$ -- 1535
+(There was 1 warning)
