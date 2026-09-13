@@ -20,46 +20,44 @@ Database file #1: bibs/full.bib
 Database file #2: bibs/refs.bib
 Database file #3: bibs/literature.bib
 Database file #4: bibs/method.bib
-Warning--empty journal in ronneberger2015unet
-You've used 141 entries,
+You've used 136 entries,
             1791 wiz_defined-function locations,
-            1621 strings with 40782 characters,
-and the built_in function-call counts, 30072 in all, are:
-= -- 2405
-> -- 1802
+            1602 strings with 40384 characters,
+and the built_in function-call counts, 30424 in all, are:
+= -- 2435
+> -- 1863
 < -- 13
-+ -- 662
-- -- 521
-* -- 1714
-:= -- 4842
-add.period$ -- 459
-call.type$ -- 141
-change.case$ -- 141
++ -- 678
+- -- 542
+* -- 1864
+:= -- 4917
+add.period$ -- 444
+call.type$ -- 136
+change.case$ -- 136
 chr.to.int$ -- 0
-cite$ -- 142
+cite$ -- 136
 duplicate$ -- 1137
-empty$ -- 2987
-format.name$ -- 521
-if$ -- 6700
+empty$ -- 2954
+format.name$ -- 542
+if$ -- 6739
 int.to.chr$ -- 0
-int.to.str$ -- 141
-missing$ -- 66
-newline$ -- 744
-num.names$ -- 141
-pop$ -- 660
+int.to.str$ -- 136
+missing$ -- 71
+newline$ -- 719
+num.names$ -- 136
+pop$ -- 593
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 600
+skip$ -- 585
 stack$ -- 0
-substring$ -- 1313
-swap$ -- 289
+substring$ -- 1473
+swap$ -- 286
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 237
-width$ -- 144
-write$ -- 1535
-(There was 1 warning)
+warning$ -- 0
+while$ -- 243
+width$ -- 139
+write$ -- 1493

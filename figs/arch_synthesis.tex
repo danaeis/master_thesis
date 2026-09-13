@@ -1,0 +1,98 @@
+% ---------------------------------------------------------------
+%  شکل: سه راهبرد نظارتی در سنتز NC-به-CE
+%  چیدمان با مختصات صریح (نه positioning نسبی) تا متن‌ها روی هم نیفتند.
+%  نیازمند: tikz + arrows.meta
+%  استفاده:  \input{figs/arch_synthesis}
+% ---------------------------------------------------------------
+\begingroup
+\providecommand{\ssubtext}[1]{{\color{xtire}\tiny #1}}
+
+\tikzset{
+  sb/.style   ={draw=xnokhodi, line width=.5pt, fill=white, rounded corners=1.5pt,
+                text width=2.55cm, minimum height=1.05cm, align=center,
+                inner xsep=1.2mm, inner ysep=1.2mm, font=\scriptsize},
+  snet/.style ={sb, fill=xabikam, draw=xabi},
+  sloss/.style={sb, fill=xkamrang},
+  sio/.style  ={sb, draw=xkhakestari},
+  sflow/.style={->, draw=xtire, line width=.6pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  sdash/.style={->, draw=xghermez, line width=.5pt, dash pattern=on 1.8pt off 1.4pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  slab/.style ={font=\tiny, color=xkhakestari, inner sep=1.2pt, fill=white},
+}
+
+\newcommand{\Shead}[2]{%
+  {\small\textbf{#1}}\par\nobreak\vspace{0.4mm}%
+  {\scriptsize\color{xtire}#2}\par\nobreak\vspace{2.2mm}}
+
+\begin{figure}[H]
+\centering
+
+% ═════════════════ (الف) GAN جفت‌شده ═════════════════
+\Shead{(الف) \lr{GAN} شرطی جفت‌شده \,---\, \lr{pix2pix} / \lr{pix2pixHD}}
+      {نظارت پیکسل‌به‌پیکسل؛ نیازمند جفت هم‌بیمار و هم‌تراز}
+\begin{tikzpicture}
+  \node[sio]   (x)  at (     0, 0)     {$x_{\mathrm{NC}}$\\[1pt]\ssubtext{تصویر بدون‌کنتراست}};
+  \node[snet]  (g)  at (  -3.5, 0)     {مولد $G$};
+  \node[sio]   (yh) at (    -7, 0)     {$\hat{y}_{\mathrm{CE}}$\\[1pt]\ssubtext{خروجی سنتزشده}};
+  \node[sloss] (l1) at (    -7,-1.75)  {زیان بازسازی \lr{L1}};
+  \node[sio]   (y)  at (    -7,-3.5)   {$y_{\mathrm{CE}}$ واقعی};
+  \node[snet]  (d)  at ( -10.6,-1.75)  {متمایزکننده $D$\\[1pt]\ssubtext{زیان تخاصمی}};
+
+  \draw[sflow] (x.west)  -- (g.east);
+  \draw[sflow] (g.west)  -- (yh.east);
+  \draw[sflow] (yh.south) -- (l1.north);
+  \draw[sflow] (y.north)  -- (l1.south);
+  \draw[sflow] (yh.west) -| (d.north);
+  \draw[sflow] (y.west)  -| (d.south);
+  \draw[sdash] (l1.east) -| node[slab, pos=0.35] {پس‌انتشار} (g.south);
+\end{tikzpicture}
+
+\par\vspace{7mm}
+
+% ═════════════════ (ب) سازگاری چرخه‌ای ═════════════════
+\Shead{(ب) سازگاری چرخه‌ای \,---\, \lr{CycleGAN} / \lr{CyTran}}
+      {آموزش با داده‌ی بدون‌جفت؛ بدون نظارت پیکسل‌به‌پیکسل}
+\begin{tikzpicture}
+  \node[sio]   (x2)  at (     0, 0)    {$x_{\mathrm{NC}}$};
+  \node[snet]  (g2)  at (  -3.5, 0)    {$G:\ \mathrm{NC}\!\to\!\mathrm{CE}$};
+  \node[sio]   (yh2) at (    -7, 0)    {$\hat{y}_{\mathrm{CE}}$};
+  \node[snet]  (d2)  at ( -10.5, 0)    {$D_{\mathrm{CE}}$\\[1pt]\ssubtext{روی مجموعه‌ی \lr{CE}، بدون تناظر یک‌به‌یک}};
+  \node[snet]  (f2)  at (    -7,-2.0)  {$F:\ \mathrm{CE}\!\to\!\mathrm{NC}$};
+  \node[sio]   (xh2) at (  -3.5,-2.0)  {$\hat{x}_{\mathrm{NC}}$};
+  \node[sloss] (c2)  at (     0,-2.0)  {زیان سازگاری چرخه‌ای};
+
+  \draw[sflow] (x2.west)   -- (g2.east);
+  \draw[sflow] (g2.west)   -- (yh2.east);
+  \draw[sflow] (yh2.west)  -- (d2.east);
+  \draw[sflow] (yh2.south) -- (f2.north);
+  \draw[sflow] (f2.east)   -- (xh2.west);
+  \draw[sflow] (xh2.east)  -- (c2.west);
+  \draw[sflow] (x2.south)  -- (c2.north);
+\end{tikzpicture}
+
+\par\vspace{7mm}
+
+% ═════════════════ (پ) مدل انتشار شرطی ═════════════════
+\Shead{(پ) مدل انتشار شرطی \,---\, \lr{CFPS-Diff}}
+      {آموزش پایدارتر از \lr{GAN}؛ استنتاج به‌مراتب کندتر}
+\begin{tikzpicture}
+  \node[sio]   (y0)  at (     0, 0)    {$y_0 = y_{\mathrm{CE}}$};
+  \node[sio]   (yt)  at (  -3.5, 0)    {$y_t$};
+  \node[sio]   (yT)  at (    -7, 0)    {$y_T \sim \mathcal{N}(0,I)$};
+  \node[sio]   (cnd) at (     0,-2.0)  {$x_{\mathrm{NC}}$\\[1pt]\ssubtext{شرط}};
+  \node[snet]  (eps) at (  -3.5,-2.0)  {شبکه‌ی حذف نویز\\[1pt]$\varepsilon_\theta(y_t, t \mid x_{\mathrm{NC}})$};
+  \node[sloss] (l3)  at (    -7,-2.0)  {زیان پیش‌بینی نویز};
+
+  \draw[sflow] (y0.west)  -- node[slab, above] {افزودن نویز} (yt.east);
+  \draw[sflow] (yt.west)  -- (yT.east);
+  \draw[sflow] (yt.south) -- (eps.north);
+  \draw[sflow] (cnd.west) -- (eps.east);
+  \draw[sflow] (eps.west) -- (l3.east);
+  \draw[sdash] (yT.north) -- ++(0,0.7) -- node[slab, above] {استنتاج: $T$ گام حذف نویز معکوس} ++(7,0) -- (y0.north);
+\end{tikzpicture}
+
+\caption{سه راهبرد نظارتی در ادبیات سنتز \lr{NC}-به-\lr{CE}. محور تمایز میان (الف) و (ب) وجود یا نبود جفت هم‌بیمارِ هم‌تراز است: (الف) نظارت پیکسل‌به‌پیکسل دارد و به همین دلیل به هم‌ترازی هندسی دقیق وابسته است، و (ب) این نیاز را با قید بازگشت‌پذیری چرخه حذف می‌کند اما تضمینی برای حفظ آناتومی نمی‌دهد. (پ) نظارت را از آموزش تخاصمی به پیش‌بینی نویز منتقل می‌کند و آموزش پایدارتری دارد، اما همچنان به جفت هم‌تراز نیاز دارد. هیچ‌یک از این سه الگو سازوکاری برای \emph{شرطی‌سازی بر سطح تقویت} ندارد.}
+\label{fig:syn-archetypes}
+\end{figure}
+\endgroup

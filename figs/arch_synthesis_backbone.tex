@@ -1,0 +1,52 @@
+% ---------------------------------------------------------------
+%  شکل: ستون فقرات ترکیبی پیچشی--ترانسفورمری
+%  چیدمان با مختصات صریح (نه positioning نسبی) تا متن‌ها روی هم نیفتند.
+%  نیازمند: tikz + arrows.meta
+%  استفاده:  \input{figs/arch_synthesis_backbone}
+% ---------------------------------------------------------------
+\begingroup
+\providecommand{\ssubtext}[1]{{\color{xtire}\tiny #1}}
+
+\tikzset{
+  sb/.style   ={draw=xnokhodi, line width=.5pt, fill=white, rounded corners=1.5pt,
+                text width=2.55cm, minimum height=1.05cm, align=center,
+                inner xsep=1.2mm, inner ysep=1.2mm, font=\scriptsize},
+  snet/.style ={sb, fill=xabikam, draw=xabi},
+  sloss/.style={sb, fill=xkamrang},
+  sio/.style  ={sb, draw=xkhakestari},
+  sflow/.style={->, draw=xtire, line width=.6pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  sdash/.style={->, draw=xghermez, line width=.5pt, dash pattern=on 1.8pt off 1.4pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  slab/.style ={font=\tiny, color=xkhakestari, inner sep=1.2pt, fill=white},
+}
+
+\newcommand{\Shead}[2]{%
+  {\small\textbf{#1}}\par\nobreak\vspace{0.4mm}%
+  {\scriptsize\color{xtire}#2}\par\nobreak\vspace{2.2mm}}
+
+\begin{figure}[H]
+\centering
+
+% ═════════════════ (ت) ستون فقرات ترکیبی ═════════════════
+\Shead{ستون فقرات ترکیبی پیچشی--ترانسفورمری \,---\, \lr{ResViT} / \lr{SwinUNETR} / \lr{TransUNet}}
+      {راهبرد نظارتی مستقلی نیست؛ در جای مولد هر یک از سه راهبرد شکل~\ref{fig:syn-archetypes} می‌نشیند}
+\begin{tikzpicture}
+  \node[sio]  (x4) at (     0, 0)  {$x_{\mathrm{NC}}$};
+  \node[snet] (e4) at (  -3.5, 0)  {رمزگذار پیچشی\\[1pt]\ssubtext{بافت محلی}};
+  \node[snet] (t4) at (    -7, 0)  {بلوک‌های ترانسفورمر\\[1pt]\ssubtext{وابستگی دوربرد}};
+  \node[snet] (d4) at ( -10.5, 0)  {رمزگشا};
+
+  \draw[sflow] (x4.west) -- (e4.east);
+  \draw[sflow] (e4.west) -- (t4.east);
+  \draw[sflow] (t4.west) -- (d4.east);
+  \draw[sflow] (d4.west) -- ++(-1.2,0)
+        node[font=\scriptsize, left, inner sep=1.5pt] {$\hat{y}_{\mathrm{CE}}$};
+  \draw[sflow] (e4.north) -- ++(0,0.75)
+        -- node[slab, above] {مسیر پرش} ++(-7,0) -- (d4.north);
+\end{tikzpicture}
+
+\caption{ستون فقرات ترکیبی پیچشی--ترانسفورمری. این الگو یک \emph{راهبرد نظارتی} مستقل نیست بلکه ساختار درونی مولد است و می‌تواند جایگزین مولد در هر یک از سه راهبرد شکل~\ref{fig:syn-archetypes} شود. مسیر پیچشی بافت محلی را و مسیر ترانسفورمری وابستگی‌های دوربرد را مدل می‌کند، و مسیر پرش جزئیات مکانی از دست‌رفته در رمزگذاری را بازمی‌گرداند.}
+\label{fig:syn-backbone}
+\end{figure}
+\endgroup

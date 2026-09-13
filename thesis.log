@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.17)  28 AUG 2026 22:16
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.17)  13 SEP 2026 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,42 +1624,156 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
 
 
 
-])
+]
+Overfull \hbox (0.80212pt too wide) detected at line 38
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۵[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 39
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۲[][][]
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
 
 
 [3] (./thesis.lot
-Missing character: There is no ع (U+0639) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
-(Font)              scaled to size 13.07996pt on input line 12.
+(Font)              scaled to size 13.07996pt on input line 3.
+
+Underfull \hbox (badness 2680) in paragraph at lines 3--3
+ [][][] [][][][][][][]\TU/XBNiloofar(0)/m/n/12 مدل‌های بخش‌بندی چندعضوی و مطالع
+ات شکاف بین‌فازی. \TU/XBNiloofar(0)/b/n/12 کد فاز: []\TU/XBNiloofar(1)/m/n/12 ۰
+[][][][][][] 
+ []
+
 
 
 [4
 
-])
+]
+
+[5]
+
+[6]
+Overfull \hbox (0.80212pt too wide) detected at line 15
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۰[][][]
+ []
+
+
+
+[7]
+Overfull \hbox (0.80212pt too wide) detected at line 16
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۱[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 17
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۲[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 18
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۶[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 19
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۸[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 20
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۹[][][]
+ []
+
+
+
+[8]
+Overfull \hbox (0.80212pt too wide) detected at line 21
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۳[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 22
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۴[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 23
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۸[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 24
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۰[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 25
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۲[][][]
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
 
 
-[5] (./thesis.lof)
+[9] (./thesis.lof
+
+[10
+
+]
+Overfull \hbox (0.80212pt too wide) detected at line 13
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۵[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 14
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۶[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 15
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۷[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 16
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۱۹[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 17
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۳[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 18
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۴[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 19
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۵[][][]
+ []
+
+
+Overfull \hbox (0.80212pt too wide) detected at line 20
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۲۵[][][]
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
 
-[6
-
-]
+[11]
 \openout2 = `chapters/introduction.aux'.
 
  (./chapters/introduction.tex
@@ -1667,103 +1781,108 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
 (Font)              scaled to size 27.11911pt on input line 2.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 18.83513pt on input line 7.
+(Font)              scaled to size 11.93546pt on input line 15.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
-(Font)              scaled to size 18.83513pt on input line 7.
+(Font)              scaled to size 11.93546pt on input line 15.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 18.83513pt on input line 18.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
+(Font)              scaled to size 18.83513pt on input line 18.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 18.83513pt on input line 7.
+(Font)              scaled to size 18.83513pt on input line 18.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 8.71997pt on input line 10.
+(Font)              scaled to size 8.71997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 8.71997pt on input line 10.
+(Font)              scaled to size 8.71997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 10.89996pt on input line 10.
+(Font)              scaled to size 10.89996pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
-(Font)              scaled to size 10.89996pt on input line 10.
+(Font)              scaled to size 10.89996pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
-(Font)              scaled to size 7.62997pt on input line 10.
+(Font)              scaled to size 7.62997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
-(Font)              scaled to size 5.44998pt on input line 10.
+(Font)              scaled to size 5.44998pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <10> not availab
 le
 (Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
-ne 10.
+ne 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
-(Font)              scaled to size 10.89996pt on input line 10.
+(Font)              scaled to size 10.89996pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <7> not availabl
 e
 (Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
-ne 10.
+ne 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
-(Font)              scaled to size 7.62997pt on input line 10.
+(Font)              scaled to size 7.62997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <5> not availabl
 e
 (Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
-ne 10.
+ne 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
-(Font)              scaled to size 5.44998pt on input line 10.
+(Font)              scaled to size 5.44998pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
-(Font)              scaled to size 10.89996pt on input line 10.
+(Font)              scaled to size 10.89996pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
-(Font)              scaled to size 7.62997pt on input line 10.
+(Font)              scaled to size 7.62997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
-(Font)              scaled to size 5.44998pt on input line 10.
+(Font)              scaled to size 5.44998pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 7.62997pt on input line 10.
+(Font)              scaled to size 7.62997pt on input line 21.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 7.62997pt on input line 10.
+(Font)              scaled to size 7.62997pt on input line 21.
 
 
 [1
 
 
 ]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 15.69594pt on input line 23.
-
 
 [2]
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 15.69594pt on input line 34.
+
 
 [3]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 60.
-
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 11.93546pt on input line 60.
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 61.
-
-
-
 [4]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 62.
+LaTeX Font Warning: Command \small invalid in math mode on input line 71.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 63.
+LaTeX Font Warning: Command \small invalid in math mode on input line 72.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 64.
+LaTeX Font Warning: Command \small invalid in math mode on input line 73.
 
-)
 
-[5]
+LaTeX Font Warning: Command \small invalid in math mode on input line 74.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 75.
+
+
+
+[5])
+
+[6]
 \openout2 = `chapters/literature.aux'.
 
  (./chapters/literature.tex
 فصل 2.
 
 
-[6
+[7
 
 
 
 
 ]
 
-[7]
-
 [8]
+
+[9]
+
+[10]
 Underfull \hbox (badness 1939) in paragraph at lines 43--44
 [][]\TU/XBNiloofar(0)/m/n/12 رویکردهای مبتنی‌بر یادگیری چندوظیفه‌ای و پرسش‌محور
 [][][][][][][][][][][] مانند مدل جهانی هدایت‌شده با[]
@@ -1771,255 +1890,382 @@ Underfull \hbox (badness 1939) in paragraph at lines 43--44
 
 
 
-[9]
-
-[10]
-
 [11]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
-(Font)              scaled to size 11.93546pt on input line 62.
+
+[12]
+
+[13]
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 11.93546pt on input line 62.
+(Font)              scaled to size 11.93546pt on input line 74.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
+(Font)              scaled to size 11.93546pt on input line 74.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <10.95> not avai
+lable
+(Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
+ne 74.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
+(Font)              scaled to size 11.93546pt on input line 74.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
+(Font)              scaled to size 11.93546pt on input line 74.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/it' will be
+(Font)              scaled to size 11.93546pt on input line 74.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
-(Font)              scaled to size 8.71997pt on input line 66.
+(Font)              scaled to size 8.71997pt on input line 77.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[][]\TU/XBNiloofar(0)/b/n/8 فاز داده‌ی[]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]|\TU/XBNiloofar(0)/b/n/8 نوع و منشأ داده‌ی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[][][]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]|\TU/XBNiloofar(0)/b/n/8 فازهای[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[][][]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]|[]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 68--68
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]|[]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
+ []
+
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
+(Font)              scaled to size 8.71997pt on input line 80.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
+(Font)              scaled to size 8.71997pt on input line 80.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[][]|\TU/XBNiloofar(0)/b/n/8 نوع و منشأ داده‌ی[]
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 68--68
-[][]\TU/XBNiloofar(0)/m/n/8 بخش‌بندی چندعضوی و[]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[][]|\TU/XBNiloofar(0)/b/n/8 فازهای[]
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 68--68
-[][]\TU/XBNiloofar(0)/m/n/8 اندام: []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)
-/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۷۹\TU/XBNiloofar(0)/m/n/8 –[][]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[][]|[]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
  []
 
 
-Overfull \hbox (5.55878pt too wide) in paragraph at lines 70--70
-[][][]\TU/lmroman10-regular(0)/m/n/8 TotalSegmentator[] \TU/XBNiloofar(0)/m/n/8
- [[]]| []
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[][]|[]\TU/lmroman10-regular(0)/b/n/8 Dice[] \TU/XBNiloofar(0)/b/n/8 فاز[]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 70--70
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 89--89
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 70--70
-[][]\TU/XBNiloofar(0)/m/n/8 بخش‌بندی []\TU/XBNiloofar(1)/m/n/8 ۱۰۴[] \TU/XBNilo
-ofar(0)/m/n/8 ساختار[]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[][]|\TU/XBNiloofar(0)/m/n/8 اندام و[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[][]\TU/XBNiloofar(0)/m/n/8 ترکیبی،[]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]\TU/XBNiloofar(0)/m/n/8 تومور شکمی[]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 72--72
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]\TU/XBNiloofar(0)/m/n/8 (وظیفه‌های[]
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 72--72
-[][]\TU/XBNiloofar(0)/m/n/8 بخش‌بندی []\TU/XBNiloofar(1)/m/n/8 ۲۵[] \TU/XBNiloo
-far(0)/m/n/8 اندام +[]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۳[] \TU/XBNiloofar(0)/m/n/8 مجموعه‌داده‌ی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[][][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8
- ۸۶۱[][]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]\TU/XBNiloofar(0)/m/n/8 تومور:[]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 74--74
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 TotalSegmen-[][]
  []
 
 
-Overfull \hbox (5.85173pt too wide) in paragraph at lines 74--74
-[][]\TU/XBNiloofar(0)/m/n/8 گزارش‌نشده(پ)| []
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 91--91
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 76--76
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۱۰۴[] \TU/XBNiloofar(0)/m/n/8 ساختار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][]\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۱\TU/XBNiloofar(0)/m/n/8 ٬\TU/XBNiloofar(1)/m/n/
+8 ۲۰۴[] \TU/XBNiloofar(0)/m/n/8 بررسی بالینی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][][]\TU/lmroman10-regular(0)/m/n/8 DECT[]\TU/XBNiloofar(0)/m/n/8 :[]
+Overfull \hbox (9.73402pt too wide) in paragraph at lines 91--91
+[]\TU/XBNiloofar(0)/m/n/8 (تفکیک‌نشده)| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸
-۷۳\TU/XBNiloofar(0)/m/n/8 –[][]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/
+8 ۹۴۳[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][]\TU/lmroman10-regular(0)/m/n/8 SECT[]\TU/XBNiloofar(0)/m/n/8 :[]
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 CLIP-driven[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[][]\TU/lmroman10-regular(0)/m/n/8 Universal[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 93--93
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 93--93
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۳\TU/XBNiloofar(0)/m/n/8 ٬\TU/XBNiloofar(1)/m/n/
+8 ۴۱۰[] \TU/XBNiloofar(0)/m/n/8 بررسی از []\TU/XBNiloofar(1)/m/n/8 ۱۴[][]
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 93--93
+[]\TU/XBNiloofar(0)/m/n/8 مجموعه‌داده‌ی عمومی؛[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/
+8 ۸۶۱[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[][]|\TU/XBNiloofar(0)/m/n/8 یو و[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 95--95
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[][]|\TU/XBNiloofar(0)/m/n/8 هشت ساختار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]\TU/XBNiloofar(0)/m/n/8 شکمی، شامل[]
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 95--95
+[]\TU/XBNiloofar(0)/m/n/8 در دو فاز، []\TU/XBNiloofar(1)/m/n/8 ۳۰[] \TU/XBNiloo
+far(0)/m/n/8 بیمار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[][]|\TU/XBNiloofar(0)/m/n/8 جئون و[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 97--97
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 97--97
+[][]|\TU/XBNiloofar(0)/m/n/8 کبد، طحال، دو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۷۵[] \TU/XBNiloofar(0)/m/n/8 بررسی سی‌تی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/XBNiloofar(0)/m/n/8 دوانرژی؛ جفت ذاتاً[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/XBNiloofar(0)/m/n/8 هم‌ترازِ وریدی و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/XBNiloofar(0)/m/n/8 بدون‌کنتراست مجازی.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/XBNiloofar(0)/m/n/8 آزمون: []\TU/XBNiloofar(1)/m/n/8 ۳۰[] \TU/XBNiloofar(
+0)/m/n/8 بررسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/XBNiloofar(0)/m/n/8 (مجازی)[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[][]|\TU/XBNiloofar(0)/m/n/8 تک‌انرژی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 [][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸
 ۴۶\TU/XBNiloofar(0)/m/n/8 –[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][][]\TU/lmroman10-regular(0)/m/n/8 VNC[]\TU/XBNiloofar(0)/m/n/8 :[]
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[][]|\TU/XBNiloofar(0)/m/n/8 مجازی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸
-۵۴\TU/XBNiloofar(0)/m/n/8 –[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []\TU/XBNiloofar(0)/m/n/8 واقعی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸
-۱۰\TU/XBNiloofar(0)/m/n/8 –[][]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]|\TU/XBNiloofar(0)/m/n/8 پارک و[]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 78--78
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 99--99
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][]\TU/XBNiloofar(0)/b/n/8 فقط[]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]|\TU/XBNiloofar(0)/m/n/8 کبد، طحال،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][]\TU/XBNiloofar(0)/m/n/8 شکمی:[]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/XBNiloofar(0)/m/n/8 دو کلیه (بدون[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۱۰۵[] \TU/XBNiloofar(0)/m/n/8 سی‌تی شکمی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/XBNiloofar(0)/m/n/8 بدون‌کنتراست اورژانس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/XBNiloofar(0)/m/n/8 + []\TU/XBNiloofar(1)/m/n/8 ۶۰[] \TU/XBNiloofar(0)/m/
+n/8 سی‌تی کم‌دوز[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/XBNiloofar(0)/m/n/8 قفسه‌سینه؛ یک مرکز،[]
+ []
+
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 8.71997pt on input line 99.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]|\TU/XBNiloofar(0)/m/n/8 شکمی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 [][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹
 ۵۲\TU/XBNiloofar(0)/m/n/8 –[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []\TU/XBNiloofar(0)/m/n/8 قفسه‌سینه:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹
-۶۰\TU/XBNiloofar(0)/m/n/8 –[][]
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 101--101
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 80--80
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۱۳[] \TU/XBNiloofar(0)/m/n/8 اندام[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[][]\TU/XBNiloofar(0)/m/n/8 سنجش تکرارپذیری[]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]\TU/XBNiloofar(0)/m/n/8 شکمی (سنتز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]\TU/XBNiloofar(0)/m/n/8 بین‌فازی[]
+Underfull \hbox (badness 5490) in paragraph at lines 101--101
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۴۰۳[] \TU/XBNiloofar(0)/m/n/8 و []\TU/XBNiloofar
+(1)/m/n/8 ۳۸[] \TU/XBNiloofar(0)/m/n/8 بیمار از[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[][]\TU/XBNiloofar(0)/m/n/8 بدون آموزش[]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]\TU/XBNiloofar(0)/m/n/8 دو مرکز؛ جفت‌های[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]\TU/XBNiloofar(0)/m/n/8 (فقط[]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰[] \TU/XBNiloofar(0)/m/n/8 و []\TU/XBNiloofar(1
+)/m/n/8 ۱[][]
  []
 
 
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 82--82
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+Overfull \hbox (2.87897pt too wide) in paragraph at lines 101--101
+[]\TU/XBNiloofar(0)/m/n/8 (جفت‌شده)| []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[][]\TU/XBNiloofar(0)/m/n/8 سنتز کنتراست +[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]\TU/XBNiloofar(0)/m/n/8 بخش‌بندی چندعضوی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[][]\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
- []
-
-
-
-[12]
-
-[13]
-Underfull \hbox (badness 1067) in paragraph at lines 97--98
+[14]
+Underfull \hbox (badness 1067) in paragraph at lines 114--115
 []\TU/XBNiloofar(0)/m/n/12 چندعضوی) در عمل نقش مجموعه‌داده‌های \TU/XBNiloofar(0
 )/m/it/12 مادر \TU/XBNiloofar(0)/m/n/12 این حوزه را ایفا می‌کنند. نسل بعدی مناب
 ع،[]
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 103--104
+
+[15]
+Underfull \hbox (badness 1158) in paragraph at lines 120--121
 []\TU/XBNiloofar(0)/m/n/12 سوگیری نژادی را در یک الگوریتم پرکاربرد تخصیص مراقبت
  سلامت نشان دادند؛ لاراسابال و[]
  []
 
 
-
-[14]
-Underfull \hbox (badness 3919) in paragraph at lines 109--110
+Underfull \hbox (badness 3919) in paragraph at lines 126--127
 []\TU/XBNiloofar(0)/m/n/12 برای ارزیابی کیفیت منابع پژوهشی، ابزارهای متعددی توس
 عه یافته‌اند، اما هیچ‌یک مستقیماً[]
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 109--110
+Underfull \hbox (badness 1454) in paragraph at lines 126--127
 []\TU/XBNiloofar(0)/m/n/12 برای مجموعه‌داده‌های تصویربرداری پزشکی در نقش \TU/XB
 Niloofar(0)/m/it/12 منبع آموزش هوش مصنوعی \TU/XBNiloofar(0)/m/n/12 طراحی نشده[]
 
@@ -2027,316 +2273,342 @@ Niloofar(0)/m/it/12 منبع آموزش هوش مصنوعی \TU/XBNiloofar(0)/m/
 
 
 
-[15]
-
 [16]
+Underfull \hbox (badness 1028) in paragraph at lines 128--129
+[][]\TU/XBNiloofar(0)/m/n/12 نتیجه آن است که تا همین اواخر \TU/XBNiloofar(0)/b/
+n/12 هیچ مرور نظام‌مندی در دسترس نبود \TU/XBNiloofar(0)/m/n/12 که به‌طور هم‌زما
+ن[]
+ []
+
+
 
 [17]
 
 [18]
 
 [19]
-Overfull \hbox (2.2939pt too wide) in paragraph at lines 167--167
-[][]\TU/XBNiloofar(0)/b/n/8 مرجع| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[][]\TU/XBNiloofar(0)/b/n/8 معیار[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-[][]\TU/XBNiloofar(0)/b/n/8 کد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[][][]\TU/lmroman10-regular(0)/m/n/8 Segment-and-[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 169--169
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 169--169
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[][]\TU/XBNiloofar(0)/m/n/8 آموزش: []\TU/lmroman10-regular(0)/m/n/8 WAW-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[][]\TU/lmroman10-regular(0)/m/n/8 TACE[]\TU/XBNiloofar(0)/m/n/8 ؛ ارزیابی:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[][][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8
- ۷۱۸\TU/XBNiloofar(0)/m/n/8 –[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[][][]\TU/lmroman10-regular(0)/m/n/8 Interpretable[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 171--171
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 171--171
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[][]\TU/XBNiloofar(0)/m/n/8 آموزش: شخصی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]\TU/XBNiloofar(0)/m/n/8 (استنفورد، []\TU/XBNiloofar(1)/m/n/8 ۷۳۹[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]\TU/XBNiloofar(0)/m/n/8 بررسی)؛ ارزیابی:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[][][]\TU/lmroman10-regular(0)/m/n/8 5-Phase Tree[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 173--173
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 173--173
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[][]\TU/XBNiloofar(0)/m/n/8 آموزش: شخصی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/XBNiloofar(1)/m/n/8 ۱\TU/XBNiloofar(0)/m/n/8 ٬
-\TU/XBNiloofar(1)/m/n/8 ۲۰۰[] \TU/XBNiloofar(0)/m/n/8 بررسی)؛[]
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 173--173
-[]\TU/XBNiloofar(0)/m/n/8 ارزیابی: []\TU/XBNiloofar(1)/m/n/8 ۲۴۰[] \TU/XBNiloof
-ar(0)/m/n/8 بررسی[]
- []
-
-
-Overfull \hbox (14.05978pt too wide) in paragraph at lines 173--174
-[][]\TU/XBNiloofar(0)/m/n/8 گزارش‌نشده| []
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 175--175
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 175--175
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/XBNiloofar(1)/m/n/8 ۱۳۳\TU/XBNiloofar(0)/m/n/8
- ٬\TU/XBNiloofar(1)/m/n/8 ۴۸۰[] \TU/XBNiloofar(0)/m/n/8 برش)؛[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\TU/XBNiloofar(0)/m/n/8 تنظیم‌دقیق روی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[][][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8
- ۹۸۰\TU/XBNiloofar(0)/m/n/8 –[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[][][]\TU/lmroman10-regular(0)/m/n/8 Random-[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 177--177
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 177--177
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 177--177
-[][]\TU/XBNiloofar(0)/m/n/8 آموزش: []\TU/XBNiloofar(1)/m/n/8 ۸۳۰[] \TU/XBNiloof
-ar(0)/m/n/8 بررسی؛[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[]\TU/XBNiloofar(0)/m/n/8 ارزیابی: []\TU/lmroman10-regular(0)/m/n/8 CPTAC-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[][][]\TU/XBNiloofar(1)/m/n/8 ۷۶\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/
-8 ۷۹\TU/XBNiloofar(0)/m/n/8 –[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[][][]\TU/lmroman10-regular(0)/m/n/8 Hierarchical[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 179--179
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 179--179
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[][]\TU/XBNiloofar(0)/m/n/8 شخصی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/lmroman10-regular(0)/m/n/8 HCFMUSP[]\TU/XBNilo
-ofar(0)/m/n/8 )؛[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[][][]\TU/XBNiloofar(1)/m/n/8 ۹۴\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/
-8 ۶\TU/XBNiloofar(0)/m/n/8 –[][]
- []
-
-
-Overfull \hbox (14.05978pt too wide) in paragraph at lines 179--180
-[][]\TU/XBNiloofar(0)/m/n/8 گزارش‌نشده| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
-[][][]\TU/lmroman10-regular(0)/m/n/8 Two-Step[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 181--181
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 181--181
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
-[]\TU/XBNiloofar(0)/m/n/8 (یک بیمارستان)؛[]
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 181--181
-[]\TU/XBNiloofar(0)/m/n/8 ارزیابی: []\TU/XBNiloofar(1)/m/n/8 ۲۱۵[] \TU/XBNiloof
-ar(0)/m/n/8 بررسی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[][][]\TU/lmroman10-regular(0)/m/n/8 Weak-Label[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 183--183
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 183--183
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[][]\TU/XBNiloofar(0)/m/n/8 شخصی، برچسب[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[][][]\TU/lmroman10-regular(0)/m/n/8 Injection-Time[][]
- []
-
-
-Overfull \hbox (1.64246pt too wide) in paragraph at lines 185--185
-[][]\TU/XBNiloofar(0)/m/n/8 [[]]| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 185--185
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[][]\TU/XBNiloofar(0)/m/n/8 دقت /[]
- []
-
-
-Overfull \hbox (14.05978pt too wide) in paragraph at lines 185--186
-[][]\TU/XBNiloofar(0)/m/n/8 گزارش‌نشده| []
- []
-
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
-(Font)              scaled to size 8.71997pt on input line 187.
-
 
 [20]
 
 [21]
 
 [22]
-
-[23]
-
-[24]
-
-[25]
-Underfull \hbox (badness 1642) in paragraph at lines 252--253
-[][]\TU/XBNiloofar(0)/m/n/12 سه محدودیت []\TU/lmroman10-regular(0)/m/n/12 Voxel
-Morph[] \TU/XBNiloofar(0)/m/n/12 سه شاخه‌ی بعدی را پدید آورد. محدودیت \TU/XBNil
-oofar(0)/m/it/12 میدان دریافت\TU/XBNiloofar(0)/m/n/12 :[]
+Overfull \hbox (6.85399pt too wide) in paragraph at lines 204--204
+[][]|\TU/XBNiloofar(0)/b/n/8 رویکرد| []
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[][]|\TU/XBNiloofar(0)/b/n/8 فازهای داده‌ی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[][]|\TU/XBNiloofar(0)/b/n/8 معیار[]
+ []
+
+
+Overfull \hbox (6.85399pt too wide) in paragraph at lines 209--209
+[][]|\TU/XBNiloofar(0)/b/n/8 رویکرد| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[][]|\TU/XBNiloofar(0)/b/n/8 فازهای داده‌ی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[][]|\TU/XBNiloofar(0)/b/n/8 معیار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Segment-and-[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 217--217
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/lmroman10-regular(0)/m/n/8 WAW-TACE[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 VinDr[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۷
+۱۸\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[][]\TU/lmroman10-regular(0)/m/n/8 C4KC[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹
+۳۵\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Interpretable[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 219--219
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[][]|\TU/XBNiloofar(0)/m/n/8 طبقه‌بندی فاز؛[]
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 219--219
+[]\TU/XBNiloofar(0)/m/n/8 شکم ([]\TU/XBNiloofar(1)/m/n/8 ۷۳۹[] \TU/XBNiloofar(0
+)/m/n/8 بررسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 5-Phase Tree[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 221--221
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[][]|\TU/XBNiloofar(0)/m/n/8 طبقه‌بندی فاز +[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]\TU/XBNiloofar(0)/m/n/8 تشخیص حاجب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]\TU/XBNiloofar(0)/m/n/8 خوراکی؛ شکم و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰[]\TU/XBNiloofar(0)/m/n/8 ، []\TU/XBNiloofar(1)
+/m/n/8 ۱[]\TU/XBNiloofar(0)/m/n/8 ، []\TU/XBNiloofar(1)/m/n/8 ۲[]\TU/XBNiloofar
+(0)/m/n/8 ، []\TU/XBNiloofar(1)/m/n/8 ۴[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/
+8 ۹۹۱\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 EfficientNet-[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 223--223
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[][]|\TU/XBNiloofar(0)/m/n/8 تشخیص \TU/XBNiloofar(0)/m/it/8 دودویی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/XBNiloofar(0)/m/n/8 وجود کنتراست؛[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۰[] \TU/XBNiloofar(0)/m/n/8 در برابر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/XBNiloofar(0)/m/n/8 «کنتراست‌دار»[]
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 223--223
+[][]|\TU/XBNiloofar(0)/m/n/8 سر و گردن:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/XBNiloofar(0)/m/n/8 قفسه‌سینه:[]
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 223--223
+[][]|\TU/XBNiloofar(0)/m/n/8 سر و گردن:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/XBNiloofar(0)/m/n/8 قفسه‌سینه:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Random-[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[][]\TU/lmroman10-regular(0)/m/n/8 Sampling[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 225--225
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 CPTAC[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Hierarchical[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 227--227
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 227--227
+[][]|\TU/XBNiloofar(0)/m/n/8 طبقه‌بندی فاز؛ کبد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Two-Step[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 229--229
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[][]|\TU/XBNiloofar(0)/m/n/8 دومرحله‌ای:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]\TU/XBNiloofar(0)/m/n/8 تک‌مرحله‌ای:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[][]|\TU/XBNiloofar(0)/m/n/8 دقت کلی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]\TU/XBNiloofar(0)/m/n/8 حساسیت:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹
+۵۱\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Weak-Label[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 231--231
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[][]|\TU/XBNiloofar(0)/m/n/8 طبقه‌بندی فاز با[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]\TU/XBNiloofar(0)/m/n/8 برچسب ضعیف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 ResNet34[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[][]\TU/lmroman10-regular(0)/m/n/8 VGG19[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Injection-Time[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 233--233
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 233--233
+[][]|\TU/XBNiloofar(0)/m/n/8 رگرسیون زمان پس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]\TU/XBNiloofar(0)/m/n/8 از تزریق؛ شکم[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]\TU/XBNiloofar(0)/m/n/8 و قفسه‌سینه ([]\TU/XBNiloofar(1)/m/n/8 ۱۷[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[][]|\TU/XBNiloofar(0)/m/n/8 پیوسته، بدون[]
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 233--233
+[][]|\TU/XBNiloofar(0)/m/n/8 دقت /[]
+ []
+
+
+
+[23] [24]
+
+[25]
 
 [26]
 
@@ -2345,278 +2617,22 @@ oofar(0)/m/it/12 میدان دریافت\TU/XBNiloofar(0)/m/n/12 :[]
 [28]
 
 [29]
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 301--301
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۰۸[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[][]\TU/XBNiloofar(0)/m/n/8 چهار محک[]
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 303--303
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۲[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[][][]\TU/lmroman10-regular(0)/m/n/8 SSD[] \TU/XBNiloofar(0)/m/n/8 روی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[]\TU/XBNiloofar(0)/m/n/8 توصیف‌گر[]
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 303--303
-[][]\TU/XBNiloofar(0)/m/n/8 سی‌تی ریه؛ []\TU/lmroman10-regular(0)/m/n/8 MR[]\TU
-/XBNiloofar(0)/m/n/8 –[]
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 305--305
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۳[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[][]\TU/XBNiloofar(0)/m/n/8 ثبت تغییرشکل‌پذیر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[][][]\TU/lmroman10-regular(0)/m/n/8 MIND[] \TU/XBNiloofar(0)/m/n/8 +[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[]\TU/XBNiloofar(0)/m/n/8 بهینه‌سازی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[][]\TU/XBNiloofar(0)/m/n/8 درون‌وجهی []\TU/lmroman10-regular(0)/m/n/8 MR[]\TU/
-XBNiloofar(0)/m/n/8 :[]
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 307--307
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[][][]\TU/XBNiloofar(1)/m/n/8 ۸[] \TU/XBNiloofar(0)/m/n/8 محک مغزی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[][]\TU/XBNiloofar(0)/m/n/8 بدون‌نظارت:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[][][]\TU/lmroman10-regular(0)/m/n/8 Recursive[][]
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 309--309
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 311--311
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[][]\TU/XBNiloofar(0)/m/n/8 شباهت شدت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]\TU/XBNiloofar(0)/m/n/8 + هم‌پوشانی[]
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 313--313
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۰[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[][][]\TU/lmroman10-regular(0)/m/n/8 OASIS[] \TU/XBNiloofar(0)/m/n/8 ([]\TU/XBN
-iloofar(1)/m/n/8 ۷۴۵[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]\TU/XBNiloofar(0)/m/n/8 دیفئومورفیک:[]
- []
-
-
-Overfull \hbox (2.48915pt too wide) in paragraph at lines 315--315
-[][][]\TU/lmroman10-regular(0)/m/n/8 HyperMorph[] \TU/XBNiloofar(0)/m/n/8 [[]]|
- []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 315--315
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[][]\TU/XBNiloofar(0)/m/n/8 یادگیری فراپارامتر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[][][]\TU/lmroman10-regular(0)/m/n/8 NCC[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmroma
-n10-regular(0)/m/n/8 MSE[] \TU/XBNiloofar(0)/m/n/8 یا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[][]\TU/XBNiloofar(0)/m/n/8 مغزی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[][]\TU/XBNiloofar(0)/m/n/8 پارک و[]
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 317--317
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 317--317
-[][]\TU/XBNiloofar(0)/b/n/8 ثبت شریانی به وریدی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]\TU/XBNiloofar(0)/m/n/8 + تغییر شکل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[][]\TU/XBNiloofar(0)/m/n/8 سی‌تی چندفازی[]
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 317--317
-[]\TU/XBNiloofar(0)/m/n/8 شکمی ([]\TU/lmroman10-regular(0)/m/n/8 PDAC[] \TU/XBN
-iloofar(0)/m/n/8 و[]
- []
-
-
-Overfull \hbox (0.75316pt too wide) in paragraph at lines 319--319
-[][][]\TU/lmroman10-regular(0)/m/n/8 TransMorph[] \TU/XBNiloofar(0)/m/n/8 [[]]|
- []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 319--319
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[][]\TU/XBNiloofar(0)/m/n/8 ثبت []\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNi
-loofar(0)/m/n/8 مغزی با[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[][][]\TU/lmroman10-regular(0)/m/n/8 MSE[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmroma
-n10-regular(0)/m/n/8 NCC[] \TU/XBNiloofar(0)/m/n/8 +[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[][][]\TU/lmroman10-regular(0)/m/n/8 Learn2Reg[][]
- []
-
-
-Overfull \hbox (8.96115pt too wide) in paragraph at lines 321--321
-[][][]\TU/lmroman10-regular(0)/m/n/8 UniGradICON[] \TU/XBNiloofar(0)/m/n/8 [[]]
-| []
- []
-
-
-Overfull \hbox (4.50795pt too wide) in paragraph at lines 321--321
-[][][]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[][][]\TU/lmroman10-regular(0)/m/n/8 HCP[]\TU/XBNiloofar(0)/m/n/8 ؛ []\TU/lmrom
-an10-regular(0)/m/n/8 L2R-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[][]\TU/lmroman10-regular(0)/m/n/8 Abdomen[]\TU/XBNiloofar(0)/m/n/8 ؛[]
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 321--321
-[][]\TU/XBNiloofar(0)/m/n/8 بدون []\TU/lmroman10-regular(0)/m/n/8 IO[]\TU/XBNil
-oofar(0)/m/n/8 : []\TU/XBNiloofar(1)/m/n/8 ۷۶\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNil
-oofar(1)/m/n/8 ۲[] \TU/XBNiloofar(0)/m/n/8 /[]
- []
-
-
 
 [30]
+Underfull \hbox (badness 1642) in paragraph at lines 304--305
+[][]\TU/XBNiloofar(0)/m/n/12 سه محدودیت []\TU/lmroman10-regular(0)/m/n/12 Voxel
+Morph[] \TU/XBNiloofar(0)/m/n/12 سه شاخه‌ی بعدی را پدید آورد. محدودیت \TU/XBNil
+oofar(0)/m/it/12 میدان دریافت\TU/XBNiloofar(0)/m/n/12 :[]
+ []
+
+
 
 [31]
 
-[32]
-Underfull \hbox (badness 3189) in paragraph at lines 349--350
-[][]\TU/XBNiloofar(0)/b/n/12 شباهت پرسپچوال یادگرفته‌شده[][][][][][][][][][][] 
-\TU/XBNiloofar(0)/m/n/12 تفاوت دو تصویر را در فضای ویژگی یک شبکه‌ی از[]
- []
-
-
+[32] (./figs/arch_registration.tex
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 6.53998pt on input line 36.
+)
 
 [33]
 
@@ -2625,1141 +2641,1585 @@ Underfull \hbox (badness 3189) in paragraph at lines 349--350
 [35]
 
 [36]
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[][]|\TU/XBNiloofar(0)/b/n/8 معیار[]
+ []
 
-[37]
 
-[38]
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[][]|\TU/XBNiloofar(0)/b/n/8 مقدار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[][]|\TU/XBNiloofar(0)/b/n/8 معیار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[][]|\TU/XBNiloofar(0)/b/n/8 مقدار[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 380--380
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۰۸[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[][]|\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]\TU/XBNiloofar(0)/m/n/8 دیفئومورفیک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[][]|\TU/XBNiloofar(0)/m/n/8 بدون آموزش؛[]
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 380--380
+[]\TU/XBNiloofar(0)/m/n/8 بهینه‌سازی به‌ازای هر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[][]|\TU/XBNiloofar(0)/m/n/8 چهار محک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Dice[] []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBN
+iloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۶۰\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 382--382
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۲[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[][]|\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[][]|\TU/XBNiloofar(0)/m/n/8 بدون آموزش؛[]
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 382--382
+[]\TU/XBNiloofar(0)/m/n/8 بهینه‌سازی به‌ازای هر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 SSD[] \TU/XBNiloofar(0)/m/n/8 روی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]\TU/XBNiloofar(0)/m/n/8 توصیف‌گر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[][]|\TU/XBNiloofar(0)/m/n/8 سی‌تی ریه؛[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 384--384
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۳[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]|\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 تغییرشکل‌پذیر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]|\TU/XBNiloofar(0)/m/n/8 بدون آموزش؛[]
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 بهینه‌سازی به‌ازای هر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MIND[] \TU/XBNiloofar(0)/m/n/8 +[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 بهینه‌سازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Learn2Reg[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 شکمی[]
+ []
+
+
+Overfull \hbox (9.74927pt too wide) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/lmroman10-regular(0)/m/n/8 CHAOS[]\TU/XBNiloof
+ar(0)/m/n/8 /[]\TU/lmroman10-regular(0)/m/n/8 BCV[]\TU/XBNiloofar(0)/m/n/8 )| [
+]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]|\TU/XBNiloofar(0)/m/n/8 درون‌وجهی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]\TU/XBNiloofar(0)/m/n/8 بین‌وجهی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[][]\TU/lmroman10-regular(0)/m/n/8 MR-CT[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Overfull \hbox (8.55305pt too wide) in paragraph at lines 386--386
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 VoxelMorph[] \TU/XBNiloofar(0)/m/n/8 [[]]
+| []
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 386--386
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[][]|\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 مغزی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[]\TU/XBNiloofar(0)/m/n/8 تک‌وجهی؛ بدون[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[][]|\TU/XBNiloofar(0)/m/n/8 بدون‌نظارت:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Recursive[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 388--388
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 388--388
+[][]|\TU/XBNiloofar(0)/m/n/8 سی‌تی کبد و []\TU/lmroman10-regular(0)/m/n/8 MRI[]
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 SLIVER[]\TU/XBNiloofar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[][]\TU/lmroman10-regular(0)/m/n/8 LiTS[]\TU/XBNiloofar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[][]\TU/lmroman10-regular(0)/m/n/8 LSPIG[]\TU/XBNiloofar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 SLIVER[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Overfull \hbox (2.00107pt too wide) in paragraph at lines 390--390
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 DeepAtlas[] \TU/XBNiloofar(0)/m/n/8 [[]]|
+ []
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 390--390
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۱۹[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]|\TU/XBNiloofar(0)/m/n/8 یادگیری مشترک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی و[]
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 390--390
+[]\TU/XBNiloofar(0)/m/n/8 بخش‌بندی؛ مغز و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 مغز و زانو[
+]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]|\TU/XBNiloofar(0)/m/n/8 شباهت شدت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\TU/XBNiloofar(0)/m/n/8 + هم‌پوشانی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 زانوی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]\TU/lmroman10-regular(0)/m/n/8 OAI[]\TU/XBNiloofar(0)/m/n/8 ؛[]
+ []
+
+
+Overfull \hbox (8.37141pt too wide) in paragraph at lines 390--390
+[][]\TU/lmroman10-regular(0)/m/n/8 MindBoggle101[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][]|\TU/XBNiloofar(0)/m/n/8 بدون‌نظارت:[]
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 390--390
+[]\TU/XBNiloofar(0)/m/n/8 با []\TU/lmroman10-regular(0)/m/n/8 DeepAtlas[]\TU/XB
+Niloofar(0)/m/n/8 :[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 392--392
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۰[]| []
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 392--392
+[][]|\TU/XBNiloofar(0)/m/n/8 تغییر شکل بزرگ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 مغزی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\TU/XBNiloofar(0)/m/n/8 تک‌وجهی؛ بدون[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 NCC[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[][]|\TU/XBNiloofar(0)/m/n/8 جابه‌جایی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\TU/XBNiloofar(0)/m/n/8 دیفئومورفیک:[]
+ []
+
+
+Overfull \hbox (11.02505pt too wide) in paragraph at lines 394--394
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 HyperMorph[] \TU/XBNiloofar(0)/m/n/8 [[]]
+| []
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 394--394
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[][]|\TU/XBNiloofar(0)/m/n/8 یادگیری فراپارامتر[]
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 394--394
+[]\TU/XBNiloofar(0)/m/n/8 منظم‌سازی؛ []\TU/lmroman10-regular(0)/m/n/8 MRI[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 مغزی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]\TU/XBNiloofar(0)/m/n/8 تک‌وجهی؛ بدون[]
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 394--394
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 NCC[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmrom
+an10-regular(0)/m/n/8 MSE[] \TU/XBNiloofar(0)/m/n/8 یا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[][]|\TU/XBNiloofar(0)/m/n/8 مغزی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Dice[] []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBN
+iloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۷۰\TU/XBNiloofar(0)/m/n/8 –[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/m/n/8 پارک و[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 396--396
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/b/n/8 هم‌ترازسازی فاز[]
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/b/n/8 شریانی به وریدی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/b/n/8 سی‌تی شکمی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/b/n/8 چندفازی \TU/XBNiloofar(0)/m/n/8 ([]\TU/lmroman10-regu
+lar(0)/m/n/8 PDAC[][]
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/m/n/8 و اهداکننده‌ی کلیه)؛[]
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/m/n/8 بدون آموزش. \TU/XBNiloofar(0)/b/n/8 فاز[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/m/n/8 خودشباهت[]
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/m/n/8 محلی + تغییر[]
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/m/n/8 شکل وابسته به[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/m/n/8 همان داده‌ی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]\TU/XBNiloofar(0)/m/n/8 چندفازی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[][]|\TU/XBNiloofar(0)/m/n/8 پانکراس:[]
+ []
+
+
+Overfull \hbox (9.28906pt too wide) in paragraph at lines 398--398
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 TransMorph[] \TU/XBNiloofar(0)/m/n/8 [[]]
+| []
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 398--398
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 398--398
+[][]|\TU/XBNiloofar(0)/m/n/8 هم‌ترازسازی []\TU/lmroman10-regular(0)/m/n/8 MRI[]
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 مغزی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]\TU/XBNiloofar(0)/m/n/8 تک‌وجهی؛ بدون[]
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 398--398
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MSE[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmrom
+an10-regular(0)/m/n/8 NCC[] \TU/XBNiloofar(0)/m/n/8 +[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Learn2Reg[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]\TU/XBNiloofar(0)/m/n/8 ([]\TU/lmroman10-regular(0)/m/n/8 OASIS[]\TU/XBNiloof
+ar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 UniGrad-[][]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 400--400
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]|\TU/XBNiloofar(0)/m/n/8 مدل بنیادین[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]\TU/XBNiloofar(0)/m/n/8 چندآناتومی و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۱۲[] \TU/XBNiloofar(0)/m/n/8 مجموعه‌داده‌ی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]\TU/XBNiloofar(0)/m/n/8 چندآناتومی؛ همگی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 LNCC[] \TU/XBNiloofar(0)/m/n/8 +[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 HCP[]\TU/XBNiloofar(0)/m/n/8 ؛ []\TU/lmro
+man10-regular(0)/m/n/8 L2R-[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[][]\TU/lmroman10-regular(0)/m/n/8 Abdomen[]\TU/XBNiloofar(0)/m/n/8 ؛[]
+ []
+
+
+
+[37] [38]
 
 [39]
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[][]|\TU/XBNiloofar(0)/b/n/8 فاز داده‌ی[]
+Underfull \hbox (badness 3189) in paragraph at lines 426--427
+[][]\TU/XBNiloofar(0)/b/n/12 شباهت پرسپچوال یادگرفته‌شده[][][][][][][][][][][] 
+\TU/XBNiloofar(0)/m/n/12 تفاوت دو تصویر را در فضای ویژگی یک شبکه‌ی از[]
  []
 
+
+
+[40]
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+
+[45]
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 8.71997pt on input line 447.
+(Font)              scaled to size 13.07996pt on input line 494.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
+
+[46]
+
+[47] (./figs/arch_synthesis.tex
+
+[48]) (./figs/arch_synthesis_backbone.tex)
+
+[49]
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 [][]|\TU/XBNiloofar(0)/b/n/8 فاز داده‌ی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 588--588
+[][]|\TU/XBNiloofar(0)/b/n/8 فاز داده‌ی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 Dual-path[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 458--458
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 597--597
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/XBNiloofar(0)/m/n/8 تأخیری:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/XBNiloofar(0)/m/n/8 تأخیری:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 cGAN[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 460--460
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 599--599
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 462--462
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 601--601
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 [][]|\TU/XBNiloofar(0)/m/n/8 همان داده‌ی بالا؛[]
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 462--462
+Underfull \hbox (badness 5578) in paragraph at lines 601--601
 []\TU/XBNiloofar(0)/m/n/8 افزودن توجه فضایی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 [][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\TU/XBNiloofar(0)/m/n/8 وریدی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 SGCDD-[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 464--464
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 603--603
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\TU/XBNiloofar(0)/m/n/8 دوگانه + هدایت[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (4.92572pt too wide) in paragraph at lines 464--464
-[][]|[][][][]\TU/lmroman10-regular(0)/b/n/8 [عدد؟][][][][]\TU/XBNiloofar(0)/m/n
-/8 (الف)| []
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (4.92572pt too wide) in paragraph at lines 464--464
-[][]|[][][][]\TU/lmroman10-regular(0)/b/n/8 [عدد؟][][][][]\TU/XBNiloofar(0)/m/n
-/8 (الف)| []
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\TU/XBNiloofar(0)/m/n/8 دقت رادیولوژیست[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 466--466
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[][]\TU/lmroman10-regular(0)/m/n/8 PCC[] \TU/XBNiloofar(0)/m/n/8 شریانی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹
+۷۷۰[]\TU/XBNiloofar(0)/m/n/8 ، وریدی[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 605--605
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 468--468
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 607--607
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 468--468
+Underfull \hbox (badness 2564) in paragraph at lines 607--607
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۳۷۴[] \TU/XBNiloofar(0)/m/n/8 آموزش / []\TU/XBNi
 loofar(1)/m/n/8 ۱۴۴[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []\TU/XBNiloofar(0)/m/n/8 آزمون داخلی / []\TU/XBNiloofar(1)/m/n/8 ۸۳[][]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (1.26035pt too wide) in paragraph at lines 468--469
-[][]|[][][][]\TU/lmroman10-regular(0)/b/n/8 [عدد؟][][][][]| []
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\TU/XBNiloofar(0)/m/n/8 تأخیری:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\TU/XBNiloofar(0)/m/n/8 تأخیری:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[][]|\TU/XBNiloofar(0)/m/n/8 مبنای []\TU/lmroman10-regular(0)/m/n/8 NC[] \TU/XB
+Niloofar(0)/m/n/8 خام:[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 609--609
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
 [][]|\TU/XBNiloofar(0)/m/n/8 خصوصی؛ ترجمه‌ی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
 []\TU/XBNiloofar(0)/m/n/8 چندفازی کبدی با[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (30.75534pt too wide) in paragraph at lines 470--471
-[][]|\TU/XBNiloofar(0)/m/n/8 اعلام‌شده(ب)| []
- []
-
-
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 472--472
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 611--611
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۹۲[] \TU/XBNiloofar(0)/m/n/8 حجم (کلینیک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 []\TU/XBNiloofar(0)/m/n/8 کلیولند)؛ سنتز فاز[]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 472--472
+Underfull \hbox (badness 1571) in paragraph at lines 611--611
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (4.92572pt too wide) in paragraph at lines 472--472
-[][]|[][][][]\TU/lmroman10-regular(0)/b/n/8 [عدد؟][][][][]\TU/XBNiloofar(0)/m/n
-/8 (الف)| []
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (4.92572pt too wide) in paragraph at lines 472--472
-[][]|[][][][]\TU/lmroman10-regular(0)/b/n/8 [عدد؟][][][][]\TU/XBNiloofar(0)/m/n
-/8 (الف)| []
+Overfull \hbox (5.58267pt too wide) in paragraph at lines 611--611
+[]\TU/XBNiloofar(0)/m/n/8 (هم‌ترازشده)| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[][]|\TU/XBNiloofar(0)/m/n/8 کل‌نگر:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]\TU/XBNiloofar(0)/m/n/8 تومور:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[][]|\TU/XBNiloofar(0)/m/n/8 کل‌نگر:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]\TU/XBNiloofar(0)/m/n/8 تومور:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 pix2pix[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 474--474
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 613--613
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 [][]|\TU/XBNiloofar(0)/m/n/8 سنتز:[]
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 474--474
+Underfull \hbox (badness 4072) in paragraph at lines 613--613
 []\TU/XBNiloofar(0)/m/n/8 مبنا []\TU/lmroman10-regular(0)/m/n/8 NC[]\TU/XBNiloo
 far(0)/m/n/8 :[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 [][]|\TU/XBNiloofar(0)/m/n/8 سنتز:[]
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 474--474
+Underfull \hbox (badness 4072) in paragraph at lines 613--613
 []\TU/XBNiloofar(0)/m/n/8 مبنا []\TU/lmroman10-regular(0)/m/n/8 NC[]\TU/XBNiloo
 far(0)/m/n/8 :[]
  []
 
 
-Overfull \hbox (2.35352pt too wide) in paragraph at lines 474--474
-[][]\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸
-۱[]\TU/XBNiloofar(0)/m/n/8 (پ)| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 MAE[] []\TU/XBNiloofar(1)/m/n/8 ۴۱\TU/XBN
 iloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۷۲[]\TU/XBNiloofar(0)/m/n/8 ؛[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 Phase-[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 [][]\TU/lmroman10-regular(0)/m/n/8 conditioned[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 476--476
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 615--615
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 [][]|\TU/XBNiloofar(0)/m/n/8 سی‌تی مداخله‌ای؛[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 []\TU/XBNiloofar(0)/m/n/8 هدایت کرایوتراپی[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 Res-[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 482--482
-[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 484--484
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 619--619
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 621--621
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 Coltea-Lung-CT-[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
 [][]\TU/lmroman10-regular(0)/m/n/8 100W[] \TU/XBNiloofar(0)/m/n/8 (عمومی)؛[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (19.84616pt too wide) in paragraph at lines 486--486
-[][]|[]\TU/lmroman10-regular(0)/m/n/8 CycleGAN[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/
-lmroman10-regular(0)/m/n/8 UNIT[] \TU/XBNiloofar(0)/m/n/8 [[]]| []
+Overfull \hbox (5.52386pt too wide) in paragraph at lines 621--621
+[][]|\TU/XBNiloofar(0)/m/n/8 گزارش‌نشده| []
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[][]|\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[]\TU/XBNiloofar(0)/m/n/8 شریانی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MAE[] []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNi
+loofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۰۶۱[]\TU/XBNiloofar(0)/m/n/8 ؛[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[][]\TU/lmroman10-regular(0)/m/n/8 RMSE[] []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNilo
+ofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۱۴۴[]\TU/XBNiloofar(0)/m/n/8 ؛[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Cycle-[][]
+ []
+
+
+Overfull \hbox (0.51816pt too wide) in paragraph at lines 623--623
+[][]\TU/lmroman10-regular(0)/m/n/8 GAN[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmroman1
+0-regular(0)/m/n/8 UNIT[] \TU/XBNiloofar(0)/m/n/8 [[]]| []
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 623--623
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
-[]\TU/XBNiloofar(0)/m/n/8 بدون‌کنتراست برای[]
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (9.78453pt too wide) in paragraph at lines 486--487
-[][]|$\OMS/cmsy/m/n/8 ^^B$\TU/XBNiloofar(0)/m/n/8 (ت)| []
+Underfull \hbox (badness 1742) in paragraph at lines 623--623
+[][]|\TU/XBNiloofar(0)/m/n/8 انتقال حوزه‌ی وریدی[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+[]\TU/XBNiloofar(0)/m/n/8 بدون‌کنتراست، برای[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Dice[] \TU/XBNiloofar(0)/m/n/8 پایین‌دستی
+[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 627--627
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۵۴۷[] \TU/XBNiloofar(0)/m/n/8 آموزش (یک[]
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 492--492
+Underfull \hbox (badness 3815) in paragraph at lines 627--627
 []\TU/XBNiloofar(0)/m/n/8 مرکز) / []\TU/XBNiloofar(1)/m/n/8 ۱۱۶[] \TU/XBNiloofa
 r(0)/m/n/8 آزمون[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []\TU/XBNiloofar(0)/m/n/8 (دو مرکز) / []\TU/XBNiloofar(1)/m/n/8 ۲۸[][]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 492--492
+Underfull \hbox (badness 1571) in paragraph at lines 627--627
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Overfull \hbox (5.58267pt too wide) in paragraph at lines 627--627
+[]\TU/XBNiloofar(0)/m/n/8 (هم‌ترازشده)| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]|\TU/XBNiloofar(0)/m/n/8 آزمون:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []\TU/XBNiloofar(0)/m/n/8 خارجی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]|\TU/XBNiloofar(0)/m/n/8 آزمون:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []\TU/XBNiloofar(0)/m/n/8 خارجی:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 MAE[] []\TU/XBNiloofar(1)/m/n/8 ۳۱\TU/XBN
 iloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۲۰[]\TU/XBNiloofar(0)/m/n/8 ؛[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]\TU/lmroman10-regular(0)/m/n/8 FID[]\TU/XBNiloofar(0)/m/n/8 ، []\TU/lmroman
 10-regular(0)/m/n/8 LPIPS[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 498--498
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 631--631
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
 []\TU/XBNiloofar(0)/m/n/8 مرکز)؛ سنتز شریانی[]
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 498--498
+Underfull \hbox (badness 2903) in paragraph at lines 631--631
 []\TU/XBNiloofar(0)/m/n/8 دیررس + بخش‌بندی[]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 498--498
+Underfull \hbox (badness 1571) in paragraph at lines 631--631
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
 
-Overfull \hbox (2.87897pt too wide) in paragraph at lines 498--498
+Overfull \hbox (2.87897pt too wide) in paragraph at lines 631--631
 []\TU/XBNiloofar(0)/m/n/8 (جفت‌شده)| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
 []\TU/XBNiloofar(0)/m/n/8 (مبنا:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
 []\TU/XBNiloofar(0)/m/n/8 (مبنا:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
 [][]\TU/lmroman10-regular(0)/m/n/8 Dice[] \TU/XBNiloofar(0)/m/n/8 پایین‌دستی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 [][]|\TU/XBNiloofar(0)/m/n/8 یادگیری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []\TU/XBNiloofar(0)/m/n/8 چندوظیفه‌ای[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 500--500
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 633--633
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
-[][]|\TU/XBNiloofar(0)/m/n/8 شکمی؛ ثبت[]
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]|\TU/XBNiloofar(0)/m/n/8 شکمی؛ هم‌ترازسازی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
-[]\TU/XBNiloofar(0)/m/n/8 تغییرشکل‌پذیر و[]
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]|\TU/XBNiloofar(0)/m/n/8 شریانی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[]\TU/XBNiloofar(0)/m/n/8 وریدی:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 MAE[] \TU/XBNiloofar(0)/m/n/8 شریانی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]\TU/XBNiloofar(1)/m/n/8 ۴۱\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 
+۸۹[]\TU/XBNiloofar(0)/m/n/8 ، وریدی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]\TU/XBNiloofar(1)/m/n/8 ۲۷\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 
+۶۹[] \TU/XBNiloofar(0)/m/n/8 و []\TU/XBNiloofar(1)/m/n/8 ۲۷\TU/XBNiloofar(0)/m/
+n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۴۴[]\TU/XBNiloofar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[][]\TU/lmroman10-regular(0)/m/n/8 MAE[] []\TU/XBNiloofar(1)/m/n/8 ۲۸\TU/XBNilo
+ofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۶۶[] \TU/XBNiloofar(0)/m/n/8 و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 [][]|\TU/XBNiloofar(0)/m/n/8 تفکیک سازگاری[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 502--502
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 635--635
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 []\TU/XBNiloofar(0)/m/n/8 + []\TU/lmroman10-regular(0)/m/n/8 SynthRAD2023[][]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 502--502
+Underfull \hbox (badness 1571) in paragraph at lines 635--635
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
+Overfull \hbox (5.58267pt too wide) in paragraph at lines 635--635
+[]\TU/XBNiloofar(0)/m/n/8 (هم‌ترازشده)| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 [][]|\TU/XBNiloofar(0)/m/n/8 چارچوب متحد[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 504--504
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 637--637
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
-[]\TU/XBNiloofar(0)/m/n/8 ثبت []\TU/lmroman10-regular(0)/m/n/8 DEEDS[] \TU/XBNi
-loofar(0)/m/n/8 پیش[]
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[][]|\TU/XBNiloofar(0)/m/n/8 سی‌تی چندفازی[]
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 504--504
-[]\TU/XBNiloofar(0)/m/n/8 از سنتز + طبقه‌بندی[]
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[]\TU/XBNiloofar(0)/m/n/8 کلیه؛ هم‌ترازسازی[]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 504--504
+Underfull \hbox (badness 1571) in paragraph at lines 637--637
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Overfull \hbox (5.58267pt too wide) in paragraph at lines 637--637
+[]\TU/XBNiloofar(0)/m/n/8 (هم‌ترازشده)| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 mAUC[] \TU/XBNiloofar(0)/m/n/8 زیرگونه[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 DL-[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 508--508
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 641--641
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 508--508
+Underfull \hbox (badness 1365) in paragraph at lines 641--641
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲\TU/XBNiloofar(0)/m/n/8 ٬\TU/XBNiloofar(1)/m/n/
 8 ۲۰۲[] \TU/XBNiloofar(0)/m/n/8 جفت آموزش[]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 508--508
+Underfull \hbox (badness 1571) in paragraph at lines 641--641
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 [][]|\TU/XBNiloofar(0)/m/n/8 حساسیت تشخیص[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
-[]\TU/XBNiloofar(0)/m/n/8 ضایعه []\TU/XBNiloofar(1)/m/n/8 ۷۲\TU/XBNiloofar(0)/m
-/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۰[]\TU/XBNiloofar(0)/m/n/8 ٪ به[]
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+[]\TU/XBNiloofar(0)/m/n/8 ضایعه []\TU/XBNiloofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/
+n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۷۲۰[] \TU/XBNiloofar(0)/m/n/8 به[]
  []
 
 
-Overfull \hbox (9.78453pt too wide) in paragraph at lines 508--509
-[][]|$\OMS/cmsy/m/n/8 ^^B$\TU/XBNiloofar(0)/m/n/8 (ث)| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 cGAN[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 510--510
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 643--643
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 510--510
-[]\TU/XBNiloofar(0)/m/n/8 حاد شکمی؛ سنجش[]
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
+[][]|[]\TU/XBNiloofar(1)/m/n/8 ۳۵۳[] \TU/XBNiloofar(0)/m/n/8 بیمار اورژانس[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
+[]\TU/XBNiloofar(0)/m/n/8 خوانندگان با شش[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 cGAN[] \TU/XBNiloofar(0)/m/n/8 کاهش[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 512--512
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 645--645
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۱[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۸۵[] \TU/XBNiloofar(0)/m/n/8 بیمار ([]\TU/lmroma
 n10-regular(0)/m/n/8 DECT[]\TU/XBNiloofar(0)/m/n/8 ،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []\TU/XBNiloofar(0)/m/n/8 دوز کامل از دوز[]
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 512--512
+Underfull \hbox (badness 1571) in paragraph at lines 645--645
 [][]|\TU/XBNiloofar(0)/m/n/8 هر دو فاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]|\TU/XBNiloofar(0)/m/n/8 کاهش[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]\TU/XBNiloofar(1)/m/n/8 ۵۰[]\TU/XBNiloofar(0)/m/n/8 ٪:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []\TU/XBNiloofar(0)/m/n/8 کاهش[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]\TU/XBNiloofar(1)/m/n/8 ۸۰[]\TU/XBNiloofar(0)/m/n/8 ٪:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]|\TU/XBNiloofar(0)/m/n/8 کاهش[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]\TU/XBNiloofar(1)/m/n/8 ۵۰[]\TU/XBNiloofar(0)/m/n/8 ٪:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []\TU/XBNiloofar(0)/m/n/8 کاهش[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 [][]\TU/XBNiloofar(1)/m/n/8 ۸۰[]\TU/XBNiloofar(0)/m/n/8 ٪:[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []\TU/XBNiloofar(0)/m/n/8 سازگاری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []\TU/XBNiloofar(0)/m/n/8 آسیب‌شناختی []\TU/XBNiloofar(1)/m/n/8 ۱۰۰[]\TU/XBNilo
 ofar(0)/m/n/8 ٪[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 [][]|\TU/XBNiloofar(0)/m/n/8 مطالعه‌ی[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 514--514
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 647--647
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 514--514
+Underfull \hbox (badness 1668) in paragraph at lines 647--647
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰[] \TU/XBNiloofar(0)/m/n/8 مینی‌پیگ؛ کاهش[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 520--520
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
+[]\TU/XBNiloofar(0)/m/n/8 سازگاری[]
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 651--651
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۵[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
+Underfull \hbox (badness 10000) in paragraph at lines 651--651
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 SynthRAD2023[][]
  []
 
 
-Overfull \hbox (4.4378pt too wide) in paragraph at lines 520--520
+Overfull \hbox (4.4378pt too wide) in paragraph at lines 651--651
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 CBCT[]\TU/XBNiloofar(0)/m/n/8 /[]\TU/lmro
 man10-regular(0)/m/n/8 CT[]| []
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
+Underfull \hbox (badness 10000) in paragraph at lines 651--651
 []\TU/XBNiloofar(0)/m/n/8 (مبنا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
+Underfull \hbox (badness 10000) in paragraph at lines 651--651
 [][]\TU/lmroman10-regular(0)/m/n/8 CBCT[]\TU/XBNiloofar(0)/m/n/8 :[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 522--522
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 653--653
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 522--522
+Underfull \hbox (badness 4479) in paragraph at lines 653--653
 []\TU/XBNiloofar(0)/m/n/8 غدد لنفاوی ژوگولار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 653--653
 [][]|\TU/XBNiloofar(0)/m/n/8 سنتز:[]
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 522--522
+Underfull \hbox (badness 4072) in paragraph at lines 653--653
 []\TU/XBNiloofar(0)/m/n/8 مبنا []\TU/lmroman10-regular(0)/m/n/8 NC[]\TU/XBNiloo
 far(0)/m/n/8 :[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 653--653
 [][]|\TU/XBNiloofar(0)/m/n/8 سنتز:[]
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 522--522
+Underfull \hbox (badness 4072) in paragraph at lines 653--653
 []\TU/XBNiloofar(0)/m/n/8 مبنا []\TU/lmroman10-regular(0)/m/n/8 NC[]\TU/XBNiloo
 far(0)/m/n/8 :[]
  []
 
 
-Overfull \hbox (1.25145pt too wide) in paragraph at lines 524--524
+Overfull \hbox (1.25145pt too wide) in paragraph at lines 655--655
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 CycleGAN[] \TU/XBNiloofar(0)/m/n/8 [[]]| 
 []
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 524--524
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 655--655
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۰[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 CBCT[] \TU/XBNiloofar(0)/m/n/8 به سی‌تی[]
 
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 [][]|\TU/XBNiloofar(0)/m/n/8 نرخ قبولی گاما[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 CycleGAN[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 526--526
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 657--657
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۴[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
 []\TU/XBNiloofar(0)/m/n/8 ماموگرافی طیفی[]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
+Underfull \hbox (badness 10000) in paragraph at lines 659--659
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 MMgSN-[][]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 528--528
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 659--659
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
+Underfull \hbox (badness 10000) in paragraph at lines 659--659
 [][]|[]\TU/lmroman10-regular(0)/m/n/8 MRI[] \TU/XBNiloofar(0)/m/n/8 نازوفارنکس؛
 []
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 528--528
+Underfull \hbox (badness 2368) in paragraph at lines 659--659
 [][]\TU/lmroman10-regular(0)/m/n/8 T1w[]\TU/XBNiloofar(0)/m/n/8 +[]\TU/lmroman1
 0-regular(0)/m/n/8 T2w[] \TU/XBNiloofar(0)/m/n/8 به []\TU/lmroman10-regular(0)/
 m/n/8 T1w[][]
  []
 
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 530--530
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 661--661
 [][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۲[]| []
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 530--530
-[]\TU/XBNiloofar(0)/m/n/8 روی []\TU/lmroman10-regular(0)/m/n/8 BraTS2020[] \TU/
-XBNiloofar(0)/m/n/8 و[]
- []
-
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ع (U+0639) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no د (U+062F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-Missing character: There is no ؟ (U+061F) in font [lmroman10-bold]/OT:script=la
-tn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 534--534
-[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۳[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 PET[] \TU/XBNiloofar(0)/m/n/8 به []\TU/lm
+roman10-regular(0)/m/n/8 CT[] \TU/XBNiloofar(0)/m/n/8 روی[]
  []
 
 
-Overfull \hbox (5.93066pt too wide) in paragraph at lines 536--536
-[][]|[]\TU/XBNiloofar(1)/m/n/8 ۲۰۲۶[]| []
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 Madic[]\TU/XBNiloofar(0)/m/n/8 ؛ ارزیابی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
-[][]|[]\TU/XBNiloofar(1)/m/n/8 ۵۶[] \TU/XBNiloofar(0)/m/n/8 مطالعه؛ سنتز[]
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[]\TU/XBNiloofar(0)/m/n/8 تکمیلی روی[]
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 536--536
-[]\TU/XBNiloofar(0)/m/n/8 کنتراست در []\TU/lmroman10-regular(0)/m/n/8 CT[] \TU/
-XBNiloofar(0)/m/n/8 و[]
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 BraTS2020[] \TU/XBNiloofar(0)/m/n/8 و[]
  []
 
-[40] [41] [42]
 
-[43])
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Madic[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
 
-[44]
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 BraTS[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 IXI[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 Madic[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 BraTS[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 IXI[]\TU/XBNiloofar(0)/m/n/8 :[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]|[]\TU/lmroman10-regular(0)/m/n/8 VIF[]\TU/XBNiloofar(0)/m/n/8 : []\TU/XBNi
+loofar(1)/m/n/8 ۰\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۸۳۶[]\TU/XBNi
+loofar(0)/m/n/8 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[][]\TU/lmroman10-regular(0)/m/n/8 FID[]\TU/XBNiloofar(0)/m/n/8 : []\TU/XBNiloo
+far(1)/m/n/8 ۶۹\TU/XBNiloofar(0)/m/n/8 ٫\TU/XBNiloofar(1)/m/n/8 ۹۴[]\TU/XBNiloo
+far(0)/m/n/8 ،[]
+ []
+
+[51] [52] [53]
+
+[54]
+
+[55])
+
+[56]
 \openout2 = `chapters/method.aux'.
 
  (./chapters/method.tex
 فصل 3.
 
 
-[45
+[57
 
 
 
@@ -3773,461 +4233,530 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 18.
 
 
 
-[46]
+[58]
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
-(Font)              scaled to size 10.89996pt on input line 60.
+(Font)              scaled to size 10.89996pt on input line 63.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[][]\TU/XBNiloofar(0)/m/n/10 سوگیری طیف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[][]\TU/XBNiloofar(0)/m/n/10 سوگیری انتخاب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 [][]\TU/XBNiloofar(0)/m/n/10 سوگیری[]
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]\TU/XBNiloofar(0)/m/n/10 برچسب‌گذاری[]
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 69--69
 [][]\TU/XBNiloofar(0)/m/n/10 دقت و سازگاری فرایند حاشیه‌نویسی؛ تعداد و[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[][]\TU/XBNiloofar(0)/m/n/10 سوگیری نژادی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 [][]\TU/XBNiloofar(0)/m/n/10 سوگیری[]
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\TU/XBNiloofar(0)/m/n/10 جمعیت‌شناختی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[][]\TU/lmroman10-regular(0)/m/n/10 (Demographic[][]
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 75--75
 [][]\TU/XBNiloofar(0)/m/n/10 تنوع سخت‌افزار تصویربرداری، پروتکل و تزریق[]
  []
 
 
-
-[47]
-Underfull \hbox (badness 2197) in paragraph at lines 81--82
-[]\TU/XBNiloofar(0)/m/n/12 سه ارزیاب—یک پژوهشگر تصویربرداری پزشکی، یک پزشک با ت
-جربه‌ی پژوهشی در تحلیل[]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[][]\TU/XBNiloofar(0)/m/n/10 سوگیری زمانی[]
  []
 
 
-
-[48]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 6.53998pt on input line 91.
-
-
-[49]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 118.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 119.
-
-
-
-[50]
-
-[51]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/it' will be
-(Font)              scaled to size 13.07996pt on input line 159.
-
-
-[52]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 169.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 170.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 171.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 172.
-
-
-
-[53]
-
-[54]
-
-[55]
-
-[56] (./figs/pipeline_reg.tex
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 8.71997pt on input line 44.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
- [][][]\TU/XBNiloofar(1)/b/n/8 ۱\TU/XBNiloofar(0)/b/n/8 ــ خواندن []\TU/lmroman
-10-regular(0)/b/n/8 DICOM[] \TU/XBNiloofar(0)/b/n/8 و انتخاب سری[]
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 45--45
- [][]\TU/XBNiloofar(0)/m/n/8 برای هر (بررسی، فاز) نازک‌ترین سری انتخاب می‌شود[]
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
- [][][]\TU/XBNiloofar(1)/m/n/8 ۲۶۵[] \TU/XBNiloofar(0)/m/n/8 بررسی  []$\OMS/cms
-y/m/n/8 ^^A$[] []\TU/XBNiloofar(1)/m/n/8 ۱۱۸۸[] \TU/XBNiloofar(0)/m/n/8 سری[][]
-
- []
-
-
-Underfull \hbox (badness 5878) in paragraph at lines 48--49
- [][][]\TU/XBNiloofar(1)/b/n/8 ۲\TU/XBNiloofar(0)/b/n/8 ــ استانداردسازی هندسی 
-و شدت روشنایی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
- [][]\TU/XBNiloofar(0)/m/n/8 جهت []\TU/lmroman10-regular(0)/m/n/8 LPS[]  []$\OM
-S/cmsy/m/n/8 ^^A$[] \TU/XBNiloofar(0)/m/n/8 بازنمونه‌برداری همسان‌گرد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
- [][]\TU/lmroman10-regular(0)/m/n/8 1.5[]\TU/XBNiloofar(0)/m/n/8 میلی‌متر  []$\
-OMS/cmsy/m/n/8 ^^A$[] \TU/XBNiloofar(0)/m/n/8 پرکننده‌ی مرز []$\OMS/cmsy/m/n/8 
-^^@\OT1/cmr/m/n/8 1024$[][]\TU/lmroman10-regular(0)/m/n/8 HU[][][]
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 51--51
- [][]\TU/XBNiloofar(0)/m/n/8 برش بازه به []$\OT1/cmr/m/n/8 [\OMS/cmsy/m/n/8 ^^@
-\OT1/cmr/m/n/8 1024\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 +3000]$[][]\TU/lmroman10-re
-gular(0)/m/n/8 HU[]\TU/XBNiloofar(0)/m/n/8 ؛ حذف[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []\TU/XBNiloofar(0)/m/n/8 مقدار نشانه‌ی []$\OMS/cmsy/m/n/8 ^^@\OT1/cmr/m/n/8 4
-048$[] \TU/XBNiloofar(0)/m/n/8 ([]$\OT1/cmr/m/n/8 21\OML/cmm/m/it/8 :\OT1/cmr/m
-/n/8 8%$[] \TU/XBNiloofar(0)/m/n/8 وکسل‌ها)[][]
- []
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 52--52
- [][][]\TU/XBNiloofar(1)/m/n/8 ۷۷۲[] \TU/XBNiloofar(0)/m/n/8 حجم، همگی با فاصله
-‌ی وکسل یکسان[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
- [][][]\TU/XBNiloofar(1)/b/n/8 ۳\TU/XBNiloofar(0)/b/n/8 ــ بخش‌بندی و ساخت نقاب
- چهارلایه[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
- [][][]\TU/lmroman10-regular(0)/m/n/8 TotalSegmentator[] \TU/XBNiloofar(0)/m/n/
-8 و ادغام در یک[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
- []\TU/XBNiloofar(0)/m/n/8 حجم برچسب با نگاشت عددی ثابت[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
- [][]\TU/XBNiloofar(0)/m/n/8 دروازه‌ی سلامت: دست‌کم []\TU/XBNiloofar(1)/m/n/8 ۲
-[] \TU/XBNiloofar(0)/m/n/8 از []\TU/XBNiloofar(1)/m/n/8 ۴[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
- []\TU/XBNiloofar(0)/m/n/8 اندام لنگر و یک برچسب ستون فقرات[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
- [][][]\TU/XBNiloofar(1)/m/n/8 ۷۷۱[] \TU/XBNiloofar(0)/m/n/8 از []\TU/XBNiloofa
-r(1)/m/n/8 ۷۷۲[] \TU/XBNiloofar(0)/m/n/8 حجم عبور می‌کند[][]
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 64--64
- [][]\TU/XBNiloofar(0)/m/n/8 جابه‌جایی مرکز[]
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 64--64
- []\TU/XBNiloofar(0)/m/n/8 جرم سه‌بعدی با[][]
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 77--78
- [][][]\TU/XBNiloofar(1)/b/n/8 ۵\TU/XBNiloofar(0)/b/n/8 ــ ثبت صلب، گذر صفر: کا
-بش ([]\TU/lmroman10-regular(0)/b/n/8 SVD[]\TU/XBNiloofar(0)/b/n/8 )[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
- [][][]\TU/XBNiloofar(1)/b/n/8 ۶\TU/XBNiloofar(0)/b/n/8 ــ گذر یک: پالایش نلدر-
-مید[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
- [][][]\TU/XBNiloofar(1)/b/n/8 ۷\TU/XBNiloofar(0)/b/n/8 ــ گذر دو: همبستگی بزرگ
-ی گرادیان[]
- []
-
-
-Underfull \hbox (badness 5802) in paragraph at lines 89--89
- [][][]$\OMS/cmsy/m/n/8 jr[]j$[] \TU/XBNiloofar(0)/m/n/8 با []\TU/lmroman10-reg
-ular(0)/m/n/8 NCC[] \TU/XBNiloofar(0)/m/n/8 و هرم چندمقیاسی []$\OT1/cmr/m/n/8 [
-4\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 2\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 1]$[][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
- [][]\TU/XBNiloofar(0)/m/n/8 پذیرفته‌شده در []\TU/XBNiloofar(1)/m/n/8 ۴[] \TU/X
-BNiloofar(0)/m/n/8 از []\TU/XBNiloofar(1)/m/n/8 ۶۹۹[] \TU/XBNiloofar(0)/m/n/8 ث
-بت[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
- [][][]\TU/XBNiloofar(1)/b/n/8 ۸\TU/XBNiloofar(0)/b/n/8 ــ ثبت غیرصلب []\TU/lmr
-oman10-regular(0)/b/n/8 B[]\TU/XBNiloofar(0)/b/n/8 -اسپلاین[]
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 95--95
- [][]\TU/XBNiloofar(0)/m/n/8 پیاده‌سازی شده؛ خروجی ارزیابی‌شده در دست نیست[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
- [][][]\TU/XBNiloofar(1)/b/n/8 ۹\TU/XBNiloofar(0)/b/n/8 ــ ارزیابی روی نقاب کنا
-رگذاشته[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
- [][]\TU/XBNiloofar(0)/m/n/8 دایس فرسوده ([]\TU/lmroman10-regular(0)/m/n/8 6[]\
-TU/XBNiloofar(0)/m/n/8 میلی‌متر)  []$\OMS/cmsy/m/n/8 ^^A$[] []\TU/lmroman10-reg
-ular(0)/m/n/8 HD95[]  []$\OMS/cmsy/m/n/8 ^^A$[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
- []\TU/XBNiloofar(0)/m/n/8 جابه‌جایی مرکز جرم  []$\OMS/cmsy/m/n/8 ^^A$[] []$\OT
-1/cmr/m/n/8 %\OMS/cmsy/m/n/8 j\OML/cmm/m/it/8 J\OMS/cmsy/m/n/8 j \U/msa/m/n/8 6
- \OT1/cmr/m/n/8 0$[][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
- [][][]\TU/XBNiloofar(1)/m/n/8 ۲۶[] \TU/XBNiloofar(0)/m/n/8 بررسی  []$\OMS/cmsy
-/m/n/8 ^^A$[] []\TU/XBNiloofar(1)/m/n/8 ۵۵[] \TU/XBNiloofar(0)/m/n/8 جفت فاز  [
-]$\OMS/cmsy/m/n/8 ^^A$[] []\TU/XBNiloofar(1)/m/n/8 ۱۱[] \TU/XBNiloofar(0)/m/n/8
- اندام[][]
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 104--105
- [][][]\TU/XBNiloofar(0)/b/n/8 نقاب کامل[]
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 108--109
- [][][]\TU/XBNiloofar(0)/b/n/8 نقاب ثبت[]
- []
-
-
-LaTeX Warning: Float too large for page by 90.87874pt on input line 171.
-
-)
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 241.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 242.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 243.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 244.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 245.
-
-
-
-[57]
-
-[58]
 
 [59]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
-(Font)              scaled to size 15.69594pt on input line 277.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <14.4> not avail
-able
-(Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
-ne 277.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
-(Font)              scaled to size 15.69594pt on input line 277.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
-(Font)              scaled to size 15.69594pt on input line 277.
-
 
 [60]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 286.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 287.
-
-
-
 [61]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 322.
+LaTeX Font Warning: Command \small invalid in math mode on input line 121.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 323.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 324.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 325.
+LaTeX Font Warning: Command \small invalid in math mode on input line 122.
 
 
 
 [62]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 326.
+LaTeX Font Warning: Command \small invalid in math mode on input line 137.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 327.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 139.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 140.
 
 
 
 [63]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 356.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 357.
-
-
-
 [64]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 382.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 383.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 384.
-
-
 
 [65]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 396.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 397.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 398.
-
-
-
-[66])
+[66]
 
 [67]
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/it' will be
+(Font)              scaled to size 13.07996pt on input line 202.
+
+
+[68]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 265.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 268.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 271.
+
+
+
+[69]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 273.
+
+
+
+[70]
+
+[71]
+
+[72] (./figs/pipeline_final.tex
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/n' will be
+(Font)              scaled to size 6.53998pt on input line 143.
+)
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 420.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 423.
+
+
+
+[73]
+
+[74]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 425.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 426.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 428.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 430.
+
+
+
+[75]
+
+[76]
+
+[77]
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
+(Font)              scaled to size 10.89996pt on input line 538.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
+(Font)              scaled to size 10.89996pt on input line 539.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 5.44998pt on input line 557.
+
+
+[78]
+
+[79]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 596.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 597.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 598.
+
+
+
+[80]
+
+[81]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 640.
+
+
+
+[82]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 641.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 642.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 643.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 644.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 645.
+
+
+
+[83]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 674.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 675.
+
+
+
+[84]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 700.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 701.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 702.
+
+
+
+[85]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 714.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 715.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 716.
+
+
+
+[86])
+
+[87]
 \openout2 = `chapters/experiments.aux'.
 
  (./chapters/experiments.tex
 فصل 4.
 
 
-[68
+[88
 
 
 
 
 ]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 10.89996pt on input line 36.
+File: figs/review/dataset_reuse_network.png Graphic file (type bmp)
+<figs/review/dataset_reuse_network.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[][]\TU/XBNiloofar(0)/m/n/10 پرتکرارترین مقوله؛ اغلب مجموعه‌داده‌ها[]
+
+[89]
+File: figs/review/geographic_distribution.png Graphic file (type bmp)
+<figs/review/geographic_distribution.png>
+
+
+[90]
+File: figs/review/bias_risk_distribution.png Graphic file (type bmp)
+<figs/review/bias_risk_distribution.png>
+
+
+[91]
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]\TU/XBNiloofar(0)/b/n/10 بررسی[]
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 36--37
-[]\TU/XBNiloofar(0)/m/n/10 تک‌مرکزی‌اند یا ترکیب نژادی را اصلاً گزارش[]
- []
 
+[93]
 
-Underfull \hbox (badness 1226) in paragraph at lines 46--47
-[][]\TU/XBNiloofar(0)/m/n/10 هیچ مجموعه‌داده‌ای در سطح ریسک بالا قرار[]
- []
+[94]
 
-
-Underfull \hbox (badness 1226) in paragraph at lines 48--49
-[][]\TU/XBNiloofar(0)/m/n/10 هیچ مجموعه‌داده‌ای در سطح ریسک بالا قرار[]
- []
-
-
-
-[69]
-
-[70]
-
-[71]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/n' will be
-(Font)              scaled to size 11.93546pt on input line 119.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/bx/n' in size <10.95> not avai
-lable
-(Font)              Font shape `TU/XBNiloofar(2)/b/n' tried instead on input li
-ne 119.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/b/n' will be
-(Font)              scaled to size 11.93546pt on input line 119.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(2)/m/it' will be
-(Font)              scaled to size 11.93546pt on input line 119.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
-(Font)              scaled to size 10.89996pt on input line 135.
+[95]
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 10.89996pt on input line 135.
+(Font)              scaled to size 10.89996pt on input line 187.
 
 
-[72]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/b/it' will be
-(Font)              scaled to size 11.93546pt on input line 198.
+[96]
+
+[97]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 276.
 
 
-[73]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 224.
+LaTeX Font Warning: Command \small invalid in math mode on input line 277.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 278.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 226.
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[][][]\TU/lmroman10-regular(0)/m/n/10 uniGradICON[] \TU/XBNiloofar(0)/m/n/10 [[
+]][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[][][]\TU/lmroman10-regular(0)/m/n/10 uniGradICON + IO[][]
+ []
 
 
 
-[74])
+[98]
 
-[75]
+[99]
+
+[100]
+
+[101]
+
+[102]
+
+[103]
+
+[104]
+
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
+[][]\TU/XBNiloofar(0)/b/n/10 بازآموزی[]
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 642--642
+[]\TU/XBNiloofar(0)/b/n/10 روی این[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
+[][]\TU/XBNiloofar(0)/b/n/10 میانگین کلان[]
+ []
+
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 10.89996pt on input line 642.
+
+Underfull \hbox (badness 7504) in paragraph at lines 642--642
+[][][]\TU/lmroman10-regular(0)/b/n/10 F1[] \TU/XBNiloofar(0)/b/n/10 فاز[]
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 642--642
+[][][]\TU/lmroman10-regular(0)/b/n/10 F1[] \TU/XBNiloofar(0)/b/n/10 فاز[]
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 642--643
+[][][]\TU/lmroman10-regular(0)/b/n/10 F1[] \TU/XBNiloofar(0)/b/n/10 فاز[]
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 644--644
+[][]\TU/XBNiloofar(0)/m/n/10 طبقه‌بند اندامی ([]\TU/lmroman10-regular(0)/m/n/10
+ Segment-[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--646
+[][][]\TU/lmroman10-regular(0)/m/n/10 Segment-and-Classify[]\TU/XBNiloofar(0)/m
+/n/10 ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--646
+[]\TU/XBNiloofar(0)/m/n/10 نسخه‌ی آموزش‌دیده روی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[][]\TU/XBNiloofar(0)/m/n/10 شبکه‌ی برش‌محور با[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
+[][]\TU/XBNiloofar(0)/m/n/10 مدل تفسیرپذیر ریس و[]
+ []
+
+
+
+[106]
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 738--738
+[][]\TU/XBNiloofar(0)/b/n/10 دقت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--738
+[]\TU/XBNiloofar(0)/b/n/10 اعتبارسنجی[]
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 738--738
+[][]\TU/XBNiloofar(0)/b/n/10 میانگین کلان[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--742
+[][][]\TU/lmroman10-regular(0)/m/n/10 PCA[] \TU/XBNiloofar(0)/m/n/10 و[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--748
+[][][]\TU/lmroman10-regular(0)/m/n/10 PCA[] \TU/XBNiloofar(0)/m/n/10 و[]
+ []
+
+
+
+[108]
+
+[109]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 806.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 808.
+
+
+
+[110]
+
+[111]
+Underfull \hbox (badness 4886) in paragraph at lines 899--899
+[][]$\OMS/cmsy/m/n/8 ! []$[]
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 899--899
+[]\TU/XBNiloofar(0)/m/n/8 درخواست‌شده، بهنجارشده با سقف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 909--909
+[][]\TU/XBNiloofar(0)/m/n/8 همان دو معیار روی پشتوانه‌ی[]
+ []
+
+
+
+[112]
+Overfull \hbox (18.60143pt too wide) in paragraph at lines 933--933
+[][][]\TU/lmroman10-regular(0)/m/n/10 l1_organ_groupnorm[]\TU/XBNiloofar(0)/m/n
+/10 (الف)| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+[][][]\TU/lmroman10-regular(0)/m/n/10 PLC-Net[] \TU/XBNiloofar(1)/m/n/10 ۲\TU/X
+BNiloofar(0)/m/n/10 ٫\TU/XBNiloofar(1)/m/n/10 ۵ \TU/XBNiloofar(0)/m/n/10 بعدی[]
+
+ []
+
+
+
+[113]
+File: figs/synthesis/fig1_per_organ_effect.png Graphic file (type bmp)
+<figs/synthesis/fig1_per_organ_effect.png>
+
+
+[114]
+File: figs/synthesis/fig6_portal_vein_paired.png Graphic file (type bmp)
+<figs/synthesis/fig6_portal_vein_paired.png>
+
+
+[115]
+File: figs/synthesis/fig4_tax_vs_gain.png Graphic file (type bmp)
+<figs/synthesis/fig4_tax_vs_gain.png>
+
+
+[116]
+
+[117]
+
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1078
+[][]\TU/XBNiloofar(0)/m/it/12 اعتبارسنجی متقاطع سنجه‌ی فاز. \TU/XBNiloofar(0)/m
+/n/12 تنها اجرای شرطی‌ای که آن هم تخت است[]
+ []
+
+File: figs/synthesis/fig2_phase_sensitivity.png Graphic file (type bmp)
+<figs/synthesis/fig2_phase_sensitivity.png>
+
+
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
+[][]\TU/XBNiloofar(0)/m/n/10 تا حدی کنترل‌پذیر؛[]
+ []
+
+
+
+[120]
+
+[121]
+File: figs/synthesis/fig3_fidelity_vs_utility.png Graphic file (type bmp)
+<figs/synthesis/fig3_fidelity_vs_utility.png>
+
+
+[122]
+
+[123]
+File: figs/synthesis/fig7_ablation_ladder.png Graphic file (type bmp)
+<figs/synthesis/fig7_ablation_ladder.png>
+
+
+[124]
+File: figs/synthesis/fig5_gallbladder.png Graphic file (type bmp)
+<figs/synthesis/fig5_gallbladder.png>
+File: figs/synthesis/comparison_mid_liver_slice256.png Graphic file (type bmp)
+<figs/synthesis/comparison_mid_liver_slice256.png>
+)
+
+[125]
 \openout2 = `chapters/conclusions.aux'.
 
  (./chapters/conclusions.tex
 فصل 5.
 )
 
-[76
+[126
 
 
 
@@ -4236,14 +4765,14 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 \openout2 = `bibs/bibs.aux'.
 
  (./bibs/bibs.tex (./thesis.bbl
-Underfull \hbox (badness 1067) in paragraph at lines 11--15
+Underfull \hbox (badness 1067) in paragraph at lines 37--41
 [][]\TU/lmroman10-regular(0)/m/n/12 A. Forner, M. Reig, and J. Bruix.  Hepatoce
 llular carcinoma.  Lancet,[]
  []
 
 
 
-[77
+[127
 
 
 
@@ -4251,164 +4780,139 @@ llular carcinoma.  Lancet,[]
 
 ]
 
-[78]
+[128]
 
-[79]
+[129]
 
-[80]
+[130]
 
-[81]
+[131]
 
-[82]
+[132]
 
-[83]
+[133]
 
-[84]
+[134]
 
-[85]
-Underfull \hbox (badness 1033) in paragraph at lines 628--635
+[135]
+Underfull \hbox (badness 1033) in paragraph at lines 627--634
 [][]\TU/lmroman10-regular(0)/m/n/12 W. Li et al.  Virtual contrast-enhanced mag
 netic resonance images syn-[]
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 628--635
+Underfull \hbox (badness 3439) in paragraph at lines 627--634
 []\TU/lmroman10-regular(0)/m/n/12 thesis for patients with nasopharyngeal carci
 noma using multimodality-[]
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 628--635
+Underfull \hbox (badness 2735) in paragraph at lines 627--634
 []\TU/lmroman10-regular(0)/m/n/12 guided synergistic neural network.  \TU/lmrom
 an10-regular(0)/m/it/12 International Journal of Radiation[]
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 628--635
+Underfull \hbox (badness 2126) in paragraph at lines 627--634
 []\TU/lmroman10-regular(0)/m/it/12 Oncology*Biology*Physics\TU/lmroman10-regula
 r(0)/m/n/12 , 112(4):1033–1044, 2022.  [][][]$[][][][][] [] [] [] [][][][][][] 
 [] [][][] []$[][]
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 656--660
-[][]\TU/lmroman10-regular(0)/m/n/12 S. et al.  Neural contrast enhancement of c
-t image, 2021.  [][][]$[][][][][] []$[][]
- []
 
+[136]
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--660
-[][]$[] [] [][][][][][][][][][] [] [][][][][][] [] [][][] [] [][][][][][][] [] 
-[][][][][][][][] [] [][][][] [] [][][] [] [][][][][][] [] [][][][][][][][] []$[
-][]
- []
+[137]
 
+[138]))
 
-
-[86]
-
-[87]
-
-[88]
-
-[89]))
-
-[90]
+[139]
 \openout2 = `front/dictionary.aux'.
 
  (./front/dictionary.tex
-Overfull \hbox (18.0pt too wide) in paragraph at lines 9--15
+Overfull \hbox (18.0pt too wide) in paragraph at lines 9--18
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Underfull \hbox (badness 10000) in paragraph at lines 9--18
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 16--25
+Overfull \hbox (18.0pt too wide) in paragraph at lines 19--29
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--25
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 26--34
+Overfull \hbox (18.0pt too wide) in paragraph at lines 30--38
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 35--51
+Overfull \hbox (18.0pt too wide) in paragraph at lines 39--57
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--51
+Underfull \hbox (badness 10000) in paragraph at lines 39--57
 [][]
  []
 
-
-Overfull \hbox (18.0pt too wide) in paragraph at lines 52--55
-[][]$[]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-[][]
- []
-
-[91
+[140
 
 
 
 
 
 ]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 56--61
+Overfull \hbox (18.0pt too wide) in paragraph at lines 58--61
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--61
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 62--64
+Overfull \hbox (18.0pt too wide) in paragraph at lines 62--67
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 65--67
+Overfull \hbox (18.0pt too wide) in paragraph at lines 68--70
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 68--73
+Overfull \hbox (18.0pt too wide) in paragraph at lines 71--73
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 [][]
  []
 
@@ -4423,145 +4927,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--80
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 81--85
+Overfull \hbox (18.0pt too wide) in paragraph at lines 81--87
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 86--103
+Overfull \hbox (18.0pt too wide) in paragraph at lines 88--90
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--103
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 104--110
+Overfull \hbox (18.0pt too wide) in paragraph at lines 91--95
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--110
-[][]
- []
-
-[92]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 111--115
-[][]$[]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--115
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 116--119
+Overfull \hbox (18.0pt too wide) in paragraph at lines 96--113
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+Underfull \hbox (badness 10000) in paragraph at lines 96--113
+[][]
+ []
+
+[141]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 114--120
+[][]$[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 120--122
+Overfull \hbox (18.0pt too wide) in paragraph at lines 121--125
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 123--133
+Overfull \hbox (18.0pt too wide) in paragraph at lines 126--129
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--133
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 134--136
+Overfull \hbox (18.0pt too wide) in paragraph at lines 130--132
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 137--150
+Overfull \hbox (18.0pt too wide) in paragraph at lines 133--143
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--150
+Underfull \hbox (badness 10000) in paragraph at lines 133--143
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 151--160
+Overfull \hbox (18.0pt too wide) in paragraph at lines 144--147
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--160
-[][]
- []
-
-[93]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 161--163
-[][]$[]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 164--167
+Overfull \hbox (18.0pt too wide) in paragraph at lines 148--161
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--167
+Underfull \hbox (badness 10000) in paragraph at lines 148--161
+[][]
+ []
+
+[142]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 162--172
+[][]$[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--172
 [][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 168--172
+Overfull \hbox (18.0pt too wide) in paragraph at lines 173--175
 [][]$[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+[][]
+ []
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 176--179
+[][]$[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+[][]
+ []
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 180--185
+[][]$[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--185
 [][]
  []
 
 )
 
-[94]
+[143]
 \openout2 = `chapters/appendix.aux'.
 
  (./chapters/appendix.tex
 پیوست آ.
 )
 
-[95
+[144
 
 
 
@@ -4571,7 +5095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  (./front/abstract-eng.tex)
 
-[96
+[145
 
 
 
@@ -4583,7 +5107,7 @@ File: front/template/images/logo.pdf Graphic file (type pdf)
 <use front/template/images/logo.pdf>
 )
 
-[97
+[146
 
 
 
@@ -4598,15 +5122,15 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DBFC2CA09180B8706E047D06FCD13EBE;8356.
+(rerunfilecheck)             Checksum: 30ADFDC2C63169C078E2D5C875D740CF;9059.
  ) 
 Here is how much of TeX's memory you used:
- 31552 strings out of 473832
- 665179 string characters out of 5729481
- 1195628 words of memory out of 5000000
- 53841 multiletter control sequences out of 15000+600000
- 569378 words of font info for 168 fonts, out of 8000000 for 9000
+ 32216 strings out of 473832
+ 680561 string characters out of 5729481
+ 1214148 words of memory out of 5000000
+ 54480 multiletter control sequences out of 15000+600000
+ 567849 words of font info for 164 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,120p,2262b,999s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,120p,2262b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.xdv (104 pages, 2017792 bytes).
+Output written on thesis.xdv (158 pages, 3162008 bytes).

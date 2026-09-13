@@ -1,5 +1,31 @@
 \begin{thebibliography}{100}
 
+\bibitem{msd2022}
+M.~Antonelli, A.~Reinke, S.~Bakas, et~al.
+\newblock The medical segmentation decathlon.
+\newblock {\em Nature Communications}, 13, 2022.
+
+\bibitem{abel2025intraindividual}
+L.~Abel, J.~Wasserthal, M.~Meyer, J.~Vosshenrich, S.~Yang, R.~Donners, et~al.
+\newblock Intra-individual reproducibility of automated abdominal organ
+  segmentation---performance of {TotalSegmentator} compared to human readers
+  and an independent {nnU-Net} model.
+\newblock {\em Journal of Imaging Informatics in Medicine}, 2025.
+
+\bibitem{park2021multiphase}
+S.~Park, E.~K. Fishman, and A.~L. Yuille.
+\newblock Multi-phase deformable registration for time-dependent abdominal
+  organ variations.
+\newblock arXiv:2103.05525, 2021.
+\newblock \url{https://arxiv.org/abs/2103.05525}.
+
+\bibitem{danaei2026abdomenctreview}
+S.~Danaei, Z.~Dehghanian, E.~Meftah, N.~Naderi, S.~Safavi-Naini,
+  F.~Khorasanizade, and H.~Rabiee.
+\newblock State of abdominal ct datasets: A critical review of bias, clinical
+  relevance, and real-world applicability.
+\newblock {\em PLOS Digital Health}, 5(8):e0001567, 2026.
+
 \bibitem{easl2018}
 L.~European Association for the Study~of the.
 \newblock Easl clinical practice guidelines: Management of hepatocellular
@@ -20,27 +46,12 @@ S.~Jeon, I.~Joo, J.~Park, J.-M. Kim, S.~Park, and S.~Yoon.
   developed using dual-energy {CT} images.
 \newblock {\em Scientific Reports}, 14:4378, 2024.
 
-\bibitem{abel2025intraindividual}
-L.~Abel, J.~Wasserthal, M.~Meyer, J.~Vosshenrich, S.~Yang, R.~Donners, et~al.
-\newblock Intra-individual reproducibility of automated abdominal organ
-  segmentation---performance of {TotalSegmentator} compared to human readers
-  and an independent {nnU-Net} model.
-\newblock {\em Journal of Imaging Informatics in Medicine}, 2025.
-
 \bibitem{Zho24}
 Z.~et~al.
 \newblock Ncct-to-cect synthesis with contrast-enhanced knowledge and
   anatomical perception for multi-organ segmentation in non-contrast ct images,
   2024.
 \newblock \url{https://doi.org/10.1016/j.media.2024.103397}.
-
-\bibitem{danaei2026abdomenctreview}
-S.~Danaei, Z.~Dehghanian, E.~Meftah, N.~Naderi, S.~Safavi-Naini,
-  F.~Khorasanizade, and H.~Rabiee.
-\newblock State of abdominal ct datasets: A critical review of bias, clinical
-  relevance, and real-world applicability.
-\newblock {\em PLOS Digital Health}, 2026.
-\newblock In press.
 
 \bibitem{vindr}
 B.~Dao, T.~Nguyen, H.~Pham, and H.~Nguyen.
@@ -54,11 +65,6 @@ F.~Isensee, P.~Jaeger, S.~Kohl, J.~Petersen, and K.~Maier-Hein.
 \newblock nnu-net: a self-configuring method for deep learning-based biomedical
   image segmentation.
 \newblock {\em Nature Methods}, 18(2):203--211, 2021.
-
-\bibitem{msd2022}
-M.~Antonelli, A.~Reinke, S.~Bakas, et~al.
-\newblock The medical segmentation decathlon.
-\newblock {\em Nature Communications}, 13, 2022.
 
 \bibitem{wasserthal2023}
 J.~Wasserthal, H.-C. Breit, and M.~Meyer.
@@ -206,6 +212,13 @@ G.~Collins, K.~Moons, P.~Dhiman, R.~Riley, A.~Beam, B.~Van~Calster, et~al.
   prediction models that use regression or machine learning methods.
 \newblock {\em BMJ}, 385:e078378, 2024.
 
+\bibitem{sobotka2024wawtace}
+{}.
+\newblock {WAW-TACE}: A hepatocellular carcinoma multiphase {CT} dataset with
+  segmentations, radiomics features, and clinical data.
+\newblock {\em Radiology: Artificial Intelligence}, 2024.
+\newblock Zenodo DOI: 10.5281/zenodo.11063784.
+
 \bibitem{muhamedrahimov2022contrastphases}
 R.~Muhamedrahimov, A.~Bar, J.~Laserson, A.~Akselrod-Ballin, and E.~Elnekave.
 \newblock Using machine learning to identify intravenous contrast phases on
@@ -265,13 +278,6 @@ A.~Anand, J.~Liu, T.~C. Shen, W.~M. Linehan, P.~A. Pinto, and R.~M. Summers.
   {CT} scans using residual networks.
 \newblock In {\em Proc. SPIE 12465, Medical Imaging 2023: Computer-Aided
   Diagnosis}, page 124650O, 2023.
-
-\bibitem{sobotka2024wawtace}
-{}.
-\newblock {WAW-TACE}: A hepatocellular carcinoma multiphase {CT} dataset with
-  segmentations, radiomics features, and clinical data.
-\newblock {\em Radiology: Artificial Intelligence}, 2024.
-\newblock Zenodo DOI: 10.5281/zenodo.11063784.
 
 \bibitem{heller2019c4kckits}
 N.~Heller, N.~Sathianathen, A.~Kalapara, et~al.
@@ -438,13 +444,6 @@ H.~Tian.
 \newblock Unigradicon: A foundation model for medical image registration.
 \newblock arXiv:2403.05780, 2024.
 \newblock \url{https://arxiv.org/abs/2403.05780}.
-
-\bibitem{park2021multiphase}
-S.~Park, E.~K. Fishman, and A.~L. Yuille.
-\newblock Multi-phase deformable registration for time-dependent abdominal
-  organ variations.
-\newblock arXiv:2103.05525, 2021.
-\newblock \url{https://arxiv.org/abs/2103.05525}.
 
 \bibitem{Yan22}
 Y.~et~al.
@@ -646,71 +645,44 @@ S.~Kida, S.~Kaji, et~al.
 \newblock arXiv:1901.05773;
   \url{https://github.com/shizuo-kaji/UnpairedImageTranslation}.
 
+\bibitem{wang2018pix2pixhd}
+T.-C. Wang, M.-Y. Liu, J.-Y. Zhu, A.~Tao, J.~Kautz, and B.~Catanzaro.
+\newblock High-resolution image synthesis and semantic manipulation with
+  conditional gans.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 8798--8807, 2018.
+
+\bibitem{dalmaz2022resvit}
+O.~Dalmaz, M.~Yurt, and T.~{\c{C}}ukur.
+\newblock {ResViT}: Residual vision transformers for multimodal medical image
+  synthesis.
+\newblock {\em IEEE Transactions on Medical Imaging}, 41(10):2598--2614, 2022.
+
+\bibitem{yu2019eagans}
+B.~Yu, L.~Zhou, L.~Wang, Y.~Shi, J.~Fripp, and P.~Bourgeat.
+\newblock {Ea-GAN}s: Edge-aware generative adversarial networks for
+  cross-modality {MR} image synthesis.
+\newblock {\em IEEE Transactions on Medical Imaging}, 38(7):1750--1762, 2019.
+
+\bibitem{hatamizadeh2022swinunetr}
+A.~Hatamizadeh, V.~Nath, Y.~Tang, D.~Yang, H.~R. Roth, and D.~Xu.
+\newblock Swin {UNETR}: Swin transformers for semantic segmentation of brain
+  tumors in {MRI} images.
+\newblock In {\em Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic
+  Brain Injuries (BrainLes)}, pages 272--284, 2022.
+
+\bibitem{chen2021transunet}
+J.~Chen, Y.~Lu, Q.~Yu, X.~Luo, E.~Adeli, Y.~Wang, L.~Lu, A.~L. Yuille, and
+  Y.~Zhou.
+\newblock {TransUNet}: Transformers make strong encoders for medical image
+  segmentation.
+\newblock {\em arXiv preprint arXiv:2102.04306}, 2021.
+
 \bibitem{Liu22}
 L.~et~al.
 \newblock Virtual contrast enhancement for ct scans of abdomen and pelvis,
   2022.
 \newblock \url{https://doi.org/10.1016/j.compmedimag.2022.102094}.
-
-\bibitem{Seo21}
-S.~et~al.
-\newblock Neural contrast enhancement of ct image, 2021.
-\newblock
-  \url{https://openaccess.thecvf.com/content/WACV2021/html/Seo_Neural_Contrast_Enhancement_of_CT_Image_WACV_2021_paper.html}.
-
-\bibitem{Pin24}
-P.~et~al.
-\newblock Time conditioning for arbitrary contrast phase generation in
-  interventional computed tomography, 2024.
-\newblock \url{https://doi.org/10.1088/1361-6560/ad46dd}.
-
-\bibitem{San18}
-S.~et~al.
-\newblock Synthetic contrast enhancement in cardiac ct with deep learning,
-  2018.
-\newblock \url{https://arxiv.org/abs/1807.01779}.
-
-\bibitem{Du25}
-D.~et~al.
-\newblock Development and evaluation of a novel organ-specific
-  biomechanics-guided contrast-enhanced ct volume synthesis model, 2025.
-
-\bibitem{Liu20}
-L.~et~al.
-\newblock Dyefreenet: Deep virtual contrast ct synthesis, 2020.
-\newblock \url{https://doi.org/10.1007/978-3-030-59520-3_9}.
-
-\bibitem{Shi25}
-S.~et~al.
-\newblock Generating synthetic contrast-enhanced chest ct images from
-  non-contrast scans using slice-consistent brownian bridge diffusion network,
-  2025.
-\newblock \url{https://arxiv.org/abs/2508.16897}.
-
-\bibitem{Pan23b}
-P.~et~al.
-\newblock Ncct-cect image synthesizers and their application to pulmonary
-  vessel segmentation, 2023.
-\newblock \url{https://doi.org/10.1016/j.cmpb.2023.107389}.
-
-\bibitem{Lyu23}
-L.~et~al.
-\newblock Generative adversarial network-based noncontrast ct angiography for
-  aorta and carotid arteries, 2023.
-\newblock \url{https://doi.org/10.1148/radiol.230681}.
-
-\bibitem{Hu21}
-H.~et~al.
-\newblock Aorta-aware gan for non-contrast to artery contrasted ct translation
-  and its application to abdominal aortic aneurysm detection, 2021.
-\newblock \url{https://doi.org/10.1007/s11548-021-02492-0}.
-
-\bibitem{Li25c}
-L.~et~al.
-\newblock Translate contrast-enhanced ct from non-contrast ct via subtraction
-  image prediction, 2025.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0360301625037952}.
 
 \bibitem{Sterne2016ROBINSI}
 J.~A.~C. Sterne, M.~A. Hern{\'a}n, B.~C. Reeves, J.~Savovi{\'c}, N.~D. Berkman,
@@ -740,6 +712,24 @@ T.~Chen and C.~Guestrin.
 \newblock In {\em ACM SIGKDD International Conference on Knowledge Discovery
   and Data Mining}, pages 785--794, 2016.
 
+\bibitem{oquab2024dinov2}
+M.~Oquab, T.~Darcet, T.~Moutakanni, H.~Vo, M.~Szafraniec, V.~Khalidov,
+  P.~Fernandez, D.~Haziza, F.~Massa, A.~El-Nouby, et~al.
+\newblock {DINOv2}: Learning robust visual features without supervision.
+\newblock {\em Transactions on Machine Learning Research}, 2024.
+
+\bibitem{manzari2023medvit}
+O.~N. Manzari, H.~Ahmadabadi, H.~Kashiani, S.~B. Shokouhi, and A.~Ayatollahi.
+\newblock {MedViT}: A robust vision transformer for generalized medical image
+  classification.
+\newblock {\em Computers in Biology and Medicine}, 157:106791, 2023.
+
+\bibitem{ledoit2004well}
+O.~Ledoit and M.~Wolf.
+\newblock A well-conditioned estimator for large-dimensional covariance
+  matrices.
+\newblock {\em Journal of Multivariate Analysis}, 88(2):365--411, 2004.
+
 \bibitem{kabsch1976}
 W.~Kabsch.
 \newblock A solution for the best rotation to relate two sets of vectors.
@@ -752,39 +742,17 @@ J.~Nelder and R.~Mead.
 \newblock Comput. J., 7(4):308–313, 1965.
 \newblock \url{10.1093/comjnl/7.4.308}.
 
-\bibitem{ronneberger2015unet}
-O.~Ronneberger, P.~Fischer, and T.~Brox.
-\newblock U-net: Convolutional networks for biomedical image segmentation.
-\newblock pages 234--241, 2015.
+\bibitem{perez2018film}
+E.~Perez, F.~Strub, H.~de~Vries, V.~Dumoulin, and A.~Courville.
+\newblock {FiLM}: Visual reasoning with a general conditioning layer.
+\newblock In {\em AAAI Conference on Artificial Intelligence}, pages
+  3942--3951, 2018.
 
 \bibitem{wu2018group}
 Y.~Wu and K.~He.
 \newblock Group normalization.
 \newblock In {\em European Conference on Computer Vision (ECCV)}, pages 3--19,
   2018.
-
-\bibitem{ulyanov2016instance}
-D.~Ulyanov, A.~Vedaldi, and V.~Lempitsky.
-\newblock Instance normalization: The missing ingredient for fast stylization.
-\newblock {\em arXiv preprint arXiv:1607.08022}, 2016.
-
-\bibitem{isola2017image}
-P.~Isola, J.-Y. Zhu, T.~Zhou, and A.~A. Efros.
-\newblock Image-to-image translation with conditional adversarial networks.
-\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
-  (CVPR)}, pages 5967--5976, 2017.
-
-\bibitem{loshchilov2017sgdr}
-I.~Loshchilov and F.~Hutter.
-\newblock {SGDR}: Stochastic gradient descent with warm restarts.
-\newblock {\em International Conference on Learning Representations (ICLR)},
-  2017.
-
-\bibitem{perez2018film}
-E.~Perez, F.~Strub, H.~de~Vries, V.~Dumoulin, and A.~Courville.
-\newblock {FiLM}: Visual reasoning with a general conditioning layer.
-\newblock In {\em AAAI Conference on Artificial Intelligence}, pages
-  3942--3951, 2018.
 
 \bibitem{kendall2017uncertainties}
 A.~Kendall and Y.~Gal.
@@ -822,12 +790,11 @@ T.~Hang, S.~Gu, C.~Li, J.~Bao, D.~Chen, H.~Hu, X.~Geng, and B.~Guo.
 \newblock In {\em IEEE/CVF International Conference on Computer Vision (ICCV)},
   pages 7441--7451, 2023.
 
-\bibitem{wang2018pix2pixhd}
-T.-C. Wang, M.-Y. Liu, J.-Y. Zhu, A.~Tao, J.~Kautz, and B.~Catanzaro.
-\newblock High-resolution image synthesis and semantic manipulation with
-  conditional gans.
+\bibitem{isola2017image}
+P.~Isola, J.-Y. Zhu, T.~Zhou, and A.~A. Efros.
+\newblock Image-to-image translation with conditional adversarial networks.
 \newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
-  (CVPR)}, pages 8798--8807, 2018.
+  (CVPR)}, pages 5967--5976, 2017.
 
 \bibitem{zhu2017unpaired}
 J.-Y. Zhu, T.~Park, P.~Isola, and A.~A. Efros.
@@ -836,25 +803,12 @@ J.-Y. Zhu, T.~Park, P.~Isola, and A.~A. Efros.
 \newblock In {\em IEEE International Conference on Computer Vision (ICCV)},
   pages 2242--2251, 2017.
 
-\bibitem{dalmaz2022resvit}
-O.~Dalmaz, M.~Yurt, and T.~{\c{C}}ukur.
-\newblock {ResViT}: Residual vision transformers for multimodal medical image
-  synthesis.
-\newblock {\em IEEE Transactions on Medical Imaging}, 41(10):2598--2614, 2022.
-
 \bibitem{hatamizadeh2021swin}
 A.~Hatamizadeh, V.~Nath, Y.~Tang, D.~Yang, H.~R. Roth, and D.~Xu.
 \newblock Swin unetr: Swin transformers for semantic segmentation of brain
   tumors in {MRI} images.
 \newblock In {\em International MICCAI Brainlesion Workshop}, pages 272--284,
   2021.
-
-\bibitem{chen2021transunet}
-J.~Chen, Y.~Lu, Q.~Yu, X.~Luo, E.~Adeli, Y.~Wang, L.~Lu, A.~L. Yuille, and
-  Y.~Zhou.
-\newblock {TransUNet}: Transformers make strong encoders for medical image
-  segmentation.
-\newblock {\em arXiv preprint arXiv:2102.04306}, 2021.
 
 \bibitem{yu2019eagan}
 B.~Yu, L.~Zhou, L.~Wang, Y.~Shi, J.~Fripp, and P.~Bourgeat.
@@ -899,5 +853,22 @@ V.~Kedar~Mukthinuthalapati, V.~Sewram, N.~Ndlovu, S.~Kimani, A.~Abdelaziz,
   E.~Chiao, et~al.
 \newblock Hepatocellular carcinoma in sub-saharan africa.
 \newblock {\em JCO Global Oncology}, 7:756--766, 2021.
+
+\bibitem{rudie2024rsna}
+J.~D. Rudie, H.-M. Lin, R.~L. Ball, S.~Jalal, L.~M. Prevedello, S.~Nicolaou,
+  et~al.
+\newblock The {RSNA} abdominal traumatic injury {CT} ({RATIC}) dataset.
+\newblock {\em Radiology: Artificial Intelligence}, 6(6):e240101, 2024.
+
+\bibitem{efron1979bootstrap}
+B.~Efron.
+\newblock Bootstrap methods: another look at the jackknife.
+\newblock {\em The Annals of Statistics}, 7(1):1--26, 1979.
+
+\bibitem{mcnemar1947note}
+Q.~McNemar.
+\newblock Note on the sampling error of the difference between correlated
+  proportions or percentages.
+\newblock {\em Psychometrika}, 12(2):153--157, 1947.
 
 \end{thebibliography}

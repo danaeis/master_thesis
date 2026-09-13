@@ -1,0 +1,94 @@
+% ---------------------------------------------------------------
+%  شکل: سه سرگروه روش‌شناختی هم‌ترازسازی تصویر
+%  چیدمان با مختصات صریح (نه positioning نسبی) تا متن‌ها روی هم نیفتند.
+%  نیازمند: tikz + arrows.meta
+%  استفاده:  \input{figs/arch_registration}
+% ---------------------------------------------------------------
+\begingroup
+\providecommand{\rsubtext}[1]{{\color{xtire}\tiny #1}}
+
+\tikzset{
+  rb/.style   ={draw=xnokhodi, line width=.5pt, fill=white, rounded corners=1.5pt,
+                text width=2.55cm, minimum height=1.05cm, align=center,
+                inner xsep=1.2mm, inner ysep=1.2mm, font=\scriptsize},
+  rnet/.style ={rb, fill=xabikam, draw=xabi},
+  rloss/.style={rb, fill=xkamrang},
+  rio/.style  ={rb, draw=xkhakestari},
+  rflow/.style={->, draw=xtire, line width=.6pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  rback/.style={->, draw=xghermez, line width=.5pt, dash pattern=on 1.8pt off 1.4pt,
+                >={Stealth[length=1.7mm,width=1.4mm]}},
+  rlab/.style ={font=\tiny, color=xkhakestari, inner sep=1.2pt, fill=white},
+}
+
+\newcommand{\Rhead}[2]{%
+  {\small\textbf{#1}}\par\nobreak\vspace{0.4mm}%
+  {\scriptsize\color{xtire}#2}\par\nobreak\vspace{2.2mm}}
+
+\begin{figure}[H]
+\centering
+
+% ═════════════════ (الف) کلاسیک شدت‌محور ═════════════════
+\Rhead{(الف) خانواده‌ی کلاسیک شدت‌محور \,---\, \lr{elastix} / \lr{SimpleITK}}
+      {بدون مرحله‌ی آموزش؛ برای هر جفت تصویر یک بهینه‌سازی تکراری جداگانه اجرا می‌شود}
+\begin{tikzpicture}
+  \node[rio]   (mov)  at (     0, 0)    {تصویر متحرک};
+  \node[rnet]  (tr)   at (  -3.5, 0)    {تبدیل $T_\theta$\\[1pt]\rsubtext{شبکه‌ی نقاط کنترل بی‌اسپلاین}};
+  \node[rio]   (warp) at (    -7, 0)    {تصویر تغییرشکل‌یافته};
+  \node[rloss] (sim)  at ( -10.5, 0)    {معیار شباهت\\[1pt]\rsubtext{اطلاعات متقابل}};
+  \node[rio]   (fix)  at ( -10.5, 1.8)  {تصویر ثابت};
+  \node[rnet]  (opt)  at (    -7,-1.8)  {بهینه‌ساز گرادیان‌محور};
+
+  \draw[rflow] (mov.west)  -- (tr.east);
+  \draw[rflow] (tr.west)   -- (warp.east);
+  \draw[rflow] (warp.west) -- (sim.east);
+  \draw[rflow] (fix.south) -- (sim.north);
+  \draw[rflow] (sim.south) |- (opt.west);
+  \draw[rback] (opt.east)  -| node[rlab, pos=0.35] {به‌روزرسانی $\theta$ و تکرار} (tr.south);
+\end{tikzpicture}
+
+\par\vspace{7mm}
+
+% ═════════════════ (ب) توصیف‌گر ساختاری ═════════════════
+\Rhead{(ب) توصیف‌گرهای ساختاری \,---\, \lr{MIND} / \lr{DEEDS}}
+      {به‌جای \emph{مقدار} شدت روشنایی، \emph{الگوی محلی} آن مقایسه می‌شود}
+\begin{tikzpicture}
+  \node[rio]   (mv)  at (    0, 1.0)  {تصویر متحرک};
+  \node[rio]   (fx)  at (    0,-1.0)  {تصویر ثابت};
+  \node[rnet]  (d1)  at ( -3.5, 1.0)  {توصیف‌گر \lr{MIND}\\[1pt]\rsubtext{خودشباهت وصله‌ها}};
+  \node[rnet]  (d2)  at ( -3.5,-1.0)  {توصیف‌گر \lr{MIND}};
+  \node[rloss] (ssd) at (   -7, 0)    {\lr{SSD} روی بردار توصیف‌گر};
+  \node[rnet]  (mrf) at (-10.5, 0)    {بهینه‌سازی گسسته‌ی \lr{MRF}\\[1pt]\rsubtext{انتقال پیام روی گراف}};
+  \node[rio]   (phi) at (-10.5,-2.0)  {میدان جابه‌جایی};
+
+  \draw[rflow] (mv.west) -- (d1.east);
+  \draw[rflow] (fx.west) -- (d2.east);
+  \draw[rflow] (d1.west) -- ++(-0.55,0) |- (ssd.east);
+  \draw[rflow] (d2.west) -- ++(-0.55,0) |- (ssd.east);
+  \draw[rflow] (ssd.west)  -- (mrf.east);
+  \draw[rflow] (mrf.south) -- (phi.north);
+\end{tikzpicture}
+
+\par\vspace{7mm}
+
+% ═════════════════ (پ) یادگیری‌محور ═════════════════
+\Rhead{(پ) خانواده‌ی یادگیری‌محور \,---\, \lr{VoxelMorph} / \lr{TransMorph}}
+      {آموزش یک‌بار روی کل مجموعه؛ استنتاج در یک گذر پیش‌رو}
+\begin{tikzpicture}
+  \node[rio]   (in)   at (     0, 0)    {متحرک $\oplus$ ثابت\\[1pt]\rsubtext{الحاق در بعد کانال}};
+  \node[rnet]  (enc)  at (  -3.5, 0)    {رمزگذار--رمزگشا\\[1pt]\rsubtext{\lr{U-Net} یا \lr{Swin}}};
+  \node[rio]   (phi3) at (    -7, 0)    {میدان جابه‌جایی $\phi$};
+  \node[rnet]  (stn)  at ( -10.5, 0)    {تبدیل‌گر فضایی\\[1pt]\rsubtext{مشتق‌پذیر}};
+  \node[rloss] (ls)   at (    -7,-1.9)  {زیان: شباهت تصویر $+$ هموارسازی $\phi$};
+
+  \draw[rflow] (in.west)   -- (enc.east);
+  \draw[rflow] (enc.west)  -- (phi3.east);
+  \draw[rflow] (phi3.west) -- (stn.east);
+  \draw[rflow] (stn.south) |- (ls.west);
+  \draw[rback] (ls.east)   -| node[rlab, pos=0.35] {پس‌انتشار (فقط در آموزش)} (enc.south);
+\end{tikzpicture}
+
+\caption{سه سرگروه روش‌شناختی هم‌ترازسازی تصویر. تفاوت بنیادی سه خانواده در این است که معیار تراز از چه چیزی ساخته می‌شود: (الف) از \emph{مقدار} شدت روشنایی روی کل میدان دید؛ (ب) از \emph{الگوی محلی} شدت روشنایی، که در برابر نگاشت یکنوای شدت پایدار است؛ (پ) از یک نگاشت \emph{آموخته‌شده} که میدان جابه‌جایی را در یک گذر پیش‌رو پیش‌بینی می‌کند. نکته‌ی مشترک هر سه آن است که معیار تراز، در هر سه حالت، روی \emph{کل} میدان دید تعریف می‌شود.}
+\label{fig:reg-archetypes}
+\end{figure}
+\endgroup

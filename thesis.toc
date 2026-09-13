@@ -1,45 +1,43 @@
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1}اهمیت مسئله}{1}{section.1.1}%
 \contentsline {section}{\numberline {1-2}تعریف مسئله}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {1-2-1}مرور انتقادی مجموعه‌داده‌های سی‌تی شکمی}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1-2-1}مرور انتقادی مجموعه‌داده‌های سی‌تی شکمی}{3}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1-2-2}تشخیص فاز کنتراست}{3}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1-2-3}ثبت تصویر بین‌فازی}{3}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1-2-4}سنتز فاز کنتراست‌دار از فاز بدون‌کنتراست}{3}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1-2-3}هم‌ترازسازی تصویر بین‌فازی}{3}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1-2-4}سنتز فاز کنتراست‌دار از فاز بدون‌کنتراست}{4}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1-3}چالش‌ها}{4}{section.1.3}%
-\contentsline {section}{\numberline {1-4}اهداف پژوهش}{4}{section.1.4}%
+\contentsline {section}{\numberline {1-4}اهداف پژوهش}{5}{section.1.4}%
 \contentsline {section}{\numberline {1-5}ساختار پایان‌نامه}{5}{section.1.5}%
-\contentsline {section}{\numberline {1-6}جمع‌بندی}{5}{section.1.6}%
-\contentsline {chapter}{\numberline {2}کارهای پیشین}{6}{chapter.2}%
-\contentsline {section}{\numberline {2-1}پیش‌زمینه‌ی بالینی: سی‌تی چندفازی و فازهای کنتراست}{7}{section.2.1}%
-\contentsline {section}{\numberline {2-2}بخش‌بندی چندعضوی سی‌تی شکمی و شکاف کیفیت در فاز بدون‌کنتراست}{8}{section.2.2}%
-\contentsline {section}{\numberline {2-3}مجموعه‌داده‌های عمومی سی‌تی شکمی و مسئله‌ی سوگیری داده}{14}{section.2.3}%
-\contentsline {section}{\numberline {2-4}تشخیص فاز کنتراست در تصاویر سی‌تی خام}{16}{section.2.4}%
-\contentsline {section}{\numberline {2-5}ثبت تصویر بین‌فازی سی‌تی}{22}{section.2.5}%
-\contentsline {section}{\numberline {2-6}تولید تصاویر سی‌تی کنتراست‌دار از تصاویر سی‌تی بدون تزریق ماده‌ی حاجب}{32}{section.2.6}%
-\contentsline {section}{\numberline {2-7}جمع‌بندی و جای خالی پژوهش}{43}{section.2.7}%
-\contentsline {chapter}{\numberline {3}روش پیشنهادی}{45}{chapter.3}%
-\contentsline {section}{\numberline {3-1}نمای کلی}{45}{section.3.1}%
-\contentsline {section}{\numberline {3-2}مرور نظام‌مند مجموعه‌داده‌های سی‌تی شکمی: پروتکل}{46}{section.3.2}%
-\contentsline {section}{\numberline {3-3}داده و پیش‌پردازش}{49}{section.3.3}%
-\contentsline {section}{\numberline {3-4}تشخیص فاز کنتراست}{51}{section.3.4}%
-\contentsline {section}{\numberline {3-5}ثبت تصویر بین‌فازی چندگذره}{52}{section.3.5}%
-\contentsline {paragraph}{گذر صفر — مقداردهی اولیه‌ی بسته.}{55}{section*.55}%
-\contentsline {paragraph}{گذر یک — پالایش با زیان آناتومیک.}{55}{section*.56}%
-\contentsline {paragraph}{گذر دو — پالایش ساختاری روی بزرگی گرادیان.}{56}{section*.57}%
-\contentsline {paragraph}{دروازه‌های پذیرش.}{56}{section*.58}%
-\contentsline {section}{\numberline {3-6}سنتز فاز کنتراست‌دار از فاز بدون‌کنتراست}{59}{section.3.6}%
-\contentsline {paragraph}{نرمال‌سازی.}{60}{section*.65}%
-\contentsline {paragraph}{متمایزکننده.}{60}{section*.66}%
-\contentsline {paragraph}{تابع زیان.}{60}{section*.67}%
-\contentsline {paragraph}{بهینه‌سازی.}{60}{section*.68}%
-\contentsline {paragraph}{رگرسیون ناهم‌واریانس.}{62}{section*.73}%
-\contentsline {paragraph}{مدل انتشار.}{62}{section*.74}%
-\contentsline {section}{\numberline {3-7}پروتکل ارزیابی}{63}{section.3.7}%
-\contentsline {section}{\numberline {3-8}جمع‌بندی}{66}{section.3.8}%
-\contentsline {chapter}{\numberline {4}آزمایش‌ها}{68}{chapter.4}%
-\contentsline {section}{\numberline {4-1}یافته‌های مرور نظام‌مند مجموعه‌داده‌ها}{68}{section.4.1}%
-\contentsline {section}{\numberline {4-2}نتایج ثبت تصویر بین‌فازی}{71}{section.4.2}%
-\contentsline {chapter}{\numberline {5}نتیجه‌گیری}{76}{chapter.5}%
-\contentsline {chapter}{مراجع}{77}{section*.98}%
-\contentsline {chapter}{واژه‌نامه}{91}{section*.100}%
-\contentsline {chapter}{\numberline {آ}مطالب تکمیلی}{95}{appendix.Alph1}%
+\contentsline {section}{\numberline {1-6}جمع‌بندی}{6}{section.1.6}%
+\contentsline {chapter}{\numberline {2}کارهای پیشین}{7}{chapter.2}%
+\contentsline {section}{\numberline {2-1}پیش‌زمینه‌ی بالینی: سی‌تی چندفازی و فازهای کنتراست}{8}{section.2.1}%
+\contentsline {section}{\numberline {2-2}بخش‌بندی چندعضوی سی‌تی شکمی و شکاف کیفیت در فاز بدون‌کنتراست}{9}{section.2.2}%
+\contentsline {section}{\numberline {2-3}مجموعه‌داده‌های عمومی سی‌تی شکمی و مسئله‌ی سوگیری داده}{15}{section.2.3}%
+\contentsline {section}{\numberline {2-4}تشخیص فاز کنتراست در تصاویر سی‌تی خام}{19}{section.2.4}%
+\contentsline {section}{\numberline {2-5}هم‌ترازسازی تصویر بین‌فازی سی‌تی}{26}{section.2.5}%
+\contentsline {section}{\numberline {2-6}تولید تصاویر سی‌تی کنتراست‌دار از تصاویر سی‌تی بدون تزریق ماده‌ی حاجب}{39}{section.2.6}%
+\contentsline {section}{\numberline {2-7}جمع‌بندی و جای خالی پژوهش}{55}{section.2.7}%
+\contentsline {chapter}{\numberline {3}روش پیشنهادی}{57}{chapter.3}%
+\contentsline {section}{\numberline {3-1}نمای کلی}{57}{section.3.1}%
+\contentsline {section}{\numberline {3-2}مرور نظام‌مند مجموعه‌داده‌های سی‌تی شکمی: پروتکل}{58}{section.3.2}%
+\contentsline {section}{\numberline {3-3}داده و پیش‌پردازش}{61}{section.3.3}%
+\contentsline {section}{\numberline {3-4}تشخیص فاز کنتراست}{63}{section.3.4}%
+\contentsline {section}{\numberline {3-5}هم‌ترازسازی تصویر بین‌فازی چندگذره}{67}{section.3.5}%
+\contentsline {paragraph}{گذر صفر ــ مقداردهی اولیه‌ی بسته.}{71}{section*.62}%
+\contentsline {paragraph}{گذر یک ــ پالایش با زیان آناتومیک.}{72}{section*.63}%
+\contentsline {paragraph}{چرا دو گذر و نه یکی.}{72}{section*.64}%
+\contentsline {paragraph}{دروازه‌های پذیرش.}{73}{section*.65}%
+\contentsline {section}{\numberline {3-6}سنتز فاز کنتراست‌دار: شبکه‌ی \lr {PLC-Net}}{76}{section.3.6}%
+\contentsline {paragraph}{رگرسیون ناهم‌واریانس.}{82}{section*.79}%
+\contentsline {paragraph}{مدل انتشار.}{82}{section*.80}%
+\contentsline {section}{\numberline {3-7}پروتکل ارزیابی}{83}{section.3.7}%
+\contentsline {section}{\numberline {3-8}جمع‌بندی}{86}{section.3.8}%
+\contentsline {chapter}{\numberline {4}آزمایش‌ها}{88}{chapter.4}%
+\contentsline {section}{\numberline {4-1}یافته‌های مرور نظام‌مند مجموعه‌داده‌ها}{88}{section.4.1}%
+\contentsline {section}{\numberline {4-2}نتایج هم‌ترازسازی تصویر بین‌فازی}{95}{section.4.2}%
+\contentsline {section}{\numberline {4-3}نتایج تشخیص فاز کنتراست}{105}{section.4.3}%
+\contentsline {section}{\numberline {4-4}نتایج سنتز فاز کنتراست‌دار}{112}{section.4.4}%
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری}{126}{chapter.5}%
+\contentsline {chapter}{مراجع}{127}{section*.148}%
+\contentsline {chapter}{واژه‌نامه}{140}{section*.150}%
+\contentsline {chapter}{\numberline {آ}مطالب تکمیلی}{144}{appendix.Alph1}%
