@@ -27,17 +27,18 @@
 \contentsline {paragraph}{گذر یک ــ پالایش با زیان آناتومیک.}{72}{section*.63}%
 \contentsline {paragraph}{چرا دو گذر و نه یکی.}{72}{section*.64}%
 \contentsline {paragraph}{دروازه‌های پذیرش.}{73}{section*.65}%
-\contentsline {section}{\numberline {3-6}سنتز فاز کنتراست‌دار: شبکه‌ی \lr {PLC-Net}}{76}{section.3.6}%
-\contentsline {paragraph}{رگرسیون ناهم‌واریانس.}{82}{section*.79}%
-\contentsline {paragraph}{مدل انتشار.}{82}{section*.80}%
-\contentsline {section}{\numberline {3-7}پروتکل ارزیابی}{83}{section.3.7}%
-\contentsline {section}{\numberline {3-8}جمع‌بندی}{86}{section.3.8}%
-\contentsline {chapter}{\numberline {4}آزمایش‌ها}{88}{chapter.4}%
-\contentsline {section}{\numberline {4-1}یافته‌های مرور نظام‌مند مجموعه‌داده‌ها}{88}{section.4.1}%
-\contentsline {section}{\numberline {4-2}نتایج هم‌ترازسازی تصویر بین‌فازی}{95}{section.4.2}%
-\contentsline {section}{\numberline {4-3}نتایج تشخیص فاز کنتراست}{105}{section.4.3}%
-\contentsline {section}{\numberline {4-4}نتایج سنتز فاز کنتراست‌دار}{112}{section.4.4}%
-\contentsline {chapter}{\numberline {5}نتیجه‌گیری}{126}{chapter.5}%
-\contentsline {chapter}{مراجع}{127}{section*.148}%
-\contentsline {chapter}{واژه‌نامه}{140}{section*.150}%
-\contentsline {chapter}{\numberline {آ}مطالب تکمیلی}{144}{appendix.Alph1}%
+\contentsline {section}{\numberline {3-6}سنتز فاز کنتراست‌دار: شبکه‌ی \lr {PLC-Net}}{78}{section.3.6}%
+\contentsline {paragraph}{رگرسیون ناهم‌واریانس.}{84}{section*.81}%
+\contentsline {paragraph}{مدل انتشار.}{84}{section*.82}%
+\contentsline {section}{\numberline {3-7}پروتکل ارزیابی}{86}{section.3.7}%
+\contentsline {section}{\numberline {3-8}جمع‌بندی}{89}{section.3.8}%
+\contentsline {chapter}{\numberline {4}آزمایش‌ها}{91}{chapter.4}%
+\contentsline {section}{\numberline {4-1}یافته‌های مرور نظام‌مند مجموعه‌داده‌ها}{91}{section.4.1}%
+\contentsline {section}{\numberline {4-2}نتایج هم‌ترازسازی تصویر بین‌فازی}{98}{section.4.2}%
+\contentsline {section}{\numberline {4-3}نتایج تشخیص فاز کنتراست}{115}{section.4.3}%
+\contentsline {section}{\numberline {4-4}نتایج سنتز فاز کنتراست‌دار}{122}{section.4.4}%
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری}{141}{chapter.5}%
+\contentsline {chapter}{مراجع}{142}{section*.161}%
+\contentsline {chapter}{واژه‌نامه}{155}{section*.163}%
+\contentsline {chapter}{\numberline {آ}مطالب تکمیلی}{159}{appendix.Alph1}%
+\contentsline {section}{\numberline {آ-1}تحلیل حساسیت: دایس فرسوده در ارزیابی پایین‌دستی سنتز}{159}{section.Alph1.1}%
