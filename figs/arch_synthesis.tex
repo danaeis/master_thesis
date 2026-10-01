@@ -32,12 +32,12 @@
 \Shead{(الف) \lr{GAN} شرطی جفت‌شده \,---\, \lr{pix2pix} / \lr{pix2pixHD}}
       {نظارت پیکسل‌به‌پیکسل؛ نیازمند جفت هم‌بیمار و هم‌تراز}
 \begin{tikzpicture}
-  \node[sio]   (x)  at (     0, 0)     {$x_{\mathrm{NC}}$\\[1pt]\ssubtext{تصویر بدون‌کنتراست}};
-  \node[snet]  (g)  at (  -3.5, 0)     {مولد $G$};
-  \node[sio]   (yh) at (    -7, 0)     {$\hat{y}_{\mathrm{CE}}$\\[1pt]\ssubtext{خروجی سنتزشده}};
-  \node[sloss] (l1) at (    -7,-1.75)  {زیان بازسازی \lr{L1}};
-  \node[sio]   (y)  at (    -7,-3.5)   {$y_{\mathrm{CE}}$ واقعی};
-  \node[snet]  (d)  at ( -10.6,-1.75)  {متمایزکننده $D$\\[1pt]\ssubtext{زیان تخاصمی}};
+  \node[sio]   (x)  at (     0, 0)     {$x_{\mathrm{NC}}$\\[1pt]\ssubtext{\beginR تصویر بدون‌کنتراست\endR}};
+  \node[snet]  (g)  at (  -3.5, 0)     {\beginR مولد $G$\endR};
+  \node[sio]   (yh) at (    -7, 0)     {$\hat{y}_{\mathrm{CE}}$\\[1pt]\ssubtext{\beginR خروجی سنتزشده\endR}};
+  \node[sloss] (l1) at (    -7,-1.75)  {\beginR زیان بازسازی \lr{L1}\endR};
+  \node[sio]   (y)  at (    -7,-3.5)   {\beginR $y_{\mathrm{CE}}$ واقعی\endR};
+  \node[snet]  (d)  at ( -10.6,-1.75)  {\beginR متمایزکننده $D$\endR\\[1pt]\ssubtext{\beginR زیان تخاصمی\endR}};
 
   \draw[sflow] (x.west)  -- (g.east);
   \draw[sflow] (g.west)  -- (yh.east);
@@ -57,10 +57,10 @@
   \node[sio]   (x2)  at (     0, 0)    {$x_{\mathrm{NC}}$};
   \node[snet]  (g2)  at (  -3.5, 0)    {$G:\ \mathrm{NC}\!\to\!\mathrm{CE}$};
   \node[sio]   (yh2) at (    -7, 0)    {$\hat{y}_{\mathrm{CE}}$};
-  \node[snet]  (d2)  at ( -10.5, 0)    {$D_{\mathrm{CE}}$\\[1pt]\ssubtext{روی مجموعه‌ی \lr{CE}، بدون تناظر یک‌به‌یک}};
+  \node[snet]  (d2)  at ( -10.5, 0)    {$D_{\mathrm{CE}}$\\[1pt]\ssubtext{\beginR روی مجموعه‌ی \lr{CE}، بدون تناظر یک‌به‌یک\endR}};
   \node[snet]  (f2)  at (    -7,-2.0)  {$F:\ \mathrm{CE}\!\to\!\mathrm{NC}$};
   \node[sio]   (xh2) at (  -3.5,-2.0)  {$\hat{x}_{\mathrm{NC}}$};
-  \node[sloss] (c2)  at (     0,-2.0)  {زیان سازگاری چرخه‌ای};
+  \node[sloss] (c2)  at (     0,-2.0)  {\beginR زیان سازگاری چرخه‌ای\endR};
 
   \draw[sflow] (x2.west)   -- (g2.east);
   \draw[sflow] (g2.west)   -- (yh2.east);
@@ -81,18 +81,18 @@
   \node[sio]   (yt)  at (  -3.5, 0)    {$y_t$};
   \node[sio]   (yT)  at (    -7, 0)    {$y_T \sim \mathcal{N}(0,I)$};
   \node[sio]   (cnd) at (     0,-2.0)  {$x_{\mathrm{NC}}$\\[1pt]\ssubtext{شرط}};
-  \node[snet]  (eps) at (  -3.5,-2.0)  {شبکه‌ی حذف نویز\\[1pt]$\varepsilon_\theta(y_t, t \mid x_{\mathrm{NC}})$};
-  \node[sloss] (l3)  at (    -7,-2.0)  {زیان پیش‌بینی نویز};
+  \node[snet]  (eps) at (  -3.5,-2.0)  {\beginR شبکه‌ی حذف نویز\endR\\[1pt]$\varepsilon_\theta(y_t, t \mid x_{\mathrm{NC}})$};
+  \node[sloss] (l3)  at (    -7,-2.0)  {\beginR زیان پیش‌بینی نویز\endR};
 
-  \draw[sflow] (y0.west)  -- node[slab, above] {افزودن نویز} (yt.east);
+  \draw[sflow] (y0.west)  -- node[slab, above] {\beginR افزودن نویز\endR} (yt.east);
   \draw[sflow] (yt.west)  -- (yT.east);
   \draw[sflow] (yt.south) -- (eps.north);
   \draw[sflow] (cnd.west) -- (eps.east);
   \draw[sflow] (eps.west) -- (l3.east);
-  \draw[sdash] (yT.north) -- ++(0,0.7) -- node[slab, above] {استنتاج: $T$ گام حذف نویز معکوس} ++(7,0) -- (y0.north);
+  \draw[sdash] (yT.north) -- ++(0,0.7) -- node[slab, above] {\beginR استنتاج: $T$ گام حذف نویز معکوس\endR} ++(7,0) -- (y0.north);
 \end{tikzpicture}
 
-\caption{سه راهبرد نظارتی در ادبیات سنتز \lr{NC}-به-\lr{CE}. محور تمایز میان (الف) و (ب) وجود یا نبود جفت هم‌بیمارِ هم‌تراز است: (الف) نظارت پیکسل‌به‌پیکسل دارد و به همین دلیل به هم‌ترازی هندسی دقیق وابسته است، و (ب) این نیاز را با قید بازگشت‌پذیری چرخه حذف می‌کند اما تضمینی برای حفظ آناتومی نمی‌دهد. (پ) نظارت را از آموزش تخاصمی به پیش‌بینی نویز منتقل می‌کند و آموزش پایدارتری دارد، اما همچنان به جفت هم‌تراز نیاز دارد. هیچ‌یک از این سه الگو سازوکاری برای \emph{شرطی‌سازی بر سطح تقویت} ندارد.}
+\caption{سه راهبرد نظارتی در ادبیات سنتز \lr{NC}-به-\lr{CE}: (الف) \lr{GAN} شرطی جفت‌شده، (ب) سازگاری چرخه‌ای، (پ) مدل انتشار شرطی. هسته‌ی معماری، توانایی و کاستی خانواده‌های متناظر در جدول~\ref{tab:synthesis-families} آمده است؛ هیچ‌یک از این سه الگو سازوکاری برای شرطی‌سازی بر سطح تقویت ندارد.}
 \label{fig:syn-archetypes}
 \end{figure}
 \endgroup

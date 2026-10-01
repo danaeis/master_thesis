@@ -1,0 +1,69 @@
+% ---------------------------------------------------------------
+%  شکل: نمای کلی روش پیشنهادی (سطح مؤلفه‌ها)
+%
+%  استفاده:  \input{figs/pipeline_overview}
+%
+%  قاعده‌ی دوزبانه مثل figs/pipeline_final.tex: متن داخل نودهای tikz باید
+%  در \Prtl (parbox با \setRTL) بپیچد؛ اصطلاح لاتین با \lr{...} می‌آید.
+%  رنگ‌ها از styles/custom.tex می‌آیند.
+% ---------------------------------------------------------------
+
+\begingroup
+\def\Stitle{\footnotesize\bfseries}
+\def\Ssub{\scriptsize\color{xtire}}
+\def\Prtl#1#2{\parbox{#1}{\setRTL\centering #2}}
+\def\Dy{1.15}   % فاصله‌ی عمودی نودها (سانتی‌متر)
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  font=\scriptsize,
+  >={Stealth[length=2mm,width=1.6mm]},
+  box/.style={draw=xabi, line width=.8pt, fill=white, rounded corners=2pt,
+              inner xsep=2mm, inner ysep=1.6mm, minimum width=6.4cm, minimum height=.75cm},
+  outbox/.style={draw=xabi, line width=.8pt, fill=xabikam, rounded corners=2pt,
+              inner xsep=2mm, inner ysep=1.6mm, minimum width=6.4cm, minimum height=.75cm},
+  flow/.style={->, draw=xabi, line width=.9pt},
+  grp/.style={draw=xnokhodi, line width=.6pt, fill=xkamrang, rounded corners=3pt},
+]
+
+% ═══════════ زمینه‌ی گروه‌ها ═══════════
+\begin{pgfonlayer}{background}
+  \node[grp, minimum width=10.6cm, minimum height=3.6cm]  at (0.9,-1.15)  {};   % آماده‌سازی داده
+  \node[grp, minimum width=10.6cm, minimum height=4.75cm] at (0.9,-5.635) {};   % ساخت جفت‌ها
+  \node[grp, minimum width=10.6cm, minimum height=2.45cm] at (0.9,-9.545) {};   % هم‌نهادی
+  \node[grp, minimum width=10.6cm, minimum height=2.45cm] at (0.9,-12.305) {};  % ارزیابی
+\end{pgfonlayer}
+
+% ═══════════ نودها ═══════════
+\node[box] (n1)  at (0,0)          {\Prtl{60mm}{\Stitle داده‌ی چندپویشی}};
+\node[box] (n2)  at (0,-\Dy)       {\Prtl{60mm}{\Stitle تشخیص پویش}};
+\node[box] (n3)  at (0,-2*\Dy)     {\Prtl{60mm}{\Stitle تولید نقاب‌های اندامی}};
+\node[box] (n4)  at (0,-3.4*\Dy)   {\Prtl{60mm}{\Stitle استانداردسازی هندسه و شدت}};
+\node[box] (n5)  at (0,-4.4*\Dy)   {\Prtl{60mm}{\Stitle تعیین میدان دید مشترک}};
+\node[box] (n6)  at (0,-5.4*\Dy)   {\Prtl{60mm}{\Stitle هم‌ترازسازی \lr{NC} $\leftrightarrow$ \lr{CECT}}};
+\node[outbox] (n7)  at (0,-6.4*\Dy)   {\Prtl{60mm}{\Stitle ساخت جفت‌های آموزشی}};
+\node[box] (n8)  at (0,-7.8*\Dy)   {\Prtl{60mm}{\Stitle \lr{PLC-Net} (شرط: پویش و سطح هدف)}};
+\node[outbox] (n9)  at (0,-8.8*\Dy)   {\Prtl{60mm}{\Stitle پویش \lr{CECT} تولیدشده}};
+\node[box] (n10) at (0,-10.2*\Dy)  {\Prtl{60mm}{\Stitle بخش‌بندی با مدل پایین‌دستی}};
+\node[box] (n11) at (0,-11.2*\Dy)  {\Prtl{60mm}{\Stitle ارزیابی}};
+
+% ═══════════ فلش‌های جریان ═══════════
+\foreach \a/\b in {n1/n2, n2/n3, n3/n4, n4/n5, n5/n6, n6/n7, n7/n8, n8/n9, n9/n10, n10/n11}
+  \draw[flow] (\a.south) -- (\b.north);
+
+% ═══════════ نقش دوم مدل تشخیص پویش: ابزار سنجش ═══════════
+\draw[->, dashed, draw=xtire, line width=.7pt]
+  (n2.west) -- ++(-.55,0) |- (n11.west);
+\node[rotate=90, text=xtire] at (-4.1,-7.0) {\Prtl{60mm}{\Ssub ابزار سنجش هم‌نهادی}};
+
+% ═══════════ برچسب گروه‌ها (سمت راست) ═══════════
+\node[text=xabi] at (4.75,-1.15)   {\Prtl{27mm}{\small\bfseries آماده‌سازی داده\\ {\Ssub بخش‌های~\ref{sec:m-masks} و~\ref{sec:m-phase}}}};
+\node[text=xabi] at (4.75,-5.635)  {\Prtl{27mm}{\small\bfseries ساخت جفت‌های آموزشی\\ {\Ssub بخش~\ref{sec:m-reg}}}};
+\node[text=xabi] at (4.75,-9.545)  {\Prtl{27mm}{\small\bfseries هم‌نهادی\\ {\Ssub بخش~\ref{sec:m-syn}}}};
+\node[text=xabi] at (4.75,-12.305) {\Prtl{27mm}{\small\bfseries ارزیابی\\ {\Ssub فصل~\ref{chap:experiments}}}};
+\end{tikzpicture}
+\caption[نمای کلی روش پیشنهادی]{نمای کلی روش پیشنهادی، از داده‌ی چندپویشی تا ارزیابی. مدل تشخیص پویش دو بار به کار می‌رود: یک‌بار برای تعیین پویش هر سری پیش از ساخت جفت‌ها، و یک‌بار (خط‌چین) به‌عنوان ابزار سنجش در ارزیابی هم‌نهادی. جزئیات گام‌های هم‌ترازسازی در شکل~\ref{fig:pipeline-final} آمده است.}
+\label{fig:m-overview}
+\end{figure}
+\endgroup

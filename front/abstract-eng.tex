@@ -1,4 +1,3 @@
-
 % -------------------------------------------------------
 %  English Abstract
 % -------------------------------------------------------
@@ -10,12 +9,36 @@
 \end{center}
 \baselineskip=.8\baselineskip
 
-We present a standard template for typesetting theses in Persian. 
-The template is based on the \XePersian\ package for the \LaTeX\ typesetting system.
-This write-up shows a sample usage of this template.
+Automatic segmentation of abdominal organs on non-contrast CT, especially organs
+with low contrast against surrounding tissue, is less accurate than on
+contrast-enhanced phases, yet for many patients the non-contrast phase is the
+only one available.
 
+Improving this by directly training segmentation models is difficult, because
+labelled non-contrast data are scarce and the sharp difference in intensity and
+contrast between phases makes it hard to build precise, aligned pairs from
+multiphase images. Moreover, conventional image-similarity metrics do not
+necessarily indicate how useful a synthesized image is for segmentation.
+
+This thesis proposes an approach based on synthesizing the contrast-enhanced
+phase from the non-contrast image, to supply the information needed for better
+organ separation without changing the segmentation model. To this end, a
+multi-step rigid pre-processing and registration pipeline focused on structures
+that do not move between the two scans was designed, and the resulting aligned pairs
+were used to train PLC-Net. By conditioning on the target phase and enhancement
+level, this network can generate different contrast-enhanced phases.
+
+Evaluation on the VinDr-Multiphase dataset showed that the proposed
+pre-processing significantly reduces the number of large registration errors
+across all four methods examined. The 2D PLC-Net also achieved the lowest
+organ-level HU error among the compared methods, and raised the average Dice of
+the portal and splenic veins — only 0.55 without contrast, the lowest among the
+organs studied — to about 0.72, consistently across all 20 test cases. Among
+image-level metrics, only organ-level HU error was found to predict downstream
+utility.
 
 \bigskip\noindent\textbf{Keywords}:
-Thesis, Typesetting, Template, \XePersian\
+Multi-organ segmentation, Abdominal CT, Non-contrast CT, Contrast-phase
+detection, Inter-phase image registration, Medical image synthesis, Dataset bias
 
 \end{latin}

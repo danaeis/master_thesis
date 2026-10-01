@@ -7,6 +7,14 @@
 % جدول‌های بلندی که باید میان صفحه‌ها شکسته شوند (فصل کارهای پیشین).
 \usepackage{longtable}
 
+
+% -------------------------------------------------------
+%  ستون میان‌چین با پهنای ثابت برای جدول‌هایی که از صفحه بیرون می‌زنند
+%  استفاده: \begin{tabular}{|p{3cm}|C{1.5cm}|...}
+% -------------------------------------------------------
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
 \newcommand{\OPT}{\ensuremath{\mathop{\mathrm{OPT}}}}
 \newcommand{\APX}{\ensuremath{\mathop{\mathrm{APX}}}}
 \newcommand{\ALG}{\ensuremath{\mathop{\mathrm{ALG}}}}

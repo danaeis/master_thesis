@@ -5,7 +5,7 @@
 
 
 \usepackage{amssymb,amsmath}
-\usepackage[colorlinks,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage[colorlinks,linkcolor=black,citecolor=black,urlcolor=black,filecolor=black,anchorcolor=black]{hyperref}
 \usepackage[usenames,dvipsnames]{pstricks}
 \usepackage{graphicx,subfigure,wrapfig}
 \usepackage{float}
@@ -28,6 +28,8 @@
 % می‌شود و کل صفحه‌ی حاوی tikzpicture سفید چاپ می‌گردد.
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds}
+% rotating (sidewaysfigure) هم باید پیش از bidi بیاید تا bidi نسخه‌ی راست‌به‌چپِ آن را وصله کند.
+\usepackage{rotating}
 
 \usepackage[extrafootnotefeatures]{xepersian}
 % \usepackage[noend]{algpseudocode}

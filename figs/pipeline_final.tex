@@ -1,17 +1,22 @@
 % ---------------------------------------------------------------
-%  شکل: معماری پایپ‌لاین پیشنهادی
+%  شکل: معماری پایپ‌لاین پیشنهادی، با داده‌ی واقعی
 %
 %  نیازمند: tikz + positioning, arrows.meta, calc
 %           (در styles/common.tex و پیش از xepersian بارگذاری شده‌اند)
 %
 %  استفاده:  \input{figs/pipeline_final}
 %
+%  ستون چپ: نوارهای تصویری figs/registration/row*.pdf که با
+%  figs/registration/make_pipeline_panels.py از یک نوبت واقعی
+%  VinDr-Multiphase ساخته می‌شوند. اندازه‌ی هر نوار ۱۰ × ۲٫۵۵ سانتی‌متر
+%  است؛ اگر آن را در اسکریپت عوض کردی، \Rw و \Rh زیر را هم عوض کن.
+%
 %  ▲ قاعده‌ی مهم دوزبانه در این فایل ▲
 %  متن داخل نودهای tikz جهت راست‌به‌چپ را از xepersian به ارث نمی‌برد.
 %  آزمایش‌شده: \setRTL تنها، و execute at begin node، هیچ‌کدام جهت را
 %  عوض نمی‌کنند؛ \rl{} عوض می‌کند ولی داخل \begin{scope} ساختار محیط را
-%  می‌شکند. راه درست \Prtl و \Crtl زیر است (parbox با \setRTL).
-%  هر نود متنی تازه‌ای که اضافه می‌کنی باید در یکی از این دو بپیچد،
+%  می‌شکند. راه درست \Prtl زیر است (parbox با \setRTL).
+%  هر نود متنی تازه‌ای که اضافه می‌کنی باید در آن بپیچد،
 %  وگرنه کلمه‌به‌کلمه چپ‌به‌راست چیده می‌شود.
 %  اصطلاح لاتین داخل همان parbox با \lr{...} می‌آید.
 % ---------------------------------------------------------------
@@ -19,10 +24,10 @@
 \begingroup
 \newcommand{\Stitle}{\small\bfseries}
 \newcommand{\Ssub}{\scriptsize\color{xtire}}
-% متن راست‌به‌چپ داخل نود tikz: تنها راهی که هم جهت را درست می‌دهد و هم
-% با محیط scope تعارض ندارد، parbox با \setRTL است.
 \newcommand{\Prtl}[2]{\parbox{#1}{\setRTL\raggedleft #2}}
-\newcommand{\Crtl}[2]{\parbox{#1}{\setRTL\centering #2}}
+\def\Rw{10cm}     % عرض نوار تصویری
+\def\Rh{2.55cm}   % ارتفاع نوار تصویری
+\def\Rp{2.78}     % فاصله‌ی عمودی سطرها (سانتی‌متر)
 
 \begin{figure}[p]
 \centering
@@ -30,44 +35,40 @@
   font=\scriptsize,
   >={Stealth[length=2mm,width=1.6mm]},
   box/.style={draw=xabi, line width=.8pt, fill=white, rounded corners=2pt,
-              inner xsep=2.6mm, inner ysep=2mm},
+              inner xsep=2.4mm, inner ysep=1.8mm, anchor=west},
   num/.style={circle, draw=xabi, line width=.6pt, fill=white, text=xabi,
               inner sep=0pt, minimum size=4.6mm, font=\scriptsize\bfseries},
   flow/.style={->, draw=xabi, line width=.9pt},
-  gl/.style={draw=xkhakestari, line width=.5pt, fill=white},
-  glf/.style={draw=xabi, line width=.6pt, fill=xabikam},
-  org/.style={draw=none, fill=xabi},
-  cropwin/.style={draw=xsabz, line width=.8pt, dash pattern=on 1.6pt off 1.2pt},
-  gt/.style={font=\tiny, text=xkhakestari, align=center},
+  strip/.style={inner sep=0pt, anchor=east},
+  link/.style={draw=xnokhodi, line width=.5pt},
 ]
 
 % ═══════════ ستون گام‌ها (راست) ═══════════
+\node[box] (s1) at (0.3, 0) {\Prtl{50mm}{%
+  {\Stitle انتخاب سری}\\ {\Ssub برای هر نوبت و هر پویش، نازک‌ترین سری انتخاب می‌شود}}};
 
-\node[box] (s1) at (0,0) {\Prtl{62mm}{%
-  {\Stitle انتخاب سری}\\ {\Ssub برای هر بررسی و هر فاز، نازک‌ترین سری انتخاب می‌شود}}};
-
-\node[box] (s2) at (0,-2.45) {\Prtl{62mm}{%
+\node[box] (s2) at (0.3, -\Rp) {\Prtl{50mm}{%
   {\Stitle استانداردسازی هندسه و شدت}\\ {\Ssub جهت \lr{LPS}، بازنمونه‌برداری همسان‌گرد \عدد{۱٫۵} میلی‌متر}}};
 
-\node[box] (s3) at (0,-4.9) {\Prtl{62mm}{%
+\node[box] (s3) at (0.3, -2*\Rp) {\Prtl{50mm}{%
   {\Stitle بخش‌بندی اندام‌ها}\\
   {\Ssub با \lr{TotalSegmentator}؛ نقاب هم‌ترازسازی از استخوان‌ها و بافت نرم پایدار ساخته می‌شود}\\
   {\Ssub روده، دوازدهه و رکتوم کنار گذاشته می‌شوند}}};
 
-\node[box] (s4) at (0,-7.35) {\Prtl{62mm}{%
-  {\Stitle برش ناحیه‌ی مشترک}\\ {\Ssub کادر قلب تا مثانه، مشترک بین دو فاز}}};
+\node[box] (s4) at (0.3, -3*\Rp) {\Prtl{50mm}{%
+  {\Stitle برش ناحیه‌ی مشترک}\\ {\Ssub کادر قلب تا مثانه، مشترک بین دو پویش}}};
 
-\node[box] (s5) at (0,-9.8) {\Prtl{62mm}{%
+\node[box] (s5) at (0.3, -4*\Rp) {\Prtl{50mm}{%
   {\Stitle هم‌ترازسازی صلب کابش}\\
   {\Ssub چرخش و انتقال، حل بسته از مرکز جرم اندام‌های نقاب هم‌ترازسازی}}};
 
-\node[box] (s6) at (0,-12.25) {\Prtl{62mm}{%
+\node[box] (s6) at (0.3, -5*\Rp) {\Prtl{50mm}{%
   {\Stitle پالایش نلدر-مید}\\
   {\Ssub بیشینه‌سازی هم‌پوشانی اندام‌ها، بدون مشتق}\\
   {\Ssub روی \عدد{۱۱} اندام: کبد، طحال، دو کلیه، پانکراس، کیسه‌ی صفرا، آئورت، بزرگ‌سیاهرگ زیرین و مهره‌های \lr{L1} تا \lr{L3}}}};
 
-\node[box] (s7) at (0,-14.7) {\Prtl{62mm}{%
-  {\Stitle ارزیابی}\\ {\Ssub روی نقاب کنارگذاشته، به تفکیک اندام و فاز}}};
+\node[box] (s7) at (0.3, -6*\Rp) {\Prtl{50mm}{%
+  {\Stitle ارزیابی}\\ {\Ssub روی نقاب کنارگذاشته، به تفکیک اندام و پویش}}};
 
 \foreach \i/\n in {1/s1,2/s2,3/s3,4/s4,5/s5,6/s6,7/s7}
   { \node[num] at (\n.north east) {\i}; }
@@ -75,89 +76,25 @@
 \foreach \a/\b in {s1/s2,s2/s3,s3/s4,s4/s5,s5/s6,s6/s7}
   { \draw[flow] (\a) -- (\b); }
 
-% ═══════════ ستون تصویری (چپ) ═══════════
-% دو میله، محور z دو حجم را نشان می‌دهند. اختلاف طول و افست آن‌ها
-% همان میدان دید نامشترک است. نوارهای تیره اندام‌های نقاب هم‌ترازسازی‌اند.
+% ═══════════ ستون تصویری (چپ): داده‌ی واقعی پس از هر گام ═══════════
+\foreach \k/\f in {0/row1_series, 1/row2_standardize, 2/row3_segment, 3/row4_crop,
+                   4/row5_pass0, 5/row6_pass1, 6/row7_eval}
+  { \node[strip] at (0, -\k*\Rp)
+      {\includegraphics[width=\Rw, height=\Rh]{registration/\f.pdf}}; }
 
-\def\bw{0.42}   % نصف عرض میله
-\def\xf{-4.9}   % عکس ثابت
-\def\xm{-6.6}   % عکس متحرک
-
-% --- گام ۲: دو حجم استاندارد، با میدان دید نامشترک ---
-\begin{scope}[shift={(0,-2.45)}]
-  \draw[gl] (\xf-\bw,-0.95) rectangle (\xf+\bw,0.95);
-  \draw[gl] (\xm-\bw,-1.25) rectangle (\xm+\bw,0.55);
-\end{scope}
-
-% --- گام ۳: همان دو حجم، با اندام‌های بخش‌بندی‌شده ---
-\begin{scope}[shift={(0,-4.9)}]
-  \draw[gl] (\xf-\bw,-0.95) rectangle (\xf+\bw,0.95);
-  \draw[gl] (\xm-\bw,-1.25) rectangle (\xm+\bw,0.55);
-  \foreach \y in {0.55,0.15,-0.3,-0.7}
-    { \fill[org] (\xf-\bw+0.06,\y-0.07) rectangle (\xf+\bw-0.06,\y+0.07); }
-  \foreach \y in {0.15,-0.25,-0.7,-1.1}
-    { \fill[org] (\xm-\bw+0.06,\y-0.07) rectangle (\xm+\bw-0.06,\y+0.07); }
-\end{scope}
-
-% --- گام ۴: ناحیه‌ی مشترک نگه داشته می‌شود، بیرون آن حذف ---
-\begin{scope}[shift={(0,-7.35)}]
-  \draw[gl, draw=xnokhodi] (\xf-\bw,-0.95) rectangle (\xf+\bw,0.95);
-  \draw[gl, draw=xnokhodi] (\xm-\bw,-1.25) rectangle (\xm+\bw,0.55);
-  \fill[xabikam] (\xf-\bw,-0.95) rectangle (\xf+\bw,0.55);
-  \fill[xabikam] (\xm-\bw,-0.95) rectangle (\xm+\bw,0.55);
-  \draw[glf] (\xf-\bw,-0.95) rectangle (\xf+\bw,0.55);
-  \draw[glf] (\xm-\bw,-0.95) rectangle (\xm+\bw,0.55);
-  \foreach \y in {0.15,-0.3,-0.7} { \fill[org] (\xf-\bw+0.06,\y-0.07) rectangle (\xf+\bw-0.06,\y+0.07); }
-  \foreach \y in {0.15,-0.25,-0.7} { \fill[org] (\xm-\bw+0.06,\y-0.07) rectangle (\xm+\bw-0.06,\y+0.07); }
-  \draw[cropwin] (\xm-\bw-0.2,-1.05) rectangle (\xf+\bw+0.2,0.65);
-\end{scope}
-
-% --- گام ۵: پس از کابش، تراز تقریبی ---
-\begin{scope}[shift={(0,-9.8)}]
-  \draw[glf] (\xf-\bw,-0.75) rectangle (\xf+\bw,0.75);
-  \draw[glf] (\xm-\bw,-0.75) rectangle (\xm+\bw,0.75);
-  \foreach \y in {0.42,0.0,-0.45} { \fill[org] (\xf-\bw+0.06,\y-0.07) rectangle (\xf+\bw-0.06,\y+0.07); }
-  \foreach \y in {0.5,0.08,-0.37} { \fill[org] (\xm-\bw+0.06,\y-0.07) rectangle (\xm+\bw-0.06,\y+0.07); }
-  \foreach \y/\yy in {0.42/0.5,0.0/0.08,-0.45/-0.37}
-    { \draw[draw=xkhakestari, line width=.4pt, dash pattern=on 1pt off 1pt] (\xm+\bw,\yy) -- (\xf-\bw,\y); }
-\end{scope}
-
-% --- گام ۶: پس از پالایش، انطباق دقیق ---
-\begin{scope}[shift={(0,-12.25)}]
-  \draw[glf] (\xf-\bw,-0.75) rectangle (\xf+\bw,0.75);
-  \draw[glf] (\xm-\bw,-0.75) rectangle (\xm+\bw,0.75);
-  \foreach \y in {0.42,0.0,-0.45} {
-    \fill[org] (\xf-\bw+0.06,\y-0.07) rectangle (\xf+\bw-0.06,\y+0.07);
-    \fill[org] (\xm-\bw+0.06,\y-0.07) rectangle (\xm+\bw-0.06,\y+0.07);
-    \draw[draw=xsabz, line width=.4pt] (\xm+\bw,\y) -- (\xf-\bw,\y); }
-\end{scope}
-
-% --- گام ۷: هم‌پوشانی نقاب‌ها ---
-\begin{scope}[shift={(0,-14.7)}]
-  \fill[xabikam, draw=xabi, line width=.6pt] (\xf-0.3,0) circle (0.52);
-  \fill[xabikam, opacity=.55, draw=xabi, line width=.6pt] (\xf-1.1,0) circle (0.52);
-\end{scope}
-
-% --- برچسب‌های ستون تصویری، با مختصات مطلق ---
-% (داخل scope گذاشته نمی‌شوند، چون \rl آنجا محیط را می‌شکند)
-\node[gt, font=\tiny\bfseries, text=xtire] at (\xf,-1.15) {\Crtl{19mm}{عکس ثابت}};
-\node[gt, font=\tiny\bfseries, text=xtire] at (\xm,-1.15) {\Crtl{19mm}{عکس متحرک}};
-\node[gt, text=xghermez, anchor=east] at (-7.6,-1.90)  {\Crtl{19mm}{میدان دید\\ نامشترک}};
-\node[gt, anchor=east]                  at (-7.6,-4.90)  {\Crtl{19mm}{نقاب\\ هم‌ترازسازی}};
-\node[gt, text=xsabz, anchor=east]      at (-7.6,-7.35)  {\Crtl{19mm}{ناحیه‌ی\\ مشترک}};
-\node[gt, anchor=east]                  at (-7.6,-9.80)  {\Crtl{19mm}{تراز\\ تقریبی}};
-\node[gt, text=xsabz, anchor=east]      at (-7.6,-12.25) {\Crtl{19mm}{انطباق\\ دقیق}};
-\node[gt, anchor=east]                  at (-7.6,-14.70) {\Crtl{19mm}{هم‌پوشانی\\ نقاب‌ها}};
+\foreach \n in {s1,s2,s3,s4,s5,s6,s7}
+  { \draw[link] (0.02, 0 |- \n.west) -- (\n.west); }
 
 \end{tikzpicture}
 
 \caption[معماری پایپ‌لاین پیشنهادی]{%
-معماری پایپ‌لاین پیشنهادی. ستون راست گام‌ها و ستون چپ وضعیت داده پس از هر
-گام است. در ستون چپ، هر میله محور \lr{z} یک حجم را نشان می‌دهد و نوارهای
-تیره اندام‌های نقاب هم‌ترازسازی‌اند. اختلاف طول و افست دو میله در گام ۲ همان میدان دید
-نامشترک است که در گام ۴ حذف می‌شود؛ خط‌چین‌های خاکستری در گام ۵ تراز
-تقریبی و خطوط سبز در گام ۶ انطباق دقیق اندام‌ها را نشان می‌دهند. سهم
-اندازه‌گیری‌شده‌ی هر گام در فصل نتایج گزارش شده است.}
+معماری پایپ‌لاین پیشنهادی. ستون راست گام‌ها و ستون چپ داده‌ی واقعی یک نوبت
+\lr{\mbox{VinDr-Multiphase}} پس از همان گام است (\lr{NC} ثابت، \lr{VEN} متحرک). در
+گام ۲ نوار قرمز بخشی است که در همه‌ی پویش‌ها تصویر نشده؛ در گام ۳ آبی و سبز نقاب
+هم‌ترازسازی و زرد ساختارهای ویژه‌ی ارزیابی‌اند؛ در گام ۴ تصویر راست، شطرنجی دو
+پویش پیش از هم‌ترازسازی است. در گام‌های ۵ و ۶ مرز اندام در \lr{NC} فیروزه‌ای و در
+\lr{VEN} نارنجی است و عدد هر قاب، دایس فرسوده پیش از هم‌ترازسازی و پس از همان
+گذر است. سهم هر گام روی کل مجموعه در فصل نتایج گزارش شده است.}
 \label{fig:pipeline-final}
 \end{figure}
 \endgroup

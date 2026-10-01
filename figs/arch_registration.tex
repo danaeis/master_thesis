@@ -32,19 +32,19 @@
 \Rhead{(الف) خانواده‌ی کلاسیک شدت‌محور \,---\, \lr{elastix} / \lr{SimpleITK}}
       {بدون مرحله‌ی آموزش؛ برای هر جفت تصویر یک بهینه‌سازی تکراری جداگانه اجرا می‌شود}
 \begin{tikzpicture}
-  \node[rio]   (mov)  at (     0, 0)    {تصویر متحرک};
-  \node[rnet]  (tr)   at (  -3.5, 0)    {تبدیل $T_\theta$\\[1pt]\rsubtext{شبکه‌ی نقاط کنترل بی‌اسپلاین}};
-  \node[rio]   (warp) at (    -7, 0)    {تصویر تغییرشکل‌یافته};
-  \node[rloss] (sim)  at ( -10.5, 0)    {معیار شباهت\\[1pt]\rsubtext{اطلاعات متقابل}};
-  \node[rio]   (fix)  at ( -10.5, 1.8)  {تصویر ثابت};
-  \node[rnet]  (opt)  at (    -7,-1.8)  {بهینه‌ساز گرادیان‌محور};
+  \node[rio]   (mov)  at (     0, 0)    {\beginR تصویر متحرک\endR};
+  \node[rnet]  (tr)   at (  -3.5, 0)    {\beginR تبدیل $T_\theta$\endR\\[1pt]\rsubtext{\beginR شبکه‌ی نقاط کنترل بی‌اسپلاین\endR}};
+  \node[rio]   (warp) at (    -7, 0)    {\beginR تصویر تغییرشکل‌یافته\endR};
+  \node[rloss] (sim)  at ( -10.5, 0)    {\beginR معیار شباهت\endR\\[1pt]\rsubtext{\beginR اطلاعات متقابل\endR}};
+  \node[rio]   (fix)  at ( -10.5, 1.8)  {\beginR تصویر ثابت\endR};
+  \node[rnet]  (opt)  at (    -7,-1.8)  {\beginR بهینه‌ساز گرادیان‌محور\endR};
 
   \draw[rflow] (mov.west)  -- (tr.east);
   \draw[rflow] (tr.west)   -- (warp.east);
   \draw[rflow] (warp.west) -- (sim.east);
   \draw[rflow] (fix.south) -- (sim.north);
   \draw[rflow] (sim.south) |- (opt.west);
-  \draw[rback] (opt.east)  -| node[rlab, pos=0.35] {به‌روزرسانی $\theta$ و تکرار} (tr.south);
+  \draw[rback] (opt.east)  -| node[rlab, pos=0.35] {\beginR به‌روزرسانی $\theta$ و تکرار\endR} (tr.south);
 \end{tikzpicture}
 
 \par\vspace{7mm}
@@ -53,13 +53,13 @@
 \Rhead{(ب) توصیف‌گرهای ساختاری \,---\, \lr{MIND} / \lr{DEEDS}}
       {به‌جای \emph{مقدار} شدت روشنایی، \emph{الگوی محلی} آن مقایسه می‌شود}
 \begin{tikzpicture}
-  \node[rio]   (mv)  at (    0, 1.0)  {تصویر متحرک};
-  \node[rio]   (fx)  at (    0,-1.0)  {تصویر ثابت};
-  \node[rnet]  (d1)  at ( -3.5, 1.0)  {توصیف‌گر \lr{MIND}\\[1pt]\rsubtext{خودشباهت وصله‌ها}};
-  \node[rnet]  (d2)  at ( -3.5,-1.0)  {توصیف‌گر \lr{MIND}};
-  \node[rloss] (ssd) at (   -7, 0)    {\lr{SSD} روی بردار توصیف‌گر};
-  \node[rnet]  (mrf) at (-10.5, 0)    {بهینه‌سازی گسسته‌ی \lr{MRF}\\[1pt]\rsubtext{انتقال پیام روی گراف}};
-  \node[rio]   (phi) at (-10.5,-2.0)  {میدان جابه‌جایی};
+  \node[rio]   (mv)  at (    0, 1.0)  {\beginR تصویر متحرک\endR};
+  \node[rio]   (fx)  at (    0,-1.0)  {\beginR تصویر ثابت\endR};
+  \node[rnet]  (d1)  at ( -3.5, 1.0)  {\beginR توصیف‌گر \lr{MIND}\endR\\[1pt]\rsubtext{\beginR خودشباهت وصله‌ها\endR}};
+  \node[rnet]  (d2)  at ( -3.5,-1.0)  {\beginR توصیف‌گر \lr{MIND}\endR};
+  \node[rloss] (ssd) at (   -7, 0)    {\beginR \lr{SSD} روی بردار توصیف‌گر\endR};
+  \node[rnet]  (mrf) at (-10.5, 0)    {\beginR بهینه‌سازی گسسته‌ی \lr{MRF}\endR\\[1pt]\rsubtext{\beginR انتقال پیام روی گراف\endR}};
+  \node[rio]   (phi) at (-10.5,-2.0)  {\beginR میدان جابه‌جایی\endR};
 
   \draw[rflow] (mv.west) -- (d1.east);
   \draw[rflow] (fx.west) -- (d2.east);
@@ -75,20 +75,20 @@
 \Rhead{(پ) خانواده‌ی یادگیری‌محور \,---\, \lr{VoxelMorph} / \lr{TransMorph}}
       {آموزش یک‌بار روی کل مجموعه؛ استنتاج در یک گذر پیش‌رو}
 \begin{tikzpicture}
-  \node[rio]   (in)   at (     0, 0)    {متحرک $\oplus$ ثابت\\[1pt]\rsubtext{الحاق در بعد کانال}};
-  \node[rnet]  (enc)  at (  -3.5, 0)    {رمزگذار--رمزگشا\\[1pt]\rsubtext{\lr{U-Net} یا \lr{Swin}}};
-  \node[rio]   (phi3) at (    -7, 0)    {میدان جابه‌جایی $\phi$};
-  \node[rnet]  (stn)  at ( -10.5, 0)    {تبدیل‌گر فضایی\\[1pt]\rsubtext{مشتق‌پذیر}};
-  \node[rloss] (ls)   at (    -7,-1.9)  {زیان: شباهت تصویر $+$ هموارسازی $\phi$};
+  \node[rio]   (in)   at (     0, 0)    {\beginR متحرک $\oplus$ ثابت\endR\\[1pt]\rsubtext{\beginR الحاق در بعد کانال\endR}};
+  \node[rnet]  (enc)  at (  -3.5, 0)    {\beginR رمزگذار--رمزگشا\endR\\[1pt]\rsubtext{\beginR \lr{U-Net} یا \lr{Swin}\endR}};
+  \node[rio]   (phi3) at (    -7, 0)    {\beginR میدان جابه‌جایی $\phi$\endR};
+  \node[rnet]  (stn)  at ( -10.5, 0)    {\beginR تبدیل‌گر فضایی\endR\\[1pt]\rsubtext{مشتق‌پذیر}};
+  \node[rloss] (ls)   at (    -7,-1.9)  {\beginR زیان: شباهت تصویر $+$ هموارسازی $\phi$\endR};
 
   \draw[rflow] (in.west)   -- (enc.east);
   \draw[rflow] (enc.west)  -- (phi3.east);
   \draw[rflow] (phi3.west) -- (stn.east);
   \draw[rflow] (stn.south) |- (ls.west);
-  \draw[rback] (ls.east)   -| node[rlab, pos=0.35] {پس‌انتشار (فقط در آموزش)} (enc.south);
+  \draw[rback] (ls.east)   -| node[rlab, pos=0.35] {\beginR پس‌انتشار (فقط در آموزش)\endR} (enc.south);
 \end{tikzpicture}
 
-\caption{سه سرگروه روش‌شناختی هم‌ترازسازی تصویر. تفاوت بنیادی سه خانواده در این است که معیار تراز از چه چیزی ساخته می‌شود: (الف) از \emph{مقدار} شدت روشنایی روی کل میدان دید؛ (ب) از \emph{الگوی محلی} شدت روشنایی، که در برابر نگاشت یکنوای شدت پایدار است؛ (پ) از یک نگاشت \emph{آموخته‌شده} که میدان جابه‌جایی را در یک گذر پیش‌رو پیش‌بینی می‌کند. نکته‌ی مشترک هر سه آن است که معیار تراز، در هر سه حالت، روی \emph{کل} میدان دید تعریف می‌شود.}
+\caption{سه سرگروه روش‌شناختی هم‌ترازسازی تصویر: (الف) معیارهای شدت‌محور، (ب) توصیف‌گرهای ساختاری، (پ) روش‌های یادگیری‌محور. هسته‌ی معماری، توانایی و کاستی هر خانواده در جدول~\ref{tab:reg-families} آمده است.}
 \label{fig:reg-archetypes}
 \end{figure}
 \endgroup
