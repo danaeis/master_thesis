@@ -14,6 +14,13 @@
 % -------------------------------------------------------
 \usepackage{array}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+% ستون متنی راست‌چین با شکست سطر طبیعی و بدون کشیدن فاصله‌ی واژه‌ها
+% (در متن راست‌به‌چپ، \raggedleft لبه‌ی راست را صاف نگه می‌دارد)
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+% همان ستون راست‌چین برای longtable؛ bidi در longtable جهت ragged را وارونه می‌کند
+% خط عمودی پررنگ برای جداکردن گروه‌های ستون در جدول
+\newcolumntype{?}{!{\vrule width 1.2pt}}
+\newcolumntype{T}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 \newcommand{\OPT}{\ensuremath{\mathop{\mathrm{OPT}}}}
 \newcommand{\APX}{\ensuremath{\mathop{\mathrm{APX}}}}

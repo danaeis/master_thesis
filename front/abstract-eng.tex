@@ -9,36 +9,14 @@
 \end{center}
 \baselineskip=.8\baselineskip
 
-Automatic segmentation of abdominal organs on non-contrast CT, especially organs
-with low contrast against surrounding tissue, is less accurate than on
-contrast-enhanced phases, yet for many patients the non-contrast phase is the
-only one available.
+In non-contrast CT, soft-tissue contrast is low, and the performance of segmentation models, particularly for vessels, drops compared with contrast-enhanced images. The scarcity of annotated data for this phase and the difficulty of registering the different scan phases, caused by anatomical changes and the time gap between acquisitions, further complicate the problem.
 
-Improving this by directly training segmentation models is difficult, because
-labelled non-contrast data are scarce and the sharp difference in intensity and
-contrast between phases makes it hard to build precise, aligned pairs from
-multiphase images. Moreover, conventional image-similarity metrics do not
-necessarily indicate how useful a synthesized image is for segmentation.
+In this work, an anatomy-aware preprocessing for registering the scan phases was first proposed, which reduced the number of large registration errors (organ-centroid displacement above \عدد{10} mm) for the most accurate method examined, \lr{DEEDS}, by \عدد{65}\%. The registered pairs were then used to train the proposed model, \lr{PLC-Net}. The model takes a non-contrast image together with the target scan phase and the target enhancement level of the organs in Hounsfield units, and generates the same patient's image in the target phase. Experiments were conducted on the \lr{VinDr-Multiphase} dataset with a patient-level split of \عدد{97}, \عدد{20} and \عدد{20} cases for training, validation and testing, and the outputs were evaluated with image metrics and with automatic segmentation as the downstream task.
 
-This thesis proposes an approach based on synthesizing the contrast-enhanced
-phase from the non-contrast image, to supply the information needed for better
-organ separation without changing the segmentation model. To this end, a
-multi-step rigid pre-processing and registration pipeline focused on structures
-that do not move between the two scans was designed, and the resulting aligned pairs
-were used to train PLC-Net. By conditioning on the target phase and enhancement
-level, this network can generate different contrast-enhanced phases.
-
-Evaluation on the VinDr-Multiphase dataset showed that the proposed
-pre-processing significantly reduces the number of large registration errors
-across all four methods examined. The 2D PLC-Net also achieved the lowest
-organ-level HU error among the compared methods, and raised the average Dice of
-the portal and splenic veins — only 0.55 without contrast, the lowest among the
-organs studied — to about 0.72, consistently across all 20 test cases. Among
-image-level metrics, only organ-level HU error was found to predict downstream
-utility.
+The output of \lr{PLC-Net} increased the mean \lr{Dice} of portal-vein segmentation from \عدد{0.55} on the non-contrast image to \عدد{0.72}. Among the image metrics, the organ-level median Hounsfield-unit error showed the strongest correlation with the segmentation improvement. With an error of \عدد{14.55} HU on this metric, \lr{PLC-Net} performed best among the compared methods, while the closest method, \lr{ResViT}, reached \عدد{15.17} HU with about \عدد{9} times more parameters. These results show that the proposed approach, using a lightweight conditional model, can generate contrast-enhanced images that are useful for the downstream task, and offers a way to use non-contrast images for abdominal organ segmentation.
 
 \bigskip\noindent\textbf{Keywords}:
-Multi-organ segmentation, Abdominal CT, Non-contrast CT, Contrast-phase
-detection, Inter-phase image registration, Medical image synthesis, Dataset bias
+Multi-organ segmentation, Abdominal CT, Non-contrast imaging, Inter-phase
+registration, Conditional image synthesis, Downstream evaluation
 
 \end{latin}

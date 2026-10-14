@@ -6,7 +6,8 @@
 
 \usepackage{amssymb,amsmath}
 \usepackage[colorlinks,linkcolor=black,citecolor=black,urlcolor=black,filecolor=black,anchorcolor=black]{hyperref}
-\usepackage[usenames,dvipsnames]{pstricks}
+% pstricks was previously loaded only for legacy LaTeXDraw helpers. No PSTricks
+% environment is used in the thesis, and loading it is unnecessary for XeLaTeX.
 \usepackage{graphicx,subfigure,wrapfig}
 \usepackage{float}
 \usepackage{geometry}
@@ -96,7 +97,7 @@ BoldFont=Sharif1.3-SemiBold,
 
 
 \SepMark{-}
-\renewcommand{\labelitemi}{$\small\bullet$}
+\renewcommand{\labelitemi}{$\bullet$}
 
 
 
@@ -177,6 +178,7 @@ BoldFont=Sharif1.3-SemiBold,
 
 
 \newcommand{\dicalphabet}[1]{
+\par\noindent
 \begin{minipage}{\columnwidth}
 	\centerline{\noindent\textbf{\large #1 }}
 	\vspace{.5em}
@@ -191,7 +193,7 @@ BoldFont=Sharif1.3-SemiBold,
 
 \graphicspath{{figs/}}
 \setlength{\intextsep}{0pt}  % for float boxes
-\renewcommand{\psscalebox}[1]{}  % for LaTeX Draw
+\providecommand{\psscalebox}[1]{}  % legacy LaTeXDraw compatibility
 
 \newcommand{\floatbox}[2]
 	{\begin{wrapfigure}{l}{#1}

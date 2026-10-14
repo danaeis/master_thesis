@@ -1,0 +1,22 @@
+# LaTeX build output
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+*.pdf
+!figs/**/*.pdf
+!front/template/images/*.pdf
+
+# OS / editor / tooling
+.DS_Store
+.claude/
+*.bkp
+*.tmp

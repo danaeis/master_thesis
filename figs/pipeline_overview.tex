@@ -37,13 +37,13 @@
 
 % ═══════════ نودها ═══════════
 \node[box] (n1)  at (0,0)          {\Prtl{60mm}{\Stitle داده‌ی چندپویشی}};
-\node[box] (n2)  at (0,-\Dy)       {\Prtl{60mm}{\Stitle تشخیص پویش}};
+\node[box] (n2)  at (0,-\Dy)       {\Prtl{60mm}{\Stitle تشخیص فاز}};
 \node[box] (n3)  at (0,-2*\Dy)     {\Prtl{60mm}{\Stitle تولید نقاب‌های اندامی}};
 \node[box] (n4)  at (0,-3.4*\Dy)   {\Prtl{60mm}{\Stitle استانداردسازی هندسه و شدت}};
 \node[box] (n5)  at (0,-4.4*\Dy)   {\Prtl{60mm}{\Stitle تعیین میدان دید مشترک}};
 \node[box] (n6)  at (0,-5.4*\Dy)   {\Prtl{60mm}{\Stitle هم‌ترازسازی \lr{NC} $\leftrightarrow$ \lr{CECT}}};
 \node[outbox] (n7)  at (0,-6.4*\Dy)   {\Prtl{60mm}{\Stitle ساخت جفت‌های آموزشی}};
-\node[box] (n8)  at (0,-7.8*\Dy)   {\Prtl{60mm}{\Stitle \lr{PLC-Net} (شرط: پویش و سطح هدف)}};
+\node[box] (n8)  at (0,-7.8*\Dy)   {\Prtl{60mm}{\Stitle \lr{PLC-Net} (شرط: فاز و سطح هدف)}};
 \node[outbox] (n9)  at (0,-8.8*\Dy)   {\Prtl{60mm}{\Stitle پویش \lr{CECT} تولیدشده}};
 \node[box] (n10) at (0,-10.2*\Dy)  {\Prtl{60mm}{\Stitle بخش‌بندی با مدل پایین‌دستی}};
 \node[box] (n11) at (0,-11.2*\Dy)  {\Prtl{60mm}{\Stitle ارزیابی}};
@@ -52,7 +52,7 @@
 \foreach \a/\b in {n1/n2, n2/n3, n3/n4, n4/n5, n5/n6, n6/n7, n7/n8, n8/n9, n9/n10, n10/n11}
   \draw[flow] (\a.south) -- (\b.north);
 
-% ═══════════ نقش دوم مدل تشخیص پویش: ابزار سنجش ═══════════
+% ═══════════ نقش دوم مدل تشخیص فاز: ابزار سنجش ═══════════
 \draw[->, dashed, draw=xtire, line width=.7pt]
   (n2.west) -- ++(-.55,0) |- (n11.west);
 \node[rotate=90, text=xtire] at (-4.1,-7.0) {\Prtl{60mm}{\Ssub ابزار سنجش هم‌نهادی}};
@@ -63,7 +63,7 @@
 \node[text=xabi] at (4.75,-9.545)  {\Prtl{27mm}{\small\bfseries هم‌نهادی\\ {\Ssub بخش~\ref{sec:m-syn}}}};
 \node[text=xabi] at (4.75,-12.305) {\Prtl{27mm}{\small\bfseries ارزیابی\\ {\Ssub فصل~\ref{chap:experiments}}}};
 \end{tikzpicture}
-\caption[نمای کلی روش پیشنهادی]{نمای کلی روش پیشنهادی، از داده‌ی چندپویشی تا ارزیابی. مدل تشخیص پویش دو بار به کار می‌رود: یک‌بار برای تعیین پویش هر سری پیش از ساخت جفت‌ها، و یک‌بار (خط‌چین) به‌عنوان ابزار سنجش در ارزیابی هم‌نهادی. جزئیات گام‌های هم‌ترازسازی در شکل~\ref{fig:pipeline-final} آمده است.}
+\caption[نمای کلی روش پیشنهادی]{نمای کلی روش پیشنهادی، از داده‌ی چندپویشی تا ارزیابی. مدل تشخیص فاز دو بار به کار می‌رود: یک‌بار برای تعیین فاز هر سری پیش از ساخت جفت‌ها، و یک‌بار (خط‌چین) به‌عنوان ابزار سنجش در ارزیابی هم‌نهادی. جزئیات گام‌های هم‌ترازسازی در شکل~\ref{fig:pipeline-final} آمده است.}
 \label{fig:m-overview}
 \end{figure}
 \endgroup
